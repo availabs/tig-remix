@@ -1,0 +1,6 @@
+[submodule "app/modules/avl-components"]
+	path = app/modules/avl-components
+	url = git@github.com:availabs/avl-components.git
+[submodule "app/modules/avl-map"]
+	path = app/modules/avl-map
+	url = git@github.com:availabs/avl-map.git
