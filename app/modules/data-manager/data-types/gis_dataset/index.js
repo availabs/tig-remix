@@ -1,7 +1,7 @@
 import React from "react";
 
 import GisDatasetLoader from "./tasks/create";
-// import MapPage from "./pages/Map";
+import MapPage from "./pages/Map";
 
 // import { getAttributes } from 'pages/DataManager/components/attributes'
 
@@ -11,11 +11,11 @@ const Table = (/*{ source }*/) => {
 
 
 const GisDatasetConfig = {
-  // map: {
-  //   name: "Map",
-  //   path: "/map",
-  //   component: MapPage,
-  // },
+  map: {
+    name: "Map",
+    path: "/map",
+    component: MapPage,
+  },
   table: {
     name: "Table",
     path: "/table",

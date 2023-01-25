@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useRef, useState } from "react";
-import { useNavigate , useParams } from "@remix-run/react";
+import { useNavigate , useParams, useFetcher } from "@remix-run/react";
 
 import mapValues from "lodash/mapValues"
 import merge from "lodash/merge"
@@ -12,7 +12,7 @@ import EtlContext, {
 
 import { getNewEtlContextId, getDamaApiRoutePrefix } from "../../utils/api";
 
-import PublishStatus from "../../constants/PublishStatus";
+import PublishStatus from "../../utils/constants";
 
 import UploadGisDataset from "../uploadGisDataset";
 import { selectors as uploadGisDatasetSelectors } from "../uploadGisDataset/store";
@@ -66,14 +66,7 @@ const boundGisDatasetLayerDatabaseSchemaSelectors = mapValues(
 function RequestSourceName() {
   return (
     <div
-      style={{
-        display: "inline-block",
-        width: "100%",
-        marginTop: "30px",
-        textAlign: "center",
-        fontSize: "20px",
-        fontWeight: "bold",
-      }}
+      className='w-full mt-10 text-center font-lg font-bold'
     >
       <span>Please provide a source name above.</span>
     </div>
@@ -92,6 +85,11 @@ const GisDataset = (props) => {
   const publishOperation = isCreatingNew
     ? updateExistingDamaSource
     : createNewDamaSource;
+
+
+  // console.log('GisDataset Create props:', props)
+  // console.log('GisDataset Create sourceId:', sourceId)
+  
 
   const userId = get(props,`user.id`, null)
 
@@ -149,10 +147,18 @@ const GisDataset = (props) => {
   }, [pgEnv, ctx]);
 
   const navigate = useNavigate();
+  const fetcher = useFetcher();
 
-  useEffect(() => {
+  useEffect( () => {
     if (publishStatus === PublishStatus.PUBLISHED) {
-      navigate(`/datasources/source/${damaSourceId}`);
+      const finish = async () => {
+        await fetcher.submit({},{ 
+                method: "post", 
+                action: "/source/create" 
+        })
+        navigate(`/source/${damaSourceId}`);
+      }
+      finish();
     }
   }, [publishStatus, damaSourceId, history]);
 

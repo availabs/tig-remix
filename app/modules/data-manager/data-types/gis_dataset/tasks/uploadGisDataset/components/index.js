@@ -1,6 +1,6 @@
 import prettyBytes from "pretty-bytes";
 
-import ProgressBar from "../../../components/ProgressBar";
+import ProgressBar from "./ProgressBar";
 
 export function GisDatasetUploadButton({ uploadGisDataset }) {
   return (

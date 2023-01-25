@@ -3,7 +3,7 @@ import { falcor } from '~/utils/falcor.server'
 import { TopNav } from '~/modules/avl-components/src'
 import { SourceAttributes, ViewAttributes, getAttributes, pgEnv} from '~/modules/data-manager/attributes'
 import { Pages, DataTypes } from '~/modules/data-manager/data-types'
-import { useLoaderData, Link, useParams } from "@remix-run/react";
+import { useLoaderData, Link, useParams, useOutletContext } from "@remix-run/react";
 
 import get from 'lodash.get'
 
@@ -57,10 +57,10 @@ export default function Dama() {
     const {views,source} = useLoaderData()
     const {sourceId, page} = useParams()
     const [ pages, setPages ] = useState(Pages)
-    const user = {email: 'test@test.com', id: 1}
+    const { user } = useOutletContext()
 
     React.useEffect(() => {
-      console.log('useEffect', source.type, source)
+      // console.log('useEffect', source.type, source)
       if(DataTypes[source.type] ){
         let typePages = Object.keys(DataTypes[source.type]).reduce((a,c)=>{
           if(DataTypes[source.type][c].path) {

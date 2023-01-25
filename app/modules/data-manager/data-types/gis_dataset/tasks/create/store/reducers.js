@@ -1,6 +1,6 @@
 // https://github.com/alexnm/re-ducks#reducers
 
-import PublishStatus from "../../../constants/PublishStatus";
+import PublishStatus from "../../../utils/constants";
 
 import * as uploadGisDatasetSelectors from "../../uploadGisDataset/store/selectors";
 

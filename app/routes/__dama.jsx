@@ -22,7 +22,7 @@ export default function Index() {
         <TigMenu user={user}/>
         <div className=''>
           <div className='w-full border-b p-2'>breadcrumbs</div>
-          <Outlet />
+          <Outlet context={{user}}/>
         </div>
       </div>
     </div>

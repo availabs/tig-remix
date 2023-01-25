@@ -2,18 +2,19 @@
 // https://docs.mapbox.com/mapbox-gl-js/style-spec/sources/#tiled-sources
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { useParams } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useParams } from "@remix-run/react";
+import { pgEnv } from "~/modules/data-manager/attributes"
 
 import _ from "lodash";
 
-import { useFalcor, Button } from "modules/avl-components/src";
+import { Button } from "~/modules/avl-components/src";
+import { useFalcor } from "~/modules/avl-falcor"
 
-import config from "config.json";
-import { AvlMap } from "modules/avl-map/src";
+import config from "~/mapbox.json";
+import { AvlMap } from "~/modules/avl-map/src";
 
 import { getDamaTileServerUrl } from "../../utils/api";
-import GisDatasetLayer from "../../GisDatasetLayer";
+import GisDatasetLayer from "./gis-dataset.layer";
 
 
 const mapboxConfigPaintStylePath = ["layers", 0, "paint"];
@@ -40,7 +41,7 @@ function Map({ layers }) {
   };
 
   const map_layers = useMemo(() => {
-    return layers.map((l) => GisDatasetLayer(l));
+    return [] //layers.map((l) => GisDatasetLayer(l));
   }, [layers]);
 
   return (
@@ -238,7 +239,7 @@ export default function MapPage() {
   const [editing, setEditing] = React.useState(null);
   const { falcor, falcorCache } = useFalcor();
 
-  const pgEnv = useSelector(selectPgEnv);
+
 
   React.useEffect(() => {
     (async () => {
@@ -275,6 +276,7 @@ export default function MapPage() {
   React.useEffect(() => {
     (async () => {
       const url = await getDamaTileServerUrl();
+      console.log('getDamaTileServerUrl', url)
       if (url) {
         setDamaTileServerUrl(url);
       }
@@ -305,14 +307,14 @@ export default function MapPage() {
 
     const _config = _.cloneDeep(config);
 
-    if (process.env.NODE_ENV === "development") {
-      if (_config && _config.sources) {
-        _config.sources[0].source.url = _config.sources[0].source.url.replace(
-          "https://tiles.availabs.org",
-          damaTileServerUrl
-        );
-      }
-    }
+    // if (process.env.NODE_ENV === "development") {
+    //   if (_config && _config.sources) {
+    //     _config.sources[0].source.url = _config.sources[0].source.url.replace(
+    //       "https://tiles.availabs.org",
+    //       damaTileServerUrl
+    //     );
+    //   }
+    // }
 
     console.log("==> mapbox config from falcorCache:", config);
 

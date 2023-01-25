@@ -5,7 +5,7 @@ import {
   EtlContextReact,
 } from "../../../utils/EtlContext";
 
-import PublishStatus from "../../../constants/PublishStatus";
+import PublishStatus from "../../../utils/constants";
 
 export function PublishButton({ publishOperation }) {
   const ctx = useContext(EtlContextReact);

@@ -24,7 +24,7 @@ export function getDamaApiRoutePrefix(pgEnv) {
 export async function getNewEtlContextId(pgEnv) {
   const rtPfx = `${DAMA_HOST}/dama-admin/${pgEnv}`;
 
-  console.log('getNewEtlContextId', rtPfx)
+  // console.log('getNewEtlContextId', rtPfx)
 
   const newEtlCtxRes = await fetch(`${rtPfx}/etl/new-context-id`);
 
@@ -32,7 +32,7 @@ export async function getNewEtlContextId(pgEnv) {
 
   const etlContextId = +(await newEtlCtxRes.text());
 
-  console.log('etlContextId', etlContextId)
+  // console.log('etlContextId', etlContextId)
 
   return etlContextId;
 }
@@ -136,8 +136,8 @@ export async function queueCreateDamaView(ctx) {
   const { etlContextId, userId, damaSourceId } =
     createEtlContextPropsProxy(ctx);
 
-  console.log("=".repeat(100));
-  console.log({ etlContextId, userId, damaSourceId });
+  // console.log("=".repeat(100));
+  // console.log({ etlContextId, userId, damaSourceId });
   const url = `${rtPfx}/etl/contextId/${etlContextId}/queueCreateDamaView`;
 
   const viewMetadata = {

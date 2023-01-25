@@ -5,7 +5,7 @@ import mapValues from "lodash/mapValues";
 // import Dropdown from "react-dropdown";
 // import "react-dropdown/style.css";
 
-import PublishStatus from "../../../constants/PublishStatus";
+import PublishStatus from "../../../utils/constants";
 
 import {
   useEtlContextDependencies,

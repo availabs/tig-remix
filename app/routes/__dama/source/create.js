@@ -1,19 +1,30 @@
 import React, { useMemo, useState } from 'react';
-// import { useSelector } from "react-redux";
-
-import { /*useFalcor,*//*TopNav,*/ Input /*withAuth, Input, Button*/ } from '~/modules/avl-components/src'
+import { useOutletContext } from '@remix-run/react'
+import { falcor } from '~/utils/falcor.server'
 
 import get from 'lodash.get'
-// import { useParams } from 'react-router-dom'
-import { SourceAttributes, ViewAttributes, getAttributes, pgEnv} from '~/modules/data-manager/attributes'
-import { Pages, DataTypes } from '~/modules/data-manager/data-types'
+
+import { Input } from '~/modules/avl-components/src'
+import { SourceAttributes, pgEnv }  from '~/modules/data-manager/attributes'
+
+import { 
+  Pages, 
+  DataTypes 
+} from '~/modules/data-manager/data-types'
 
 
-    
+export const action = async ({ request, params }) => {
+  console.log('gonna invalidate sources length')
+  await falcor.invalidate(["dama", pgEnv, "sources", "length"]);
+  return null
+}
+
 
 export default function sourceCreate () {
   // prettier canary
   //const {falcor, falcorCache} = useFalcor()
+  const { user }  = useOutletContext()
+  
   const [ source, setSource ] = useState( 
     Object.keys(SourceAttributes)
       .filter(d => !['source_id', 'metadata','statistics'].includes(d))
@@ -31,11 +42,11 @@ export default function sourceCreate () {
   
   return (
     <div>
-      <div className='fixed right-0 top-[170px] w-64 '>
+      {/*<div className='fixed right-0 top-[170px] w-64 '>
           <pre>
             {JSON.stringify(source,null,3)}
           </pre>
-      </div>  
+      </div>*/}  
       <div className='p-4 font-medium'> Create New Source </div>
       
       <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
@@ -94,7 +105,7 @@ export default function sourceCreate () {
             </div>
           </div>
         </dl>
-        <CreateComp source={source} />
+        <CreateComp source={source} user={user} />
       </div>
    
   

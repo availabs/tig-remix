@@ -1,4 +1,4 @@
-import PublishStatus from "../../../constants/PublishStatus";
+import PublishStatus from "../../../utils/constants";
 
 import createSimpleIdentityAction from "../../../utils/createSimpleIdentityAction";
 
