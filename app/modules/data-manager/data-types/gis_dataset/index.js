@@ -2,6 +2,7 @@ import React from "react";
 
 import GisDatasetLoader from "./tasks/create";
 import MapPage from "./pages/Map";
+import CreatePage from './pages/Create'
 
 // import { getAttributes } from 'pages/DataManager/components/attributes'
 
@@ -29,7 +30,7 @@ const GisDatasetConfig = {
   gisDatasetUpdate: {
     name: "Load New View",
     path: "/gisDatasetUpdate",
-    component: GisDatasetLoader,
+    component: CreatePage,
   },
   pwrUsrOnly: false,
 };

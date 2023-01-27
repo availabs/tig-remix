@@ -73,9 +73,9 @@ function RequestSourceName() {
   );
 }
 
-const GisDataset = (props) => {
+const GisDataset = ( props ) => {
+  
   const { sourceId } = useParams();
-
   const { source } = props;
 
   const { name: damaSourceName, display_name: damaSourceDisplayName } = source;
@@ -84,12 +84,7 @@ const GisDataset = (props) => {
 
   const publishOperation = isCreatingNew
     ? updateExistingDamaSource
-    : createNewDamaSource;
-
-
-  // console.log('GisDataset Create props:', props)
-  // console.log('GisDataset Create sourceId:', sourceId)
-  
+    : createNewDamaSource;  
 
   const userId = get(props,`user.id`, null)
 

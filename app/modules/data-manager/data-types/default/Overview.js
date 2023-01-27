@@ -48,7 +48,7 @@ const Edit = ({startValue, attr, sourceId, cancel=()=>{}}) => {
 
 const OverviewEdit = ({source, views, user}) => {
   const [editing, setEditing] = React.useState(null)
-  
+  const authLevel = get(user,'authLevel',0)
   return (
     <div className="overflow-hidden">
       <div className="pl-4 py-6 hover:py-6 sm:pl-6 flex justify-between group">
@@ -61,7 +61,7 @@ const OverviewEdit = ({source, views, user}) => {
               cancel={() => setEditing(null)}/> : 
             get(source,'description', false) || 'No Description'}
         </div>
-        {user.authLevel > 5 ? 
+        { authLevel > 5 ? 
         <div className='hidden group-hover:block text-blue-500 cursor-pointer' onClick={e => setEditing('description')}>
             <i className="fad fa-pencil absolute -ml-12  p-2 hover:bg-blue-500 rounded focus:bg-blue-700 hover:text-white "/>
         </div> : '' }
@@ -90,7 +90,7 @@ const OverviewEdit = ({source, views, user}) => {
                       }
                     </dd>
                   </div>
-                  {user.authLevel > 5 ? 
+                  {authLevel > 5 ? 
                   <div className='hidden group-hover:block text-blue-500 cursor-pointer' onClick={e => editing === attr ? setEditing(null): setEditing(attr)}>
                     <i className="fad fa-pencil absolute -ml-12 mt-3 p-2.5 rounded hover:bg-blue-500 hover:text-white "/>
                   </div> : ''}
