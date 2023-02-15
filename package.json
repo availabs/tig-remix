@@ -28,6 +28,7 @@
     "pretty-bytes": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-sparklines": "^1.7.0",
     "tlds": "^1.235.0",
     "uuid": "^9.0.0",
     "xmlhttprequest": "^1.8.0"

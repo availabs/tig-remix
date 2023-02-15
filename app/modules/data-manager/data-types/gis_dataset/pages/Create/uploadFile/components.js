@@ -1,4 +1,5 @@
 import prettyBytes from "pretty-bytes";
+import get from 'lodash/get'
 
 export function ProgressBar({ progress }) {
   const Parentdiv = {
@@ -45,20 +46,6 @@ export function ProgressBar({ progress }) {
   );
 }
 
-export function GisDatasetUploadButton({ uploadGisDataset }) {
-  return (
-    <div className="w-full border border-dashed border-gray-300 bg-gray-100">
-      <div className="p-4">
-        <button>
-          <input
-            type="file"
-            onChange={(e) => uploadGisDataset(e.target.files[0])}
-          />
-        </button>
-      </div>
-    </div>
-  );
-}
 
 export function GisDatasetUploadStatusElem({ fileUploadStatus }) {
   let fileUploadStatusElem;
@@ -102,19 +89,10 @@ export function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
     return "";
   }
 
+
   return (
     <div>
-      <div
-        style={{
-          display: "inline-block",
-          width: "100%",
-          marginTop: "10px",
-          textAlign: "center",
-          paddingBottom: "20px",
-          fontSize: "20px",
-          fontWeight: "bold",
-        }}
-      >
+      <div className='font-bold'>
         <span>File Metadata</span>
       </div>
 
@@ -128,7 +106,7 @@ export function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
           <tr key="uploaded-file-meta--last-mod-ts" className="border-b">
             <td className="py-4 text-left">Last Modified</td>
             <td className="text-center  p-2">
-              {uploadedFile.lastModifiedDate.toLocaleString()}
+              {get(uploadedFile,'lastModifiedDate', '').toLocaleString()}
             </td>
           </tr>
 
@@ -149,7 +127,7 @@ export function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
 export function GisDatasetUploadErrorMessage({ etlContextId, uploadErrMsg }) {
   return (
     <table
-      className="w-2/3"
+      className="w-2/3 mx-auto text-center"
       style={{
         margin: "40px auto",
         textAlign: "center",

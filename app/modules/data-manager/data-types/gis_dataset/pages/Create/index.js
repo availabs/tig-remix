@@ -1,63 +1,87 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useReducer, useMemo, useEffect } from "react";
 import { useNavigate , useParams, useFetcher } from "@remix-run/react";
+
 import get from 'lodash/get'
 
-import PublishStatus from "./components/constants"
-
 import { pgEnv } from '~/modules/data-manager/attributes'
+import { DAMA_HOST } from "~/config";
 
+import { reducer } from './components/reducer'
 
-
-const progressUpdateIntervalMs = 3000;
+import UploadFileComp from './uploadFile'
+import SelectLayerComp from './selectLayer'
+import SchemaEditorComp from './schemaEditor'
+import PublishComp from './publish'
 
 export default function UploadGisDataset({ source={}, user={} }) {
     
-  const { name: damaSourceName, source_id:sourceId } = source;
+  const { name: damaSourceName, source_id: sourceId } = source;
   const userId = get(user,`id`, null)
 
-  const [state, setState] = useState({
+
+
+  const [state, dispatch] = useReducer(reducer,{
     damaSourceId: sourceId,
     damaSourceName: damaSourceName,
-    
+    userId: userId,
     etlContextId: null,
-    maxSeenEventId: null,
+    // maxSeenEventId: null,
+    damaServerPath: `${DAMA_HOST}/dama-admin/${pgEnv}`,
+    
+    // uploadFile state
+    gisUploadId: null,
+    fileUploadStatus: null,
+    uploadedFile: null,
+    uploadErrMsg: null,
+    polling: false,
+    pollingInterval: null,
 
-    // SubSlices
-    // uploadGisDatasetState: null,
-    // gisDatasetLayerState: null,
-    // gisDatasetLayerDatabaseSchemaState: null,
+    // selectLayer state
+    layerNames: null,
+    layerName: null,
+    lyrAnlysErrMsg: null,
+    layerAnalysis: null,
 
-    publishStatus: PublishStatus.AWAITING,
-    publishErrMsg: null,
+    // schemaEditor state
+    databaseColumnNames: null,
+    tableDescriptor: null,
+
+    // publish state
+    publishStatus: "AWAITING",
+    publishErrMsg: null    
   });
 
-  //const [isCreatingNew] = useState(!!source.source_id);
+  useEffect(() => {
+    dispatch({type:'update', payload: { damaSourceName }})
+  }, [damaSourceName])
 
-  // const publishOperation = isCreatingNew
-  //   ? updateExistingDamaSource
-  //   : createNewDamaSource;  
+  useEffect(() => {
+    // on page load get etl context
+    // TODO :: probably want to move this to on file upload
+    // currently it runs every refresh leaving orphaned contextIds
+    (async () => {
+      const newEtlCtxRes = await fetch(`${state.damaServerPath}/etl/new-context-id`);
+      const newEtlCtxId  = +(await newEtlCtxRes.text());
+      dispatch({type:'update', payload: {etlContextId: newEtlCtxId}})
+    })();
+  }, [pgEnv]);
 
   if (!sourceId && !damaSourceName) {
     return <div> Please enter a datasource name.</div>;
   }
 
-  useEffect(() => {
-    (async () => {
-      const newEtlCtxRes = await fetch(`${DAMA_HOST}/dama-admin/${pgEnv}/etl/new-context-id`);
-      const newEtlCtxId  = +(await newEtlCtxRes.text());
-      setState({...state, etlContextId: newEtlCtxId})
-    })();
-  }, [pgEnv]);
-
   return (
     <div>
-      <div className='fixed right-0 top-[170px] w-100 '>
-            <pre>
-              {JSON.stringify(state,null,3)}
-            </pre>
+      <div>
+        <UploadFileComp state={state} dispatch={dispatch} />
+        <SelectLayerComp state={state} dispatch={dispatch} />
+        <SchemaEditorComp state={state} dispatch={dispatch} />
+        <PublishComp state={state} dispatch={dispatch} />
       </div>
       <div>
-        Stuff coming here.
+        <pre>
+            {JSON.stringify({state},null,3)}
+        </pre>
       </div>
     </div>
   )

@@ -25,7 +25,7 @@ const GisDatasetConfig = {
   // This key is used to filter in src/pages/DataManager/Source/create.js
   sourceCreate: {
     name: "Create",
-    component: GisDatasetLoader,
+    component: CreatePage,
   },
   gisDatasetUpdate: {
     name: "Load New View",

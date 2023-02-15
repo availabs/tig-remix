@@ -15,7 +15,7 @@ export async function loader ({ request }) {
   ])
  
   const falcorCache = falcor.getCache()
-
+  console.log('falcorCache',JSON.stringify(get(falcorCache,["dama", pgEnv,'sources','byIndex'],{}),null,3))
   return Object.values(get(falcorCache,["dama", pgEnv,'sources','byIndex'],{}))
     .map(v => getAttributes(get(falcorCache,v.value,{'attributes': {}})['attributes']))
 
