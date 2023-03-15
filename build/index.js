@@ -224,6 +224,125 @@ var require_XMLHttpSource = __commonJS({
   }
 });
 
+// app/routes/congestion/update-2-threshold-denoiser.($road).jsx
+var require_update_2_threshold_denoiser_road = __commonJS({
+  "app/routes/congestion/update-2-threshold-denoiser.($road).jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/grid-before-color-scale.($road).jsx
+var require_grid_before_color_scale_road = __commonJS({
+  "app/routes/congestion/grid-before-color-scale.($road).jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/grid.($road)-before-2-thres.js
+var require_grid_road_before_2_thres = __commonJS({
+  "app/routes/congestion/grid.($road)-before-2-thres.js"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/update-before-denoising.jsx
+var require_update_before_denoising = __commonJS({
+  "app/routes/congestion/update-before-denoising.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/3-type-threshold-2.jsx
+var require_type_threshold_2 = __commonJS({
+  "app/routes/congestion/3-type-threshold-2.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/3-type-threshold-3.jsx
+var require_type_threshold_3 = __commonJS({
+  "app/routes/congestion/3-type-threshold-3.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/3-type-threshold.jsx
+var require_type_threshold = __commonJS({
+  "app/routes/congestion/3-type-threshold.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/temp-copy-paste.jsx
+var require_temp_copy_paste = __commonJS({
+  "app/routes/congestion/temp-copy-paste.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/line-stacked-2.jsx
+var require_line_stacked_2 = __commonJS({
+  "app/routes/congestion/line-stacked-2.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/line-stacked-3.jsx
+var require_line_stacked_3 = __commonJS({
+  "app/routes/congestion/line-stacked-3.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/line-stacked.jsx
+var require_line_stacked = __commonJS({
+  "app/routes/congestion/line-stacked.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/update-thres.jsx
+var require_update_thres = __commonJS({
+  "app/routes/congestion/update-thres.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/update-2.jsx
+var require_update_2 = __commonJS({
+  "app/routes/congestion/update-2.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/index_2.jsx
+var require_index_2 = __commonJS({
+  "app/routes/congestion/index_2.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/index_3.jsx
+var require_index_3 = __commonJS({
+  "app/routes/congestion/index_3.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/index_4.jsx
+var require_index_4 = __commonJS({
+  "app/routes/congestion/index_4.jsx"() {
+    "use strict";
+  }
+});
+
+// app/routes/congestion/line.jsx
+var require_line = __commonJS({
+  "app/routes/congestion/line.jsx"() {
+    "use strict";
+  }
+});
+
 // <stdin>
 var stdin_exports = {};
 __export(stdin_exports, {
@@ -3717,7 +3836,7 @@ var import_jsx_dev_runtime30 = require("react/jsx-dev-runtime"), FalcorContext =
 };
 
 // app/styles/app.css
-var app_default = "/build/_assets/app-6R6RCW53.css";
+var app_default = "/build/_assets/app-RDZQKPZI.css";
 
 // app/theme.js
 var ppdaf = () => {
@@ -4158,9 +4277,24 @@ function App() {
         lineNumber: 36,
         columnNumber: 9
       }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("script", { src: "http://d3js.org/d3.v3.min.js" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 38,
+        columnNumber: 1
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("script", { src: "http://d3js.org/colorbrewer.v1.min.js" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 39,
+        columnNumber: 1
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("script", { type: "text/javascript", src: "colorbrewer_interpolate.js" }, void 0, !1, {
+        fileName: "app/root.jsx",
+        lineNumber: 40,
+        columnNumber: 1
+      }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react34.Links, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 37,
+        lineNumber: 41,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
@@ -4171,35 +4305,35 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("body", { className: "bg-gray-100", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(ThemeContext.Provider, { value: theme_default, children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(FalcorProvider, { falcor: falcorGraph("https://graph.availabs.org"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react34.Outlet, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 42,
+        lineNumber: 46,
         columnNumber: 15
       }, this) }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 41,
+        lineNumber: 45,
         columnNumber: 13
       }, this) }, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 40,
+        lineNumber: 44,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react34.ScrollRestoration, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 45,
+        lineNumber: 49,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react34.Scripts, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 46,
+        lineNumber: 50,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react34.LiveReload, {}, void 0, !1, {
         fileName: "app/root.jsx",
-        lineNumber: 47,
+        lineNumber: 51,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.jsx",
-      lineNumber: 39,
+      lineNumber: 43,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
@@ -4209,12 +4343,27 @@ function App() {
   }, this);
 }
 
-// app/routes/congestion/index.jsx
-var congestion_exports = {};
-__export(congestion_exports, {
+// server-entry-module:@remix-run/dev/server-build
+var route1 = __toESM(require_update_2_threshold_denoiser_road()), route2 = __toESM(require_grid_before_color_scale_road()), route3 = __toESM(require_grid_road_before_2_thres()), route4 = __toESM(require_update_before_denoising()), route5 = __toESM(require_type_threshold_2()), route6 = __toESM(require_type_threshold_3()), route7 = __toESM(require_type_threshold()), route8 = __toESM(require_temp_copy_paste()), route9 = __toESM(require_line_stacked_2()), route10 = __toESM(require_line_stacked_3());
+
+// app/routes/congestion/update.($road).jsx
+var update_road_exports = {};
+__export(update_road_exports, {
+  Denoiser: () => Denoiser,
   ErrorBoundary: () => ErrorBoundary,
+  HarmonicMean15Minute: () => HarmonicMean15Minute,
+  Mean15Minute: () => Mean15Minute,
+  Sum15Minutes: () => Sum15Minutes,
+  TMCPlotData: () => TMCPlotData,
+  congestionCalculator: () => congestionCalculator,
+  congestionCalculatorNonRecurrent: () => congestionCalculatorNonRecurrent,
+  congetionRemoval: () => congetionRemoval,
   default: () => DMS,
-  loader: () => loader
+  loader: () => loader,
+  selectedFunction: () => selectedFunction,
+  selectedPlotTypeFunction: () => selectedPlotTypeFunction,
+  sortResolution: () => sortResolution,
+  theresholdSelection: () => theresholdSelection
 });
 var import_react35 = require("react"), import_react36 = require("@remix-run/react");
 
@@ -4223,60 +4372,1486 @@ var falcor2;
 global.__falcor || (global.__falcor = falcorGraph("https://graph.availabs.org"));
 falcor2 = global.__falcor;
 
-// app/routes/congestion/index.jsx
-var import_lodash7 = __toESM(require("lodash.get")), import_jsx_dev_runtime32 = require("react/jsx-dev-runtime");
+// app/routes/congestion/update.($road).jsx
+var import_lodash7 = require("lodash"), import_line = require("@nivo/line"), import_react_router_dom5 = require("react-router-dom"), import_jsx_dev_runtime32 = require("react/jsx-dev-runtime");
+function congestionCalculator(filteroutThresholdTime, tmcEpochTime) {
+  let computedDifference = filteroutThresholdTime.map((t) => ({
+    [t.tmc]: tmcEpochTime[`${t.tmc}`].map(
+      (te) => Math.max(te - t.threshold, 0)
+    )
+  }));
+  return Object.assign({}, ...computedDifference);
+}
+function congestionCalculatorNonRecurrent(filteroutThresholdTime, tmcEpochTime, avgTMCCongetionTime) {
+  let computedDifference = filteroutThresholdTime.map((t) => ({
+    [t.tmc]: tmcEpochTime[`${t.tmc}`].map(
+      (te) => Math.max(te - Math.max(t.threshold, avgTMCCongetionTime[`${t.tmc}`]), 0)
+    )
+  }));
+  return Object.assign({}, ...computedDifference);
+}
+function sortResolution(filteroutMiles, tmcData, date, defaultValue) {
+  let tmcEachEpochValues = filteroutMiles.map((t) => ({
+    tmc: `${t.tmc}`,
+    val: tmcData[`${t.tmc}`].tt.day[`${date}`].by.epoch.map((te) => ({
+      resolution: te == null ? void 0 : te.resolution,
+      values: defaultValue == 0 ? te == null ? void 0 : te.value : t.miles / (te == null ? void 0 : te.value) * 3600
+    })).sort((a, b) => a.resolution - b.resolution)
+  })).map((t) => {
+    var _a;
+    let result = new Array(288);
+    for (let i = 0; i <= 288; i++)
+      result[i] = ((_a = (0, import_lodash7.find)((0, import_lodash7.map)(t.val), (o) => o.resolution === i)) == null ? void 0 : _a.values) || defaultValue;
+    return {
+      [t.tmc]: result
+    };
+  });
+  return Object.assign({}, ...tmcEachEpochValues);
+}
 async function loader({ request, params }) {
-  let geo = "COUNTY|36001", roads = await falcor2.get(["geo", geo, 2021, "tmclinear"]), road = (0, import_lodash7.default)(roads, ["json", "geo", geo, 2021, "tmclinear", 4], {}), tmcs = await falcor2.get(["tmc", "tmclinear", 2021, geo, road.tmclinear, road.direction]), tmcArray = (0, import_lodash7.default)(tmcs, ["json", "tmc", "tmclinear", 2021, geo, road.tmclinear, road.direction]).sort((a, b) => a.road_order - b.road_order).map((d2) => d2.tmc), tmcMeta = await falcor2.get(["tmc", tmcArray, "meta", 2021, ["avg_speedlimit", "miles"]]);
-  return await falcor2.get(["tmc", tmcArray, "tt", "day", "2022-06-18", "by", "epoch"]);
+  let geo = "COUNTY|36001", roads = await falcor2.get(["geo", geo, 2021, "tmclinear"]), road = (0, import_lodash7.get)(roads, ["json", "geo", geo, 2021, "tmclinear", params.road], {}), directions = { N: "North", S: "South", W: "West", E: "East" }, roadsNames = (0, import_lodash7.get)(roads, ["json", "geo", geo, 2021, "tmclinear"], {}).map((road_name) => road_name.roadname + " (" + directions[road_name.direction] + ")"), initialRoad = params.road, tmcs = await falcor2.get(["tmc", "tmclinear", 2021, geo, road.tmclinear, road.direction]), tmcArray = (0, import_lodash7.get)(tmcs, ["json", "tmc", "tmclinear", 2021, geo, road.tmclinear, road.direction]).sort((a, b) => a.road_order - b.road_order).map((d2) => d2.tmc), tmcMetaMiles = (await falcor2.get(["tmc", tmcArray, "meta", 2021, ["avg_speedlimit", "miles"]])).json.tmc, months = [];
+  for (let i = 1; i < 30; i++)
+    months.push("2022-06-" + (i < 10 ? "0" + i : i));
+  let tmcData = (await falcor2.get(["tmc", tmcArray, "tt", "day", months, "by", "epoch"])).json.tmc, filteroutMiles = tmcArray.map((t) => ({ tmc: `${t}`, miles: tmcMetaMiles[`${t}`].meta[2021].miles })), filteroutThresholdTime = filteroutMiles.map((t) => ({
+    tmc: `${t.tmc}`,
+    threshold: t.miles / Math.max(tmcMetaMiles[`${t.tmc}`].meta[2021].avg_speedlimit * 0.6, 20) * 3600
+  })), speedLimitThresholdTime = Object.assign({}, ...filteroutMiles.map((t) => ({
+    [`${t.tmc}`]: [tmcMetaMiles[`${t.tmc}`].meta[2021].avg_speedlimit * 0.6]
+  }))), milesTMC = Object.assign(
+    {},
+    ...filteroutMiles.map(
+      (t) => ({ [t.tmc]: t.miles })
+    )
+  ), avgTMCrequestKey = ((startEpoch, endEpoch) => [
+    [tmcArray],
+    +`${2021}0101`,
+    +`${2021}1231`,
+    startEpoch,
+    endEpoch,
+    [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+    ],
+    "5-minutes",
+    "travel_time_all",
+    "travelTime",
+    encodeURI(JSON.stringify({})),
+    "ny"
+  ].join("|"))(0, 288), avgTMCSpeed = (await falcor2.get(["routes", "data", avgTMCrequestKey])).json.routes.data[avgTMCrequestKey];
+  var finalDataSpeed = Object.assign(
+    {},
+    ...tmcArray.map(
+      (tmc) => ({
+        [tmc]: []
+      })
+    )
+  ), finalDataTime = Object.assign(
+    {},
+    ...tmcArray.map(
+      (tmc) => ({
+        [tmc]: []
+      })
+    )
+  );
+  avgTMCSpeed.map((d2) => {
+    finalDataSpeed[d2.tmc].push(milesTMC[d2.tmc] / d2.value * 3600), finalDataTime[d2.tmc].push(d2.value);
+  });
+  let avgSpeedThreshold = Object.assign(
+    {},
+    ...tmcArray.map(
+      (d2) => ({
+        [d2]: [finalDataSpeed[d2].reduce((a, b) => a + b, 0) / 288]
+      })
+    )
+  ), avgTMCCongetionTime = Object.assign(
+    {},
+    ...tmcArray.map(
+      (d2) => ({
+        [d2]: finalDataTime[d2].reduce((a, b) => a + b, 0) / 288
+      })
+    )
+  );
+  avgTMCSpeed = finalDataSpeed;
+  let avgTMCTime = finalDataTime, monthCongestionData = months.map((m) => {
+    let defaultValue = null;
+    return {
+      [`${m}`]: sortResolution(filteroutMiles, tmcData, m, defaultValue)
+    };
+  }), monthCongestionDataTime = months.map((m) => {
+    let defaultValue = 0;
+    return {
+      [`${m}`]: congestionCalculator(
+        filteroutThresholdTime,
+        sortResolution(filteroutMiles, tmcData, m, defaultValue)
+      )
+    };
+  }), monthCongestionDataTimeNonRecurrent = months.map((m) => {
+    let defaultValue = 0;
+    return {
+      [`${m}`]: congestionCalculatorNonRecurrent(
+        filteroutThresholdTime,
+        sortResolution(filteroutMiles, tmcData, m, defaultValue),
+        avgTMCCongetionTime
+      )
+    };
+  }), wholeData = Object.assign({}, ...monthCongestionData), wholeDataTime = Object.assign({}, ...monthCongestionDataTime), wholeDataTimeNonRecurrent = Object.assign({}, ...monthCongestionDataTimeNonRecurrent);
+  return {
+    tmcArray,
+    months,
+    wholeData,
+    avgTMCSpeed,
+    avgTMCTime,
+    wholeDataTime,
+    wholeDataTimeNonRecurrent,
+    filteroutThresholdTime,
+    roadsNames,
+    speedLimitThresholdTime,
+    initialRoad,
+    avgSpeedThreshold
+  };
+}
+function congetionRemoval(filteroutThresholdTime, months, wholeDataTime, avgTMCTime) {
+  return months.map((m) => {
+    let prev = 0;
+    filteroutThresholdTime.map((t) => {
+      wholeDataTime[m][t.tmc].map((d2, i) => {
+        let current = wholeDataTime[m][t.tmc][i];
+        if (current > 0 && prev++, current == 0) {
+          if (prev < 5)
+            for (let k = 1; k <= prev; k++)
+              wholeDataTime[m][t.tmc][i - k] = Math.max(avgTMCTime[t.tmc][i - k] - t.threshold, 0);
+          prev = 0;
+        }
+      });
+    });
+  }), wholeDataTime;
+}
+function selectedPlotTypeFunction(wholeData, avgTMCSpeed, avgTMCTime, wholeDataTime, wholeDataTimeNonRecurrent, selectedPlotType) {
+  if (selectedPlotType == "Speed")
+    return [wholeData, avgTMCSpeed];
+  if (selectedPlotType == "Congestion-time")
+    return [wholeDataTime, avgTMCTime];
+  if (selectedPlotType == "Non-recurrent-congestion")
+    return [wholeDataTimeNonRecurrent, avgTMCTime];
+}
+function Sum15Minutes(t1, t2, t3, sumDefaultValue, functionType) {
+  let count = 0, sum2 = 0;
+  return functionType == "mean" ? ([t1, t2, t3].map((t) => {
+    t != 0 && (count++, sum2 += t);
+  }), sum2 = count === 0 ? sumDefaultValue : sum2 / count) : ([t1, t2, t3].map((t) => {
+    t != 0 && (count++, sum2 += 1 / t);
+  }), sum2 = count === 0 ? sumDefaultValue : count / sum2), sum2;
+}
+function Mean15Minute(tmcArray, months, wholeData, avgTMCData, selectedPlotType, j) {
+  var updatedAvgTMCSpeed = (0, import_lodash7.cloneDeep)(avgTMCData), updatedWholeData = (0, import_lodash7.cloneDeep)(wholeData);
+  let sumDefaultValue = selectedPlotType == "Speed" ? null : 0, functionType = "mean";
+  return tmcArray.map((tmc) => {
+    avgTMCData[tmc].map((d2, i) => {
+      if (i + j > 2 || i + j <= 288) {
+        let t1 = avgTMCData[tmc][i + j] || 0, t2 = avgTMCData[tmc][i + j - 1] || 0, t3 = avgTMCData[tmc][i + j - 2] || 0, sum2 = Sum15Minutes(t1, t2, t3, sumDefaultValue, functionType);
+        updatedAvgTMCSpeed[tmc][i + j] = sum2;
+      }
+    });
+  }), months.map((m) => {
+    tmcArray.map((tmc) => {
+      updatedWholeData[m][tmc].map((d2, i) => {
+        if (i + j > 2 || i + j < 288) {
+          let t1 = wholeData[m][tmc][i + j] || 0, t2 = wholeData[m][tmc][i + j - 1] || 0, t3 = wholeData[m][tmc][i + j - 2] || 0, sum2 = Sum15Minutes(t1, t2, t3, sumDefaultValue, functionType);
+          updatedWholeData[m][tmc][i + j] = sum2;
+        }
+      });
+    });
+  }), { updatedAvgTMCSpeed, updatedWholeData };
+}
+function HarmonicMean15Minute(tmcArray, months, wholeData, avgTMCData, selectedPlotType, j) {
+  var updatedAvgTMCSpeed = (0, import_lodash7.cloneDeep)(avgTMCData), updatedWholeData = (0, import_lodash7.cloneDeep)(wholeData);
+  let sumDefaultValue = selectedPlotType == "Speed" ? null : 0, functionType = "harmonicMean";
+  return tmcArray.map((tmc) => {
+    avgTMCData[tmc].map((d2, i) => {
+      if (i + j > 2 || i + j <= 288) {
+        let t1 = avgTMCData[tmc][i + j] || 0, t2 = avgTMCData[tmc][i + j - 1] || 0, t3 = avgTMCData[tmc][i + j - 2] || 0, sum2 = Sum15Minutes(t1, t2, t3, sumDefaultValue, functionType);
+        updatedAvgTMCSpeed[tmc][i + j] = sum2;
+      }
+    });
+  }), months.map((m) => {
+    tmcArray.map((tmc) => {
+      updatedWholeData[m][tmc].map((d2, i) => {
+        if (i + j > 2 || i + j <= 288) {
+          let t1 = wholeData[m][tmc][i + j] || 0, t2 = wholeData[m][tmc][i + j - 1] || 0, t3 = wholeData[m][tmc][i + j - 2] || 0, sum2 = Sum15Minutes(t1, t2, t3, sumDefaultValue, functionType);
+          updatedWholeData[m][tmc][i + j] = sum2;
+        }
+      });
+    });
+  }), { updatedAvgTMCSpeed, updatedWholeData };
+}
+function Denoiser(tmcArray, months, wholeData, denoiserThresholdVals, w, avgTMCData) {
+  let updatedWholeData = (0, import_lodash7.cloneDeep)(wholeData);
+  return console.log(avgTMCData, "---avgData"), months.map((m) => {
+    let prev = 0;
+    denoiserThresholdVals.map((t) => {
+      wholeData[m][t.tmc].map((d2, i) => {
+        let current = updatedWholeData[m][t.tmc][i];
+        if (current == null) {
+          if (prev > 0)
+            for (let k = 1; k <= prev; k++)
+              updatedWholeData[m][t.tmc][i - k] = Math.max(avgTMCData[t.tmc][i - k], null);
+          prev = 0;
+        } else if (current < avgTMCData[t.tmc][i] && prev++, current >= avgTMCData[t.tmc][i]) {
+          if (prev <= w)
+            for (let k = 1; k <= prev; k++)
+              updatedWholeData[m][t.tmc][i - k] = Math.max(avgTMCData[t.tmc][i], null);
+          prev = 0;
+        }
+      });
+    });
+  }), updatedWholeData;
+}
+function selectedFunction(tmcArray, months, wholeData, avgTMCData, selectedFuctionName, selectedPlotType, denoiserThresholdVals) {
+  var j;
+  let updatedAvgTMCSpeed = (0, import_lodash7.cloneDeep)(avgTMCData), updatedWholeData = (0, import_lodash7.cloneDeep)(wholeData);
+  return selectedFuctionName == "raw" ? (updatedAvgTMCSpeed = (0, import_lodash7.cloneDeep)(avgTMCData), updatedWholeData = (0, import_lodash7.cloneDeep)(wholeData)) : selectedFuctionName == "Trailling-15-mean" || selectedFuctionName == "Surrounding-15-mean" ? (j = selectedFuctionName == "Trailling-15-mean" ? 0 : 1, { updatedAvgTMCSpeed, updatedWholeData } = Mean15Minute(
+    tmcArray,
+    months,
+    wholeData,
+    avgTMCData,
+    selectedPlotType,
+    j
+  )) : selectedFuctionName == "Trailling-15-harmonicMean" || selectedFuctionName == "Surrounding-15-harmonicMean" ? (j = selectedFuctionName == "Trailling-15-harmmonicMean" ? 0 : 1, { updatedAvgTMCSpeed, updatedWholeData } = HarmonicMean15Minute(
+    tmcArray,
+    months,
+    wholeData,
+    avgTMCData,
+    selectedPlotType,
+    j
+  )) : selectedFuctionName == "Denoiser-w-1" ? updatedWholeData = Denoiser(tmcArray, months, wholeData, denoiserThresholdVals, 1, avgTMCData) : selectedFuctionName == "Denoiser-w-3" ? updatedWholeData = Denoiser(tmcArray, months, wholeData, denoiserThresholdVals, 3, avgTMCData) : selectedFuctionName == "Denoiser-w-5" && (updatedWholeData = Denoiser(tmcArray, months, wholeData, denoiserThresholdVals, 5, avgTMCData)), { updatedAvgTMCSpeed, updatedWholeData };
+}
+function TMCPlotData(months, updatedWholeData, updatedAvgTMCSpeed, selectedTmc) {
+  let plotData = months.map((t) => ({
+    id: t,
+    data: (updatedWholeData[t][selectedTmc] || []).map((d2, i) => ({
+      x: i,
+      y: d2
+    }))
+  })), data_avg = {
+    id: "Threshold",
+    data: (updatedAvgTMCSpeed[selectedTmc] || []).map((de, i) => ({
+      x: i,
+      y: de
+    }))
+  };
+  return plotData.push(data_avg), plotData;
+}
+function theresholdSelection(avgSpeedThreshold, speedLimitThresholdTime, thresholdSelected) {
+  return thresholdSelected == "SpeedLimit" ? speedLimitThresholdTime : avgSpeedThreshold;
 }
 function DMS() {
-  let data = (0, import_react36.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "max-w-5xl mx-auto p-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("pre", { children: JSON.stringify(data, null, 3) }, void 0, !1, {
-    fileName: "app/routes/congestion/index.jsx",
-    lineNumber: 35,
+  let navigate = (0, import_react_router_dom5.useNavigate)(), {
+    tmcArray,
+    months,
+    wholeData,
+    avgTMCSpeed,
+    avgTMCTime,
+    wholeDataTime,
+    wholeDataTimeNonRecurrent,
+    filteroutThresholdTime,
+    roadsNames,
+    speedLimitThresholdTime,
+    initialRoad,
+    avgSpeedThreshold
+  } = (0, import_react36.useLoaderData)(), [roadSelected, changeRoad] = (0, import_react35.useState)(initialRoad), thresholds = ["SpeedLimit", "AvgSpeed"], [thresholdSelected, changeThreshold] = (0, import_react35.useState)(thresholds[0]), thresholdVals = theresholdSelection(avgSpeedThreshold, speedLimitThresholdTime, thresholdSelected), denoiserThresholdVals = tmcArray.map((t, i) => ({
+    tmc: t,
+    threshold: thresholdVals[t][0]
+  })), [selectedTmc, changeTmc] = (0, import_react35.useState)(tmcArray[0]);
+  thresholdVals = Object.assign({}, ...thresholdVals[selectedTmc].map((value, key) => {
+    let temp = [];
+    return Array(288).fill(0).map((t) => {
+      temp.push(value);
+    }), {
+      [`${selectedTmc}`]: temp
+    };
+  }));
+  let input_functions_list = [
+    "raw",
+    "Trailling-15-mean",
+    "Surrounding-15-mean",
+    "Trailling-15-harmonicMean",
+    "Surrounding-15-harmonicMean",
+    "Denoiser-w-1",
+    "Denoiser-w-3",
+    "Denoiser-w-5"
+  ], [selectedFuctionName, changeFunction] = (0, import_react35.useState)(
+    input_functions_list[0]
+  ), plotTypeList = ["Speed", "Congestion-time", "Non-recurrent-congestion"], [selectedPlotType, changePlot] = (0, import_react35.useState)(plotTypeList[0]);
+  selectedPlotType == "Congestion-time" ? wholeDataTime = congetionRemoval(filteroutThresholdTime, months, wholeDataTime, avgTMCTime) : selectedPlotType == "Non-recurrent-congestion" && (wholeDataTimeNonRecurrent = congetionRemoval(filteroutThresholdTime, months, wholeDataTimeNonRecurrent, avgTMCTime));
+  let avgTMCData;
+  [wholeData, avgTMCData] = selectedPlotTypeFunction(
+    wholeData,
+    avgTMCSpeed,
+    avgTMCTime,
+    wholeDataTime,
+    wholeDataTimeNonRecurrent,
+    selectedPlotType
+  );
+  let { updatedAvgTMCSpeed, updatedWholeData } = selectedFunction(
+    tmcArray,
+    months,
+    wholeData,
+    avgTMCData,
+    selectedFuctionName,
+    selectedPlotType,
+    denoiserThresholdVals
+  ), plotData = TMCPlotData(
+    months,
+    updatedWholeData,
+    thresholdVals,
+    selectedTmc
+  ), totalCongestion = 0, congestionTag;
+  months.map((m) => {
+    totalCongestion += (updatedWholeData[m][selectedTmc] || []).reduce((a, b) => a + b, 0);
+  }), selectedPlotType != "Speed" ? congestionTag = /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("pre", { children: [
+    "Total Congetion: ",
+    totalCongestion
+  ] }, void 0, !0, {
+    fileName: "app/routes/congestion/update.($road).jsx",
+    lineNumber: 751,
+    columnNumber: 25
+  }, this) : congestionTag = /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("pre", {}, void 0, !1, {
+    fileName: "app/routes/congestion/update.($road).jsx",
+    lineNumber: 753,
+    columnNumber: 25
+  }, this);
+  let MyResponsiveLine = ({ data }) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+    import_line.ResponsiveLine,
+    {
+      data,
+      margin: { top: 50, right: 160, bottom: 50, left: 50 },
+      xScale: { type: "linear" },
+      yScale: {
+        type: "linear",
+        stacked: !1,
+        min: (selectedPlotType == "Speed", 0)
+      },
+      yFormat: " >-.2f",
+      curve: "monotoneX",
+      axisTop: null,
+      axisRight: {
+        tickSize: 5,
+        tickPadding: 5,
+        tickRotation: 0,
+        format: ".2s",
+        legend: "",
+        legendOffset: 0,
+        itemBackground: "white"
+      },
+      axisBottom: {
+        tickSize: 5,
+        tickPadding: 5,
+        tickRotation: 0,
+        format: ".2f",
+        legend: "epochs",
+        legendOffset: 36,
+        legendPosition: "middle"
+      },
+      axisLeft: {
+        tickSize: 5,
+        tickPadding: 0,
+        tickRotation: 0,
+        format: ".2s",
+        legendOffset: -40,
+        legendPosition: "middle"
+      },
+      enableGridX: !0,
+      colors: { scheme: "spectral" },
+      lineWidth: 1.5,
+      pointColor: { theme: "background" },
+      pointBorderColor: { from: "serieColor" },
+      pointLabelYOffset: -12,
+      enableSlices: "x",
+      useMesh: !0,
+      gridYValues: [40, 60, 80, 100, 120],
+      onHover: function(event, legendItem) {
+        var options = this.options || {}, hoverOptions = options.hover || {}, ci = this.chart, hoveredDatasetIndex = legendItem.datasetIndex;
+        ci.updateHoverStyle(
+          ci.getDatasetMeta(hoveredDatasetIndex).data,
+          hoverOptions.mode,
+          !0
+        ), ci.render();
+      },
+      legends: [
+        {
+          anchor: "bottom-right",
+          direction: "column",
+          justify: !1,
+          translateX: 120,
+          translateY: 2,
+          itemsSpacing: 2,
+          itemDirection: "left-to-right",
+          itemWidth: 80,
+          itemHeight: 12,
+          itemOpacity: 0.75,
+          symbolSize: 12,
+          symbolShape: "circle",
+          symbolBorderColor: "rgba(0, 0, 0, .5)",
+          effects: [
+            {
+              on: "hover",
+              on: "hover",
+              function(event, legendItem) {
+                var options = this.options || {}, hoverOptions = options.hover || {}, ci = this.chart, hoveredDatasetIndex = legendItem.datasetIndex;
+                ci.updateHoverStyle(
+                  ci.getDatasetMeta(hoveredDatasetIndex).data,
+                  hoverOptions.mode,
+                  !0
+                ), ci.render();
+              },
+              style: {
+                itemBackground: "rgba(0, 0, 0, .03)",
+                function(event, legendItem) {
+                  var options = this.options || {}, hoverOptions = options.hover || {}, ci = this.chart, hoveredDatasetIndex = legendItem.datasetIndex;
+                  ci.updateHoverStyle(
+                    ci.getDatasetMeta(hoveredDatasetIndex).data,
+                    hoverOptions.mode,
+                    !0
+                  ), ci.render();
+                },
+                itemOpacity: 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/congestion/update.($road).jsx",
+      lineNumber: 758,
+      columnNumber: 9
+    },
+    this
+  );
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "bg-white text-teal-800", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "grid grid-rows-3 grid-flow-col gap-4 text-center", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "row-start-1 row-end-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "grid-rows-3 grid-flow-col gap-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "row-start-1 row-end-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("label", { for: "road_function", children: "Choose a road: " }, void 0, !1, {
+            fileName: "app/routes/congestion/update.($road).jsx",
+            lineNumber: 886,
+            columnNumber: 33
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+            "select",
+            {
+              id: "road_functions",
+              onChangeCapture: (e) => {
+                changeRoad(e.target.value), navigate(`/congestion/update/${e.target.value}`);
+              },
+              children: roadsNames.map((roadsName, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("option", { value: i, children: roadsName }, i, !1, {
+                fileName: "app/routes/congestion/update.($road).jsx",
+                lineNumber: 893,
+                columnNumber: 41
+              }, this))
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/congestion/update.($road).jsx",
+              lineNumber: 888,
+              columnNumber: 33
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 885,
+          columnNumber: 29
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("pre", { children: [
+          "Selected road: ",
+          roadSelected
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 901,
+          columnNumber: 33
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 900,
+          columnNumber: 29
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/congestion/update.($road).jsx",
+        lineNumber: 884,
+        columnNumber: 25
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/congestion/update.($road).jsx",
+        lineNumber: 883,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "row-start-1 row-end-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "grid-rows-3 grid-flow-col gap-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "row-start-1 row-end-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("label", { className: "", for: "tmcs", children: "Choose a tmc:" }, void 0, !1, {
+            fileName: "app/routes/congestion/update.($road).jsx",
+            lineNumber: 910,
+            columnNumber: 33
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+            "select",
+            {
+              className: "mx-auto",
+              name: "tmcs",
+              id: "tmcs",
+              onChangeCapture: (e) => changeTmc(e.target.value),
+              children: tmcArray.map((tmc, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("option", { value: tmc, defaultValue: tmcArray[0], children: tmc }, i, !1, {
+                fileName: "app/routes/congestion/update.($road).jsx",
+                lineNumber: 922,
+                columnNumber: 41
+              }, this))
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/congestion/update.($road).jsx",
+              lineNumber: 913,
+              columnNumber: 33
+            },
+            this
+          )
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 909,
+          columnNumber: 29
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("pre", { children: [
+          "Selected tmc: ",
+          selectedTmc
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 929,
+          columnNumber: 33
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 928,
+          columnNumber: 29
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/congestion/update.($road).jsx",
+        lineNumber: 908,
+        columnNumber: 25
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/congestion/update.($road).jsx",
+        lineNumber: 907,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "row-start-1 row-end-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("label", { for: "threshold_function", children: "Choose a Threshold type: " }, void 0, !1, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 936,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+          "select",
+          {
+            name: "threshold_function",
+            id: "threshold_function",
+            onChange: (e) => changeThreshold(e.target.value),
+            children: thresholds.map((threshold, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("option", { value: threshold, children: threshold }, i, !1, {
+              fileName: "app/routes/congestion/update.($road).jsx",
+              lineNumber: 945,
+              columnNumber: 33
+            }, this))
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/congestion/update.($road).jsx",
+            lineNumber: 937,
+            columnNumber: 25
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("pre", { children: [
+          "Selected Threshold: ",
+          thresholdSelected
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 951,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/congestion/update.($road).jsx",
+        lineNumber: 935,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "row-start-1 row-end-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("label", { for: "input_function", children: "Choose a input function: " }, void 0, !1, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 956,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+          "select",
+          {
+            name: "input_function",
+            id: "input_functions",
+            onChangeCapture: (e) => changeFunction(e.target.value),
+            children: input_functions_list.map((input_function, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("option", { value: input_function, children: input_function }, i, !1, {
+              fileName: "app/routes/congestion/update.($road).jsx",
+              lineNumber: 965,
+              columnNumber: 33
+            }, this))
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/congestion/update.($road).jsx",
+            lineNumber: 957,
+            columnNumber: 25
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("pre", { children: [
+          "Selected function: ",
+          selectedFuctionName
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 971,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/congestion/update.($road).jsx",
+        lineNumber: 955,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "row-start-1 row-end-4", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("label", { for: "input_function", children: "Choose type: " }, void 0, !1, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 976,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+          "select",
+          {
+            name: "input_function",
+            id: "input_functions",
+            onChangeCapture: (e) => changePlot(e.target.value),
+            children: plotTypeList.map((plotType, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("option", { value: plotType, children: plotType }, i, !1, {
+              fileName: "app/routes/congestion/update.($road).jsx",
+              lineNumber: 985,
+              columnNumber: 33
+            }, this))
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/congestion/update.($road).jsx",
+            lineNumber: 977,
+            columnNumber: 25
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("pre", { children: [
+          "Selected function: ",
+          selectedPlotType
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 991,
+          columnNumber: 25
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/congestion/update.($road).jsx",
+        lineNumber: 975,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: congestionTag }, void 0, !1, {
+        fileName: "app/routes/congestion/update.($road).jsx",
+        lineNumber: 994,
+        columnNumber: 21
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/routes/congestion/update.($road).jsx",
+      lineNumber: 882,
+      columnNumber: 17
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+      "div",
+      {
+        className: "text-secondary",
+        style: { width: "100%", height: "1000px" },
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(MyResponsiveLine, { data: plotData }, void 0, !1, {
+          fileName: "app/routes/congestion/update.($road).jsx",
+          lineNumber: 1011,
+          columnNumber: 17
+        }, this)
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/routes/congestion/update.($road).jsx",
+        lineNumber: 1007,
+        columnNumber: 13
+      },
+      this
+    )
+  ] }, void 0, !0, {
+    fileName: "app/routes/congestion/update.($road).jsx",
+    lineNumber: 879,
     columnNumber: 9
-  }, this) }, void 0, !1, {
-    fileName: "app/routes/congestion/index.jsx",
-    lineNumber: 34,
-    columnNumber: 7
   }, this);
 }
 function ErrorBoundary({ error }) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("h1", { children: "Congestion Error ErrorBoundary" }, void 0, !1, {
-      fileName: "app/routes/congestion/index.jsx",
-      lineNumber: 46,
-      columnNumber: 7
+      fileName: "app/routes/congestion/update.($road).jsx",
+      lineNumber: 1020,
+      columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("p", { children: error.message }, void 0, !1, {
-      fileName: "app/routes/congestion/index.jsx",
-      lineNumber: 47,
-      columnNumber: 7
+      fileName: "app/routes/congestion/update.($road).jsx",
+      lineNumber: 1021,
+      columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("p", { children: "The stack trace is:" }, void 0, !1, {
-      fileName: "app/routes/congestion/index.jsx",
-      lineNumber: 48,
-      columnNumber: 7
+      fileName: "app/routes/congestion/update.($road).jsx",
+      lineNumber: 1022,
+      columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("pre", { children: error.stack }, void 0, !1, {
-      fileName: "app/routes/congestion/index.jsx",
-      lineNumber: 49,
-      columnNumber: 7
+      fileName: "app/routes/congestion/update.($road).jsx",
+      lineNumber: 1023,
+      columnNumber: 13
     }, this)
   ] }, void 0, !0, {
-    fileName: "app/routes/congestion/index.jsx",
-    lineNumber: 45,
+    fileName: "app/routes/congestion/update.($road).jsx",
+    lineNumber: 1019,
+    columnNumber: 9
+  }, this);
+}
+
+// app/routes/congestion/grid.($road).js
+var grid_road_exports = {};
+__export(grid_road_exports, {
+  Denoiser: () => Denoiser2,
+  ErrorBoundary: () => ErrorBoundary2,
+  HarmonicMean15Minute: () => HarmonicMean15Minute2,
+  Mean15Minute: () => Mean15Minute2,
+  congestionCalculator: () => congestionCalculator2,
+  dateFormatData: () => dateFormatData,
+  default: () => DMS2,
+  epochFormatData: () => epochFormatData,
+  formatDisplayData: () => formatDisplayData,
+  getMonthEpochs: () => getMonthEpochs,
+  loader: () => loader2,
+  normalizeData: () => normalizeData,
+  selectedFunction: () => selectedFunction2,
+  selectedThreshold: () => selectedThreshold,
+  sortResolution: () => sortResolution2
+});
+var import_react37 = require("react"), import_react38 = require("@remix-run/react");
+var import_lodash8 = require("lodash"), d3 = __toESM(require("d3")), import_d3_scale_chromatic = require("d3-scale-chromatic"), import_react_router_dom6 = require("react-router-dom"), import_d3 = require("d3"), import_simple_statistics = require("simple-statistics"), colorBrewer = require("colorbrewer"), import_jsx_dev_runtime33 = require("react/jsx-dev-runtime");
+function congestionCalculator2(wholeData, months, thresholdValues) {
+  let updatedWholeData = (0, import_lodash8.cloneDeep)(wholeData);
+  return months.map((m, i) => {
+    thresholdValues.map((v, j) => {
+      updatedWholeData[m][v.tmc].map((t, k) => {
+        updatedWholeData[m][v.tmc][k] = Math.max(t - v.threshold, 0);
+      });
+    });
+  }), updatedWholeData;
+}
+async function getMonthEpochs(tmcArray) {
+  let months = [];
+  for (let i = 1; i < 30; i++)
+    months.push("2022-06-" + (i < 10 ? "0" + i : i));
+  return await falcor2.get([
+    "tmc",
+    tmcArray,
+    "tt",
+    "day",
+    months,
+    "by",
+    "epoch"
+  ]);
+}
+function sortResolution2(filteroutMiles, tmcData, date) {
+  let tmcEachEpochValues = filteroutMiles.map((t) => ({
+    tmc: `${t.tmc}`,
+    val: tmcData[`${t.tmc}`].tt.day[`${date}`].by.epoch.map((te) => ({
+      resolution: te == null ? void 0 : te.resolution,
+      values: te == null ? void 0 : te.value
+    })).sort((a, b) => a.resolution - b.resolution)
+  })).map((t) => {
+    var _a;
+    let result = new Array(288);
+    for (let i = 0; i <= 288; i++)
+      result[i] = ((_a = (0, import_lodash8.find)((0, import_lodash8.map)(t.val), (o) => o.resolution === i)) == null ? void 0 : _a.values) || 0;
+    return {
+      [t.tmc]: result
+    };
+  });
+  return Object.assign({}, ...tmcEachEpochValues);
+}
+async function loader2({ request, params }) {
+  let geo = "COUNTY|36001", roads = await falcor2.get(["geo", geo, 2021, "tmclinear"]), road = (0, import_lodash8.get)(roads, ["json", "geo", geo, 2021, "tmclinear", params.road], {}), directions = { N: "North", S: "South", W: "West", E: "East" }, roadsNames = (0, import_lodash8.get)(roads, ["json", "geo", geo, 2021, "tmclinear"], {}).map((road_name) => road_name.roadname + " (" + directions[road_name.direction] + ")"), tmcs = await falcor2.get([
+    "tmc",
+    "tmclinear",
+    2021,
+    geo,
+    road.tmclinear,
+    road.direction
+  ]), tmcArray = (0, import_lodash8.get)(tmcs, [
+    "json",
+    "tmc",
+    "tmclinear",
+    2021,
+    geo,
+    road.tmclinear,
+    road.direction
+  ]).sort((a, b) => a.road_order - b.road_order).map((d2) => d2.tmc), tmcMetaMiles = (await falcor2.get([
+    "tmc",
+    tmcArray,
+    "meta",
+    2021,
+    ["avg_speedlimit", "miles"]
+  ])).json.tmc, months = [];
+  for (let i = 1; i < 30; i++)
+    months.push("2022-06-" + (i < 10 ? "0" + i : i));
+  let tmcData = (await falcor2.get([
+    "tmc",
+    tmcArray,
+    "tt",
+    "day",
+    months,
+    "by",
+    "epoch"
+  ])).json.tmc, filteroutMiles = tmcArray.map((t) => ({ tmc: `${t}`, miles: tmcMetaMiles[`${t}`].meta[2021].miles })), speedLimitThresholdTime = filteroutMiles.map((t) => ({
+    tmc: `${t.tmc}`,
+    threshold: t.miles / Math.max(tmcMetaMiles[`${t.tmc}`].meta[2021].avg_speedlimit * 0.6) * 3600
+  })), avgTMCrequestKey = ((startEpoch, endEpoch) => [
+    [tmcArray],
+    +`${2021}0101`,
+    +`${2021}1231`,
+    startEpoch,
+    endEpoch,
+    [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+    ],
+    "year",
+    "travel_time_all",
+    "travelTime",
+    encodeURI(JSON.stringify({})),
+    "ny"
+  ].join("|"))(0, 288);
+  var avgSpeedThreshold = (await falcor2.get(["routes", "data", avgTMCrequestKey])).json.routes.data[avgTMCrequestKey].map((t) => ({
+    tmc: `${t.tmc}`,
+    threshold: `${t.value * 0.6}`
+  }));
+  let monthData = months.map((m) => ({
+    [`${m}`]: sortResolution2(filteroutMiles, tmcData, m)
+  })), wholeData = Object.assign({}, ...monthData);
+  return { tmcArray, months, wholeData, roadsNames, speedLimitThresholdTime, avgSpeedThreshold, filteroutMiles };
+}
+function Mean15Minute2(tmcArray, months, wholeData) {
+  var updatedWholeData = (0, import_lodash8.cloneDeep)(wholeData);
+  return months.forEach((m) => {
+    tmcArray.forEach((tmc) => {
+      updatedWholeData[m][tmc].forEach((d2, i) => {
+        if (!(i < 2)) {
+          let t1 = wholeData[m][tmc][i] || 0, t2 = wholeData[m][tmc][i - 1] || 0, t3 = wholeData[m][tmc][i - 2] || 0, count = 0, sum2 = 0;
+          t1 != 0 && (sum2 += t1, count++), t2 != 0 && (sum2 += t2, count++), t3 != 0 && (sum2 += t3, count++), count == 0 ? sum2 = 0 : sum2 = sum2 / count, updatedWholeData[m][tmc][i] = sum2;
+        }
+      });
+    });
+  }), updatedWholeData;
+}
+function HarmonicMean15Minute2(tmcArray, months, wholeData) {
+  var updatedWholeData = (0, import_lodash8.cloneDeep)(wholeData);
+  return months.forEach((m) => {
+    tmcArray.forEach((tmc) => {
+      updatedWholeData[m][tmc].forEach((d2, i) => {
+        if (!(i < 2)) {
+          let t1 = wholeData[m][tmc][i] || 0, t2 = wholeData[m][tmc][i - 1] || 0, t3 = wholeData[m][tmc][i - 2] || 0, count = 0, sum2 = 0;
+          t1 != 0 && (sum2 += 1 / t1, count++), t2 != 0 && (sum2 += 1 / t2, count++), t3 != 0 && (sum2 += 1 / t3, count++), count == 0 ? sum2 = 0 : sum2 = count / sum2, updatedWholeData[m][tmc][i] = sum2;
+        }
+      });
+    });
+  }), updatedWholeData;
+}
+function Denoiser2(tmcArray, months, wholeData, speedLimitThresholdTime, w, avgSpeedThreshold) {
+  let updatedWholeData = (0, import_lodash8.cloneDeep)(wholeData), avgThreshold = Object.assign(
+    {},
+    ...avgSpeedThreshold.map((t, i) => ({
+      [`${t.tmc}`]: t.threshold
+    }))
+  );
+  return months.map((m) => {
+    let prev = 0;
+    speedLimitThresholdTime.map((t) => {
+      wholeData[m][t.tmc].map((d2, i) => {
+        let current = updatedWholeData[m][t.tmc][i];
+        if (current > 0 && prev++, current == 0) {
+          if (prev <= w)
+            for (let k = 1; k <= prev; k++)
+              updatedWholeData[m][t.tmc][i - k] = Math.max(avgThreshold[t.tmc] - t.threshold, 0);
+          prev = 0;
+        }
+      });
+    });
+  }), updatedWholeData;
+}
+function selectedFunction2(tmcArray, months, wholeData, selectedFuctionName, speedLimitThresholdTime, avgSpeedThreshold) {
+  let updatedWholeData;
+  return selectedFuctionName == "raw" ? updatedWholeData = (0, import_lodash8.cloneDeep)(wholeData) : selectedFuctionName == "15-mean" ? updatedWholeData = Mean15Minute2(
+    tmcArray,
+    months,
+    wholeData
+  ) : selectedFuctionName == "15-harmonicMean" ? updatedWholeData = HarmonicMean15Minute2(
+    tmcArray,
+    months,
+    wholeData
+  ) : selectedFuctionName == "Denoiser-w-1" ? updatedWholeData = Denoiser2(tmcArray, months, wholeData, speedLimitThresholdTime, 1, avgSpeedThreshold) : selectedFuctionName == "Denoiser-w-3" ? updatedWholeData = Denoiser2(tmcArray, months, wholeData, speedLimitThresholdTime, 3, avgSpeedThreshold) : selectedFuctionName == "Denoiser-w-5" && (updatedWholeData = Denoiser2(tmcArray, months, wholeData, speedLimitThresholdTime, 5, avgSpeedThreshold)), updatedWholeData;
+}
+function dateFormatData(wholeData, months, tmcArray) {
+  let total_val = 0, yAxis = (0, import_lodash8.cloneDeep)(months);
+  return { formatedData: Object.assign({}, ...months.map((te, j) => {
+    let totalDate = 0, temp = Array();
+    return tmcArray.map((t, i) => {
+      let currentDate = 0;
+      currentDate = Math.round(d3.sum(wholeData[te][t])), totalDate += currentDate, total_val += currentDate, temp.push(currentDate.toString());
+    }), {
+      [te]: temp
+    };
+  })), total_val, yAxis };
+}
+function epochFormatData(wholeData, months, tmcArray) {
+  let total_val = 0, yAxis = Array(288).fill(0);
+  yAxis.map((t, i) => {
+    yAxis[i] = i;
+  });
+  let formatedData = Object.assign(
+    {},
+    ...yAxis.map((x, i) => {
+      let allTMCEpoch = Array(tmcArray.length).fill(0);
+      return months.map((month, j) => {
+        tmcArray.map((tmc, k) => {
+          allTMCEpoch[k] += Math.round(wholeData[month][tmc][i]), total_val += wholeData[month][tmc][i];
+        });
+      }), {
+        [i]: allTMCEpoch
+      };
+    })
+  );
+  return total_val = Math.round(total_val), { formatedData, total_val, yAxis };
+}
+function formatDisplayData(wholeData, months, tmcArray, selectedDisplayFunction) {
+  let formatedData, total_val, yAxis;
+  return selectedDisplayFunction == "Date" ? { formatedData, total_val, yAxis } = dateFormatData(wholeData, months, tmcArray) : selectedDisplayFunction == "Epochs" && ({ formatedData, total_val, yAxis } = epochFormatData(wholeData, months, tmcArray)), { formatedData, total_val, yAxis };
+}
+function selectedThreshold(wholeData, months, speedLimitThresholdTime, avgSpeedThreshold, thresholdSelected) {
+  let updatedWholeData = (0, import_lodash8.cloneDeep)(wholeData);
+  return thresholdSelected == "SpeedLimit" ? updatedWholeData = congestionCalculator2(wholeData, months, speedLimitThresholdTime) : updatedWholeData = congestionCalculator2(wholeData, months, avgSpeedThreshold), updatedWholeData;
+}
+function normalizeData(months, wholeData, filteroutMiles) {
+  let updatedWholeData = (0, import_lodash8.cloneDeep)(wholeData);
+  return months.map((month, i) => {
+    filteroutMiles.map((t, j) => {
+      wholeData[month][t.tmc].map((val, k) => {
+        updatedWholeData[month][t.tmc][k] = val / t.miles;
+      });
+    });
+  }), updatedWholeData;
+}
+function DMS2() {
+  let navigate = (0, import_react_router_dom6.useNavigate)(), total = 0, { tmcArray, wholeData, months, roadsNames, speedLimitThresholdTime, avgSpeedThreshold, filteroutMiles } = (0, import_react38.useLoaderData)(), [roadSelected, changeRoad] = (0, import_react37.useState)(0), thresholds = ["SpeedLimit", "AvgSpeed"], [thresholdSelected, changeThreshold] = (0, import_react37.useState)(thresholds[0]);
+  wholeData = selectedThreshold(wholeData, months, speedLimitThresholdTime, avgSpeedThreshold, thresholdSelected), wholeData = normalizeData(months, wholeData, filteroutMiles);
+  let input_functions_list = ["raw", "15-mean", "15-harmonicMean", "Denoiser-w-1", "Denoiser-w-3", "Denoiser-w-5"], [selectedFuctionName, changeFunction] = (0, import_react37.useState)(
+    input_functions_list[0]
+  );
+  wholeData = selectedFunction2(
+    tmcArray,
+    months,
+    wholeData,
+    selectedFuctionName,
+    speedLimitThresholdTime,
+    avgSpeedThreshold
+  );
+  let display_function_list = ["Date", "Epochs"], [selectedDisplayFunction, changeDisplayFunction] = (0, import_react37.useState)(
+    display_function_list[0]
+  ), { formatedData, total_val, yAxis } = formatDisplayData(wholeData, months, tmcArray, selectedDisplayFunction), resultantOutput, numBins = 5, colors = ["#eff3ff", "#bdd7e7", "#6baed6", "#3182bd", "#08519c"], completeData = [];
+  yAxis.map((yaxis, i) => {
+    formatedData[yaxis].map((t, j) => {
+      completeData.push(t);
+    });
+  });
+  let doaminVals = (0, import_simple_statistics.ckmeans)(completeData, Math.min(completeData.length, numBins)).map((t) => t[t.length - 1]), colorScale = d3.scaleThreshold().domain(doaminVals).range(colors);
+  selectedDisplayFunction == "Date" ? resultantOutput = yAxis.map((yaxis, i) => {
+    let total_row = 0;
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("tr", { style: { maxHeight: "900px" }, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", { children: yaxis }, void 0, !1, {
+        fileName: "app/routes/congestion/grid.($road).js",
+        lineNumber: 512,
+        columnNumber: 13
+      }, this),
+      formatedData[yaxis].map((t, j) => (total_row += Number(t), total += Number(t), /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", { style: { backgroundColor: colorScale(t) }, children: t.toString() }, j, !1, {
+        fileName: "app/routes/congestion/grid.($road).js",
+        lineNumber: 518,
+        columnNumber: 19
+      }, this))),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", { style: { backgroundColor: colorScale(total_row) }, children: total_row }, void 0, !1, {
+        fileName: "app/routes/congestion/grid.($road).js",
+        lineNumber: 522,
+        columnNumber: 13
+      }, this)
+    ] }, i, !0, {
+      fileName: "app/routes/congestion/grid.($road).js",
+      lineNumber: 511,
+      columnNumber: 11
+    }, this);
+  }) : resultantOutput = yAxis.map((yaxis, i) => {
+    let total_row = 0;
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("tr", { style: { maxHeight: "900px" }, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", {}, void 0, !1, {
+        fileName: "app/routes/congestion/grid.($road).js",
+        lineNumber: 533,
+        columnNumber: 9
+      }, this),
+      formatedData[yaxis].map((t, j) => (total_row += Number(t), total += Number(t), /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", { style: { backgroundColor: colorScale(t) } }, j, !1, {
+        fileName: "app/routes/congestion/grid.($road).js",
+        lineNumber: 539,
+        columnNumber: 17
+      }, this))),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", { style: { backgroundColor: colorScale(total_row) } }, void 0, !1, {
+        fileName: "app/routes/congestion/grid.($road).js",
+        lineNumber: 543,
+        columnNumber: 11
+      }, this)
+    ] }, i, !0, {
+      fileName: "app/routes/congestion/grid.($road).js",
+      lineNumber: 532,
+      columnNumber: 9
+    }, this);
+  });
+  let thresholdVals;
+  return thresholdSelected == "SpeedLimit" ? thresholdVals = Object.assign(
+    {},
+    ...speedLimitThresholdTime.map((t, i) => ({
+      [`${t.tmc}`]: t.threshold
+    }))
+  ) : thresholdVals = Object.assign(
+    {},
+    ...avgSpeedThreshold.map((t, i) => ({
+      [`${t.tmc}`]: t.threshold
+    }))
+  ), /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "conatiner", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "p-4 min-w-full min-h-screen", style: { textAlign: "center" }, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "grid grid-rows-3 grid-flow-col gap-4 text-center", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "row-start-1 row-end-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "grid-rows-3 grid-flow-col gap-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "row-start-1 row-end-4", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("label", { for: "road_function", children: "Choose a road: " }, void 0, !1, {
+              fileName: "app/routes/congestion/grid.($road).js",
+              lineNumber: 581,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+              "select",
+              {
+                id: "road_functions",
+                onChange: (e) => {
+                  changeRoad(e.target.value), navigate(`/congestion/grid/${e.target.value}`);
+                },
+                children: roadsNames.map((roadsName, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("option", { value: i, children: roadsName }, i, !1, {
+                  fileName: "app/routes/congestion/grid.($road).js",
+                  lineNumber: 588,
+                  columnNumber: 25
+                }, this))
+              },
+              void 0,
+              !1,
+              {
+                fileName: "app/routes/congestion/grid.($road).js",
+                lineNumber: 583,
+                columnNumber: 21
+              },
+              this
+            )
+          ] }, void 0, !0, {
+            fileName: "app/routes/congestion/grid.($road).js",
+            lineNumber: 580,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("pre", { children: [
+            "Selected road: ",
+            roadSelected
+          ] }, void 0, !0, {
+            fileName: "app/routes/congestion/grid.($road).js",
+            lineNumber: 596,
+            columnNumber: 19
+          }, this) }, void 0, !1, {
+            fileName: "app/routes/congestion/grid.($road).js",
+            lineNumber: 595,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/grid.($road).js",
+          lineNumber: 579,
+          columnNumber: 15
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/congestion/grid.($road).js",
+          lineNumber: 578,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "row-start-1 row-end-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("label", { for: "threshold_function", children: "Choose a Threshold type: " }, void 0, !1, {
+            fileName: "app/routes/congestion/grid.($road).js",
+            lineNumber: 602,
+            columnNumber: 15
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+            "select",
+            {
+              name: "threshold_function",
+              id: "threshold_function",
+              onChange: (e) => changeThreshold(e.target.value),
+              children: thresholds.map((threshold, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("option", { value: threshold, children: threshold }, i, !1, {
+                fileName: "app/routes/congestion/grid.($road).js",
+                lineNumber: 611,
+                columnNumber: 19
+              }, this))
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/congestion/grid.($road).js",
+              lineNumber: 603,
+              columnNumber: 15
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("pre", { children: [
+            "Selected Threshold: ",
+            thresholdSelected
+          ] }, void 0, !0, {
+            fileName: "app/routes/congestion/grid.($road).js",
+            lineNumber: 617,
+            columnNumber: 15
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/grid.($road).js",
+          lineNumber: 601,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "row-start-1 row-end-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("label", { for: "input_function", children: "Choose a input function: " }, void 0, !1, {
+            fileName: "app/routes/congestion/grid.($road).js",
+            lineNumber: 622,
+            columnNumber: 15
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+            "select",
+            {
+              name: "input_function",
+              id: "input_functions",
+              onChange: (e) => changeFunction(e.target.value),
+              children: input_functions_list.map((input_function, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("option", { value: input_function, children: input_function }, i, !1, {
+                fileName: "app/routes/congestion/grid.($road).js",
+                lineNumber: 631,
+                columnNumber: 19
+              }, this))
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/congestion/grid.($road).js",
+              lineNumber: 623,
+              columnNumber: 15
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("pre", { children: [
+            "Selected function: ",
+            selectedFuctionName
+          ] }, void 0, !0, {
+            fileName: "app/routes/congestion/grid.($road).js",
+            lineNumber: 637,
+            columnNumber: 15
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/grid.($road).js",
+          lineNumber: 621,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "row-start-1 row-end-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("label", { for: "display_function", children: "Choose a Display Type: " }, void 0, !1, {
+            fileName: "app/routes/congestion/grid.($road).js",
+            lineNumber: 642,
+            columnNumber: 15
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+            "select",
+            {
+              name: "display_function",
+              id: "display_function",
+              onChange: (e) => changeDisplayFunction(e.target.value),
+              children: display_function_list.map((display_function, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("option", { value: display_function, children: display_function }, i, !1, {
+                fileName: "app/routes/congestion/grid.($road).js",
+                lineNumber: 649,
+                columnNumber: 19
+              }, this))
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/congestion/grid.($road).js",
+              lineNumber: 643,
+              columnNumber: 15
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("pre", { children: [
+            "Selected Display-Type: ",
+            selectedDisplayFunction
+          ] }, void 0, !0, {
+            fileName: "app/routes/congestion/grid.($road).js",
+            lineNumber: 655,
+            columnNumber: 15
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/congestion/grid.($road).js",
+          lineNumber: 641,
+          columnNumber: 13
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/congestion/grid.($road).js",
+        lineNumber: 577,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+        "table",
+        {
+          style: {
+            border: "2px solid #000000",
+            backgroundColor: "#dddddd",
+            width: "100%",
+            height: "900px"
+          },
+          children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("thead", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("tr", { clasname: "border boder-grey-900", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+                  "td",
+                  {
+                    style: {
+                      border: "1p solid #dddddd"
+                    },
+                    children: "Index"
+                  },
+                  void 0,
+                  !1,
+                  {
+                    fileName: "app/routes/congestion/grid.($road).js",
+                    lineNumber: 670,
+                    columnNumber: 17
+                  },
+                  this
+                ),
+                tmcArray.map((t, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+                  "td",
+                  {
+                    style: {
+                      border: "1px solid #dddddd"
+                    },
+                    children: t
+                  },
+                  i,
+                  !1,
+                  {
+                    fileName: "app/routes/congestion/grid.($road).js",
+                    lineNumber: 679,
+                    columnNumber: 21
+                  },
+                  this
+                )),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", { children: "Total TMC:" }, void 0, !1, {
+                  fileName: "app/routes/congestion/grid.($road).js",
+                  lineNumber: 689,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, !0, {
+                fileName: "app/routes/congestion/grid.($road).js",
+                lineNumber: 669,
+                columnNumber: 15
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("tr", { clasname: "border boder-grey-900", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+                  "td",
+                  {
+                    style: {
+                      border: "1p solid #dddddd"
+                    },
+                    children: "Threshold"
+                  },
+                  void 0,
+                  !1,
+                  {
+                    fileName: "app/routes/congestion/grid.($road).js",
+                    lineNumber: 693,
+                    columnNumber: 17
+                  },
+                  this
+                ),
+                tmcArray.map((t, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+                  "td",
+                  {
+                    style: {
+                      border: "1px solid #dddddd"
+                    },
+                    children: Math.round(thresholdVals[t], 2)
+                  },
+                  i,
+                  !1,
+                  {
+                    fileName: "app/routes/congestion/grid.($road).js",
+                    lineNumber: 702,
+                    columnNumber: 21
+                  },
+                  this
+                )),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", { children: "Total TMC:" }, void 0, !1, {
+                  fileName: "app/routes/congestion/grid.($road).js",
+                  lineNumber: 712,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, !0, {
+                fileName: "app/routes/congestion/grid.($road).js",
+                lineNumber: 692,
+                columnNumber: 15
+              }, this)
+            ] }, void 0, !0, {
+              fileName: "app/routes/congestion/grid.($road).js",
+              lineNumber: 668,
+              columnNumber: 13
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("tbody", { style: { heght: "100%" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_jsx_dev_runtime33.Fragment, { children: [
+              resultantOutput,
+              /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("tr", { children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", { children: "Total Month:" }, void 0, !1, {
+                  fileName: "app/routes/congestion/grid.($road).js",
+                  lineNumber: 756,
+                  columnNumber: 23
+                }, this),
+                tmcArray.map((t, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_jsx_dev_runtime33.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+                  "td",
+                  {
+                    style: {
+                      border: "1px solid #dddddd",
+                      backgroundColor: "lightblue"
+                    },
+                    children: d3.sum(
+                      months.map(
+                        (m, j) => Math.round(d3.sum(wholeData[m][t]))
+                      )
+                    )
+                  },
+                  i,
+                  !1,
+                  {
+                    fileName: "app/routes/congestion/grid.($road).js",
+                    lineNumber: 760,
+                    columnNumber: 29
+                  },
+                  this
+                ) }, void 0, !1, {
+                  fileName: "app/routes/congestion/grid.($road).js",
+                  lineNumber: 759,
+                  columnNumber: 27
+                }, this)),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("td", { style: { backgroundColor: "lightpink" }, children: total }, void 0, !1, {
+                  fileName: "app/routes/congestion/grid.($road).js",
+                  lineNumber: 776,
+                  columnNumber: 23
+                }, this)
+              ] }, void 0, !0, {
+                fileName: "app/routes/congestion/grid.($road).js",
+                lineNumber: 754,
+                columnNumber: 21
+              }, this)
+            ] }, void 0, !0, {
+              fileName: "app/routes/congestion/grid.($road).js",
+              lineNumber: 719,
+              columnNumber: 19
+            }, this) }, void 0, !1, {
+              fileName: "app/routes/congestion/grid.($road).js",
+              lineNumber: 715,
+              columnNumber: 13
+            }, this)
+          ]
+        },
+        void 0,
+        !0,
+        {
+          fileName: "app/routes/congestion/grid.($road).js",
+          lineNumber: 660,
+          columnNumber: 11
+        },
+        this
+      )
+    ] }, void 0, !0, {
+      fileName: "app/routes/congestion/grid.($road).js",
+      lineNumber: 570,
+      columnNumber: 9
+    }, this),
+    ";"
+  ] }, void 0, !0, {
+    fileName: "app/routes/congestion/grid.($road).js",
+    lineNumber: 568,
     columnNumber: 5
   }, this);
 }
+function ErrorBoundary2({ error }) {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("h1", { children: "Congestion Error ErrorBoundary" }, void 0, !1, {
+      fileName: "app/routes/congestion/grid.($road).js",
+      lineNumber: 793,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("p", { children: error.message }, void 0, !1, {
+      fileName: "app/routes/congestion/grid.($road).js",
+      lineNumber: 794,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("p", { children: "The stack trace is:" }, void 0, !1, {
+      fileName: "app/routes/congestion/grid.($road).js",
+      lineNumber: 795,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("pre", { children: error.stack }, void 0, !1, {
+      fileName: "app/routes/congestion/grid.($road).js",
+      lineNumber: 796,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/routes/congestion/grid.($road).js",
+    lineNumber: 792,
+    columnNumber: 5
+  }, this);
+}
+
+// server-entry-module:@remix-run/dev/server-build
+var route13 = __toESM(require_line_stacked()), route14 = __toESM(require_update_thres()), route15 = __toESM(require_update_2()), route16 = __toESM(require_index_2()), route17 = __toESM(require_index_3()), route18 = __toESM(require_index_4()), route19 = __toESM(require_line());
 
 // app/routes/__auth.jsx
 var auth_exports = {};
 __export(auth_exports, {
   default: () => Index,
-  loader: () => loader2
+  loader: () => loader3
 });
-var import_react37 = require("@remix-run/react");
+var import_react39 = require("@remix-run/react");
 
 // app/utils/session.server.js
 var import_node = require("@remix-run/node"), sessionSecret = "foobar";
@@ -4319,21 +5894,21 @@ async function logout(request) {
 }
 
 // app/routes/__auth.jsx
-var import_jsx_dev_runtime33 = require("react/jsx-dev-runtime");
-async function loader2({ request }) {
+var import_jsx_dev_runtime34 = require("react/jsx-dev-runtime");
+async function loader3({ request }) {
   return await checkAuth(request);
 }
 function Index() {
-  let user = (0, import_react37.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "max-w-5xl mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "bg-gray-100 px-4 text-gray-500 min-h-screen", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "flex p-2 text-gray-800 border-b w-full", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_react37.NavLink, { to: "/", className: "p-4", children: "Home" }, void 0, !1, {
+  let user = (0, import_react39.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "max-w-5xl mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "bg-gray-100 px-4 text-gray-500 min-h-screen", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex p-2 text-gray-800 border-b w-full", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_react39.NavLink, { to: "/", className: "p-4", children: "Home" }, void 0, !1, {
         fileName: "app/routes/__auth.jsx",
         lineNumber: 20,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "flex flex-1 justify-end ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "p-4", children: user ? /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "flex", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { className: "px-4", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex flex-1 justify-end ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "p-4", children: user ? /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "px-4", children: [
           " ",
           user.id,
           " "
@@ -4342,7 +5917,7 @@ function Index() {
           lineNumber: 25,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("form", { action: "/logout", method: "post", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("button", { type: "submit", className: "", children: "Logout" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("form", { action: "/logout", method: "post", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("button", { type: "submit", className: "", children: "Logout" }, void 0, !1, {
           fileName: "app/routes/__auth.jsx",
           lineNumber: 27,
           columnNumber: 19
@@ -4355,7 +5930,7 @@ function Index() {
         fileName: "app/routes/__auth.jsx",
         lineNumber: 24,
         columnNumber: 16
-      }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_react37.Link, { to: "/login", children: "Login" }, void 0, !1, {
+      }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_react39.Link, { to: "/login", children: "Login" }, void 0, !1, {
         fileName: "app/routes/__auth.jsx",
         lineNumber: 33,
         columnNumber: 16
@@ -4373,7 +5948,7 @@ function Index() {
       lineNumber: 19,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_react37.Outlet, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_react39.Outlet, {}, void 0, !1, {
       fileName: "app/routes/__auth.jsx",
       lineNumber: 38,
       columnNumber: 9
@@ -4393,12 +5968,12 @@ function Index() {
 var logout_exports = {};
 __export(logout_exports, {
   action: () => action,
-  loader: () => loader3
+  loader: () => loader4
 });
 var import_node2 = require("@remix-run/node");
 var action = async ({
   request
-}) => logout(request), loader3 = async ({ request }) => {
+}) => logout(request), loader4 = async ({ request }) => {
   let pathname = new URL(request.url).pathname;
   return logout(request);
 };
@@ -4409,8 +5984,8 @@ __export(signup_exports, {
   action: () => action2,
   default: () => LoginComp
 });
-var import_react38 = require("react"), import_react39 = require("@remix-run/react"), import_node3 = require("@remix-run/node");
-var import_jsx_dev_runtime34 = require("react/jsx-dev-runtime"), AUTH_HOST = "https://availauth.availabs.org", PROJECT_NAME = "NPMRDS";
+var import_react40 = require("react"), import_react41 = require("@remix-run/react"), import_node3 = require("@remix-run/node");
+var import_jsx_dev_runtime35 = require("react/jsx-dev-runtime"), AUTH_HOST = "https://availauth.availabs.org", PROJECT_NAME = "NPMRDS";
 var badRequest = (data) => (0, import_node3.json)(data, { status: 400 }), action2 = async ({
   request
 }) => {
@@ -4429,21 +6004,21 @@ var badRequest = (data) => (0, import_node3.json)(data, { status: 400 }), action
   }) : createUserSession(res, redirectTo);
 };
 function LoginComp() {
-  let actionData = (0, import_react39.useActionData)(), [searchParams] = (0, import_react39.useSearchParams)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex-1 bg-gray-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "mt-8 sm:mx-auto sm:w-full sm:max-w-md", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("pre", { children: JSON.stringify(actionData, null, 3) }, void 0, !1, {
+  let actionData = (0, import_react41.useActionData)(), [searchParams] = (0, import_react41.useSearchParams)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "flex-1 bg-gray-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "mt-8 sm:mx-auto sm:w-full sm:max-w-md", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("pre", { children: JSON.stringify(actionData, null, 3) }, void 0, !1, {
       fileName: "app/routes/__auth/signup.js",
       lineNumber: 78,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "bg-white py-8 px-4 shadow-lg sm:rounded-md sm:px-10", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "sm:mx-auto sm:w-full sm:max-w-md border-b border-gray-200", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("h2", { className: "text-xl font-medium text-gray-900" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "bg-white py-8 px-4 shadow-lg sm:rounded-md sm:px-10", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "sm:mx-auto sm:w-full sm:max-w-md border-b border-gray-200", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("h2", { className: "text-xl font-medium text-gray-900" }, void 0, !1, {
           fileName: "app/routes/__auth/signup.js",
           lineNumber: 81,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("p", { className: "text-lg font-thin text-gray-600", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("span", { href: "#", className: "font-thin text-blue-400 hover:text-blue-500", children: "Login" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("p", { className: "text-lg font-thin text-gray-600", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("span", { href: "#", className: "font-thin text-blue-400 hover:text-blue-500", children: "Login" }, void 0, !1, {
           fileName: "app/routes/__auth/signup.js",
           lineNumber: 83,
           columnNumber: 15
@@ -4457,8 +6032,8 @@ function LoginComp() {
         lineNumber: 80,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("form", { className: "space-y-6", method: "post", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("form", { className: "space-y-6", method: "post", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
           "input",
           {
             type: "hidden",
@@ -4474,13 +6049,13 @@ function LoginComp() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "pt-4", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("label", { htmlFor: "email", className: "block text-sm font-thin text-gray-700", children: "Email" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "pt-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("label", { htmlFor: "email", className: "block text-sm font-thin text-gray-700", children: "Email" }, void 0, !1, {
             fileName: "app/routes/__auth/signup.js",
             lineNumber: 97,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
             "input",
             {
               id: "email",
@@ -4509,13 +6084,13 @@ function LoginComp() {
           lineNumber: 96,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("label", { htmlFor: "password", className: "block text-sm font-thin text-gray-700", children: "Password" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("label", { htmlFor: "password", className: "block text-sm font-thin text-gray-700", children: "Password" }, void 0, !1, {
             fileName: "app/routes/__auth/signup.js",
             lineNumber: 114,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
             "input",
             {
               id: "password",
@@ -4544,9 +6119,9 @@ function LoginComp() {
           lineNumber: 113,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex items-center justify-between", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "flex items-center", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "flex items-center justify-between", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "flex items-center", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
               "input",
               {
                 id: "remember-me",
@@ -4563,7 +6138,7 @@ function LoginComp() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("label", { htmlFor: "remember-me", className: "ml-2 block text-sm text-gray-900", children: "Remember me" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("label", { htmlFor: "remember-me", className: "ml-2 block text-sm text-gray-900", children: "Remember me" }, void 0, !1, {
               fileName: "app/routes/__auth/signup.js",
               lineNumber: 138,
               columnNumber: 17
@@ -4573,7 +6148,7 @@ function LoginComp() {
             lineNumber: 131,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { className: "text-sm", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_react39.Link, { to: "/auth/login", className: "font-medium text-blue-600 hover:text-blue-500", children: "Forgot your password?" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "text-sm", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_react41.Link, { to: "/auth/login", className: "font-medium text-blue-600 hover:text-blue-500", children: "Forgot your password?" }, void 0, !1, {
             fileName: "app/routes/__auth/signup.js",
             lineNumber: 144,
             columnNumber: 17
@@ -4587,7 +6162,7 @@ function LoginComp() {
           lineNumber: 130,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
           "button",
           {
             type: "submit",
@@ -4634,8 +6209,8 @@ __export(login_exports, {
   action: () => action3,
   default: () => LoginComp2
 });
-var import_react40 = require("react"), import_react41 = require("@remix-run/react"), import_node4 = require("@remix-run/node");
-var import_jsx_dev_runtime35 = require("react/jsx-dev-runtime"), AUTH_HOST2 = "https://availauth.availabs.org", PROJECT_NAME2 = "NPMRDS";
+var import_react42 = require("react"), import_react43 = require("@remix-run/react"), import_node4 = require("@remix-run/node");
+var import_jsx_dev_runtime36 = require("react/jsx-dev-runtime"), AUTH_HOST2 = "https://availauth.availabs.org", PROJECT_NAME2 = "NPMRDS";
 var badRequest2 = (data) => (0, import_node4.json)(data, { status: 400 }), action3 = async ({
   request
 }) => {
@@ -4654,21 +6229,21 @@ var badRequest2 = (data) => (0, import_node4.json)(data, { status: 400 }), actio
   }) : createUserSession(res, redirectTo);
 };
 function LoginComp2() {
-  let actionData = (0, import_react41.useActionData)(), [searchParams] = (0, import_react41.useSearchParams)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "flex-1 bg-gray-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "mt-8 sm:mx-auto sm:w-full sm:max-w-md", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("pre", { children: JSON.stringify(actionData, null, 3) }, void 0, !1, {
+  let actionData = (0, import_react43.useActionData)(), [searchParams] = (0, import_react43.useSearchParams)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "flex-1 bg-gray-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "mt-8 sm:mx-auto sm:w-full sm:max-w-md", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("pre", { children: JSON.stringify(actionData, null, 3) }, void 0, !1, {
       fileName: "app/routes/__auth/login.js",
       lineNumber: 78,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "bg-white py-8 px-4 shadow-lg sm:rounded-md sm:px-10", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "sm:mx-auto sm:w-full sm:max-w-md border-b border-gray-200", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("h2", { className: "text-xl font-medium text-gray-900" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "bg-white py-8 px-4 shadow-lg sm:rounded-md sm:px-10", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "sm:mx-auto sm:w-full sm:max-w-md border-b border-gray-200", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("h2", { className: "text-xl font-medium text-gray-900" }, void 0, !1, {
           fileName: "app/routes/__auth/login.js",
           lineNumber: 81,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("p", { className: "text-lg font-thin text-gray-600", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("span", { href: "#", className: "font-thin text-blue-400 hover:text-blue-500", children: "Login" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("p", { className: "text-lg font-thin text-gray-600", children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("span", { href: "#", className: "font-thin text-blue-400 hover:text-blue-500", children: "Login" }, void 0, !1, {
           fileName: "app/routes/__auth/login.js",
           lineNumber: 83,
           columnNumber: 15
@@ -4682,8 +6257,8 @@ function LoginComp2() {
         lineNumber: 80,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("form", { className: "space-y-6", method: "post", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("form", { className: "space-y-6", method: "post", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
           "input",
           {
             type: "hidden",
@@ -4699,13 +6274,13 @@ function LoginComp2() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "pt-4", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("label", { htmlFor: "email", className: "block text-sm font-thin text-gray-700", children: "Email" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "pt-4", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("label", { htmlFor: "email", className: "block text-sm font-thin text-gray-700", children: "Email" }, void 0, !1, {
             fileName: "app/routes/__auth/login.js",
             lineNumber: 97,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
             "input",
             {
               id: "email",
@@ -4734,13 +6309,13 @@ function LoginComp2() {
           lineNumber: 96,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("label", { htmlFor: "password", className: "block text-sm font-thin text-gray-700", children: "Password" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("label", { htmlFor: "password", className: "block text-sm font-thin text-gray-700", children: "Password" }, void 0, !1, {
             fileName: "app/routes/__auth/login.js",
             lineNumber: 114,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
             "input",
             {
               id: "password",
@@ -4769,9 +6344,9 @@ function LoginComp2() {
           lineNumber: 113,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "flex items-center justify-between", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "flex items-center", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "flex items-center justify-between", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "flex items-center", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
               "input",
               {
                 id: "remember-me",
@@ -4788,7 +6363,7 @@ function LoginComp2() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("label", { htmlFor: "remember-me", className: "ml-2 block text-sm text-gray-900", children: "Remember me" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("label", { htmlFor: "remember-me", className: "ml-2 block text-sm text-gray-900", children: "Remember me" }, void 0, !1, {
               fileName: "app/routes/__auth/login.js",
               lineNumber: 138,
               columnNumber: 17
@@ -4798,7 +6373,7 @@ function LoginComp2() {
             lineNumber: 131,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { className: "text-sm", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_react41.Link, { to: "/auth/login", className: "font-medium text-blue-600 hover:text-blue-500", children: "Forgot your password?" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "text-sm", children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react43.Link, { to: "/auth/login", className: "font-medium text-blue-600 hover:text-blue-500", children: "Forgot your password?" }, void 0, !1, {
             fileName: "app/routes/__auth/login.js",
             lineNumber: 144,
             columnNumber: 17
@@ -4812,7 +6387,7 @@ function LoginComp2() {
           lineNumber: 130,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
           "button",
           {
             type: "submit",
@@ -4857,24 +6432,24 @@ function LoginComp2() {
 var dama_exports = {};
 __export(dama_exports, {
   default: () => Index2,
-  loader: () => loader4
+  loader: () => loader5
 });
-var import_react49 = require("@remix-run/react");
+var import_react51 = require("@remix-run/react");
 
 // app/modules/tig/TigMenu.js
-var import_react45 = require("react");
-var import_react46 = require("@remix-run/react");
+var import_react47 = require("react");
+var import_react48 = require("@remix-run/react");
 
 // app/modules/tig/TigUserMenu.js
-var import_react42 = require("react");
-var import_react43 = require("@headlessui/react"), import_react44 = require("@remix-run/react"), import_jsx_dev_runtime36 = require("react/jsx-dev-runtime"), TigDropDown = ({ buttonText, items }) => /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react43.Listbox, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "relative bg-tigGray-200  md:mr-2 ", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react43.Listbox.Button, { className: "p-4 h-full text-left bg-tigGray-200 my-2 md:my-0 text-[13px] font-light ", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("span", { className: "truncate", children: buttonText }, void 0, !1, {
+var import_react44 = require("react");
+var import_react45 = require("@headlessui/react"), import_react46 = require("@remix-run/react"), import_jsx_dev_runtime37 = require("react/jsx-dev-runtime"), TigDropDown = ({ buttonText, items }) => /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_react45.Listbox, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { className: "relative bg-tigGray-200  md:mr-2 ", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_react45.Listbox.Button, { className: "p-4 h-full text-left bg-tigGray-200 my-2 md:my-0 text-[13px] font-light ", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("span", { className: "truncate", children: buttonText }, void 0, !1, {
       fileName: "app/modules/tig/TigUserMenu.js",
       lineNumber: 11,
       columnNumber: 21
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("span", { className: "pl-2 fa fa-caret-down" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("span", { className: "pl-2 fa fa-caret-down" }, void 0, !1, {
       fileName: "app/modules/tig/TigUserMenu.js",
       lineNumber: 12,
       columnNumber: 21
@@ -4884,19 +6459,19 @@ var import_react43 = require("@headlessui/react"), import_react44 = require("@re
     lineNumber: 10,
     columnNumber: 17
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
-    import_react43.Transition,
+  /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
+    import_react45.Transition,
     {
-      as: import_react42.Fragment,
+      as: import_react44.Fragment,
       leave: "transition ease-in duration-100",
       leaveFrom: "opacity-100",
       leaveTo: "opacity-0",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react43.Listbox.Options, { className: "z-50 absolute right-0 py-1.5 overflow-auto text-xs shadow-lg max-h-96 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-xs", style: { background: "#bbd4cb" }, children: items.map((item, personIdx) => /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
-        import_react43.Listbox.Option,
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_react45.Listbox.Options, { className: "z-50 absolute right-0 py-1.5 overflow-auto text-xs shadow-lg max-h-96 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-xs", style: { background: "#bbd4cb" }, children: items.map((item, personIdx) => /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
+        import_react45.Listbox.Option,
         {
           className: ({ active }) => `${active ? "text-amber-900 bg-white" : "text-gray-900"}
                                   cursor-default select-none relative `,
-          children: ({ selected, active }) => /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react44.Link, { to: `${item.link}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+          children: ({ selected, active }) => /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_react46.Link, { to: `${item.link}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
             "span",
             {
               className: "font-light text-sm block px-6 truncate py-0.5",
@@ -4955,10 +6530,10 @@ var import_react43 = require("@headlessui/react"), import_react44 = require("@re
     { name: "My Snapshots", link: "/" },
     { name: "What I'm Watching", link: "/" },
     { name: "Recent Activity", link: "/" }
-  ], userMenu = /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+  ], userMenu = /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
     TigDropDown,
     {
-      buttonText: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("span", { children: [
+      buttonText: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("span", { children: [
         "Welcome, - ",
         user.email
       ] }, void 0, !0, {
@@ -4976,7 +6551,7 @@ var import_react43 = require("@headlessui/react"), import_react44 = require("@re
       columnNumber: 9
     },
     this
-  ), adminMenu = /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+  ), adminMenu = /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
     TigDropDown,
     {
       buttonText: "Admin",
@@ -5002,7 +6577,7 @@ var import_react43 = require("@headlessui/react"), import_react44 = require("@re
       columnNumber: 9
     },
     this
-  ), contributorMenu = /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+  ), contributorMenu = /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
     "a",
     {
       href: `/sources?contributor_id=${user.id}`,
@@ -5017,7 +6592,7 @@ var import_react43 = require("@headlessui/react"), import_react44 = require("@re
       columnNumber: 9
     },
     this
-  ), librarianMenu = /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+  ), librarianMenu = /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
     "a",
     {
       href: `/sources?librarian_id=${user.id}`,
@@ -5033,12 +6608,12 @@ var import_react43 = require("@headlessui/react"), import_react44 = require("@re
     },
     this
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { className: "flex h-12 flex-col md:flex-row", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { className: "flex h-12 flex-col md:flex-row", children: [
     userMenu,
     adminMenu,
     contributorMenu,
     librarianMenu,
-    /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("a", { href: "/logout", className: "p-4 h-full hover:bg-tigGray-50 hover:text-yellow-500 hover:cursor-pointer bg-tigGray-200 text-[13px] font-light md:mr-2", children: "Logout" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("a", { href: "/logout", className: "p-4 h-full hover:bg-tigGray-50 hover:text-yellow-500 hover:cursor-pointer bg-tigGray-200 text-[13px] font-light md:mr-2", children: "Logout" }, void 0, !1, {
       fileName: "app/modules/tig/TigUserMenu.js",
       lineNumber: 110,
       columnNumber: 13
@@ -5051,10 +6626,10 @@ var import_react43 = require("@headlessui/react"), import_react44 = require("@re
 }, TigUserMenu_default = TigUserMenu;
 
 // app/modules/tig/TigMenu.js
-var import_jsx_dev_runtime37 = require("react/jsx-dev-runtime"), TigNav = ({ user }) => /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { className: "z-50", children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
+var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), TigNav = ({ user }) => /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "z-50", children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
   Top_default,
   {
-    leftMenu: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("a", { href: "/", className: " hover:bg-tigGray-50 h-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("img", { alt: "NYMTC Logo", className: "bg-tigGray-200 hover:bg-tigGray-50", style: { height: 50 }, src: "/images/nymtc_logo.svg" }, void 0, !1, {
+    leftMenu: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("a", { href: "/", className: " hover:bg-tigGray-50 h-12", children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("img", { alt: "NYMTC Logo", className: "bg-tigGray-200 hover:bg-tigGray-50", style: { height: 50 }, src: "/images/nymtc_logo.svg" }, void 0, !1, {
       fileName: "app/modules/tig/TigMenu.js",
       lineNumber: 22,
       columnNumber: 25
@@ -5063,22 +6638,22 @@ var import_jsx_dev_runtime37 = require("react/jsx-dev-runtime"), TigNav = ({ use
       lineNumber: 21,
       columnNumber: 21
     }, this),
-    rightMenu: user ? /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(TigUserMenu_default, { user }, void 0, !1, {
+    rightMenu: user ? /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(TigUserMenu_default, { user }, void 0, !1, {
       fileName: "app/modules/tig/TigMenu.js",
       lineNumber: 10,
       columnNumber: 9
-    }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { className: "flex h-12 flex-col md:flex-row", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("a", { className: "p-4 h-full bg-tigGray-200 my-2 md:my-0 md:mr-2 text-[13px] font-bold ", children: "Welcome!" }, void 0, !1, {
+    }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "flex h-12 flex-col md:flex-row", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("a", { className: "p-4 h-full bg-tigGray-200 my-2 md:my-0 md:mr-2 text-[13px] font-bold ", children: "Welcome!" }, void 0, !1, {
         fileName: "app/modules/tig/TigMenu.js",
         lineNumber: 12,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("a", { href: "/signup", className: "p-4 h-full hover:bg-tigGray-50 hover:text-yellow-500 hover:cursor-pointer bg-tigGray-200 mt-2 md:my-0 md:mr-2 text-[13px] font-light", children: "Sign up" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("a", { href: "/signup", className: "p-4 h-full hover:bg-tigGray-50 hover:text-yellow-500 hover:cursor-pointer bg-tigGray-200 mt-2 md:my-0 md:mr-2 text-[13px] font-light", children: "Sign up" }, void 0, !1, {
         fileName: "app/modules/tig/TigMenu.js",
         lineNumber: 13,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("a", { href: "/login", className: "p-4 h-full hover:bg-tigGray-50 hover:text-yellow-500 hover:cursor-pointer bg-tigGray-200 text-[13px] font-light md:mr-2", children: "Login" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("a", { href: "/login", className: "p-4 h-full hover:bg-tigGray-50 hover:text-yellow-500 hover:cursor-pointer bg-tigGray-200 text-[13px] font-light md:mr-2", children: "Login" }, void 0, !1, {
         fileName: "app/modules/tig/TigMenu.js",
         lineNumber: 14,
         columnNumber: 13
@@ -5104,12 +6679,12 @@ var import_jsx_dev_runtime37 = require("react/jsx-dev-runtime"), TigNav = ({ use
 }, this), TigMenu_default = TigNav;
 
 // app/modules/auth/AuthMenu.js
-var import_react47 = require("react");
-var import_react48 = require("@remix-run/react"), import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), UserMenu = ({ user }) => /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "flex justify-column align-middle py-1 px-4", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "pt-[4px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("span", { className: `rounded-full border-2 border-blue-400
+var import_react49 = require("react");
+var import_react50 = require("@remix-run/react"), import_jsx_dev_runtime39 = require("react/jsx-dev-runtime"), UserMenu = ({ user }) => /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "flex justify-column align-middle py-1 px-4", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "pt-[4px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("span", { className: `rounded-full border-2 border-blue-400
                     inline-flex items-center justify-center 
                     h-6 w-6 sm:h-8 sm:w-8 ring-white text-white 
-                    bg-blue-500 overflow-hidden`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("i", { className: "fa-duotone fa-user fa-fw pt-2 text-2xl", "aria-hidden": "true" }, void 0, !1, {
+                    bg-blue-500 overflow-hidden`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("i", { className: "fa-duotone fa-user fa-fw pt-2 text-2xl", "aria-hidden": "true" }, void 0, !1, {
     fileName: "app/modules/auth/AuthMenu.js",
     lineNumber: 14,
     columnNumber: 21
@@ -5122,13 +6697,13 @@ var import_react48 = require("@remix-run/react"), import_jsx_dev_runtime38 = req
     lineNumber: 9,
     columnNumber: 13
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("span", { className: "pl-2", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "text-md font-thin tracking-tighter  text-left text-blue-600 group-hover:text-white ", children: user.email ? user.email : "" }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("span", { className: "pl-2", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "text-md font-thin tracking-tighter  text-left text-blue-600 group-hover:text-white ", children: user.email ? user.email : "" }, void 0, !1, {
       fileName: "app/modules/auth/AuthMenu.js",
       lineNumber: 19,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "text-xs font-medium -mt-1 tracking-widest text-left text-gray-500 group-hover:text-gray-200", children: user.groups[0] ? user.groups[0] : "" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "text-xs font-medium -mt-1 tracking-widest text-left text-gray-500 group-hover:text-gray-200", children: user.groups[0] ? user.groups[0] : "" }, void 0, !1, {
       fileName: "app/modules/auth/AuthMenu.js",
       lineNumber: 20,
       columnNumber: 17
@@ -5142,13 +6717,13 @@ var import_react48 = require("@remix-run/react"), import_jsx_dev_runtime38 = req
   fileName: "app/modules/auth/AuthMenu.js",
   lineNumber: 8,
   columnNumber: 9
-}, this), Item = (to, icon, span, condition) => condition === void 0 || condition ? /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_react48.Link, { to, children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "px-6 py-2 bg-blue-500 text-white hover:text-blue-100", children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "hover:translate-x-2 transition duration-100 ease-out hover:ease-in", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("i", { className: `${icon} ` }, void 0, !1, {
+}, this), Item = (to, icon, span, condition) => condition === void 0 || condition ? /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_react50.Link, { to, children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "px-6 py-2 bg-blue-500 text-white hover:text-blue-100", children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "hover:translate-x-2 transition duration-100 ease-out hover:ease-in", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("i", { className: `${icon} ` }, void 0, !1, {
     fileName: "app/modules/auth/AuthMenu.js",
     lineNumber: 31,
     columnNumber: 21
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("span", { className: "pl-2", children: span }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("span", { className: "pl-2", children: span }, void 0, !1, {
     fileName: "app/modules/auth/AuthMenu.js",
     lineNumber: 32,
     columnNumber: 21
@@ -5166,7 +6741,7 @@ var import_react48 = require("@remix-run/react"), import_jsx_dev_runtime38 = req
   lineNumber: 28,
   columnNumber: 9
 }, this) : null, AuthMenu_default = ({ user, items = [] }) => {
-  let theme = useTheme(), fetcher = (0, import_react48.useFetcher)(), logout2 = (e) => {
+  let theme = useTheme(), fetcher = (0, import_react50.useFetcher)(), logout2 = (e) => {
     fetcher.submit(
       {},
       {
@@ -5175,25 +6750,25 @@ var import_react48 = require("@remix-run/react"), import_jsx_dev_runtime38 = req
       }
     );
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "h-full w-full", children: user ? /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(Dropdown_default, { control: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(UserMenu, { user }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "h-full w-full", children: user ? /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(Dropdown_default, { control: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(UserMenu, { user }, void 0, !1, {
     fileName: "app/modules/auth/AuthMenu.js",
     lineNumber: 57,
     columnNumber: 36
-  }, this), className: "hover:bg-blue-500 group ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "p-1 bg-blue-500", children: [
+  }, this), className: "hover:bg-blue-500 group ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "p-1 bg-blue-500", children: [
     items.filter((item) => !item.auth || user.authLevel).map(
-      (item, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "py-1", children: Item(item.to, item.icon, item.text) }, i, !1, {
+      (item, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "py-1", children: Item(item.to, item.icon, item.text) }, i, !1, {
         fileName: "app/modules/auth/AuthMenu.js",
         lineNumber: 62,
         columnNumber: 33
       }, this)
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "border-t border-blue-400", children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("form", { action: "/logout", method: "post", children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("button", { type: "submit", onClick: logout2, className: "px-6 py-2 bg-blue-500 text-white hover:text-blue-100", children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { className: "hover:translate-x-2 transition duration-100 ease-out hover:ease-in", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("i", { className: "fad fa-sign-out-alt pb-2" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "border-t border-blue-400", children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("form", { action: "/logout", method: "post", children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("button", { type: "submit", onClick: logout2, className: "px-6 py-2 bg-blue-500 text-white hover:text-blue-100", children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "hover:translate-x-2 transition duration-100 ease-out hover:ease-in", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("i", { className: "fad fa-sign-out-alt pb-2" }, void 0, !1, {
         fileName: "app/modules/auth/AuthMenu.js",
         lineNumber: 70,
         columnNumber: 41
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("span", { className: "pl-2", children: "Logout" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("span", { className: "pl-2", children: "Logout" }, void 0, !1, {
         fileName: "app/modules/auth/AuthMenu.js",
         lineNumber: 71,
         columnNumber: 41
@@ -5223,7 +6798,7 @@ var import_react48 = require("@remix-run/react"), import_jsx_dev_runtime38 = req
     fileName: "app/modules/auth/AuthMenu.js",
     lineNumber: 57,
     columnNumber: 17
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_react48.Link, { className: `${theme.topnav({}).navitemTop}`, to: "/login", children: "Login" }, void 0, !1, {
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_react50.Link, { className: `${theme.topnav({}).navitemTop}`, to: "/login", children: "Login" }, void 0, !1, {
     fileName: "app/modules/auth/AuthMenu.js",
     lineNumber: 56,
     columnNumber: 17
@@ -5235,25 +6810,25 @@ var import_react48 = require("@remix-run/react"), import_jsx_dev_runtime38 = req
 };
 
 // app/routes/__dama.jsx
-var import_jsx_dev_runtime39 = require("react/jsx-dev-runtime");
-async function loader4({ request }) {
+var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime");
+async function loader5({ request }) {
   return await checkAuth(request);
 }
 function Index2() {
-  let user = (0, import_react49.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "", children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "xl:max-w-[1170px] lg:max-w-[970px] max-w-[750px] px-[15px] mx-auto min-h-screen flex flex-col z-10", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(TigMenu_default, { user }, void 0, !1, {
+  let user = (0, import_react51.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "", children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "xl:max-w-[1170px] lg:max-w-[970px] max-w-[750px] px-[15px] mx-auto min-h-screen flex flex-col z-10", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(TigMenu_default, { user }, void 0, !1, {
       fileName: "app/routes/__dama.jsx",
       lineNumber: 22,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { className: "w-full border-b p-2", children: "breadcrumbs" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "w-full border-b p-2", children: "breadcrumbs" }, void 0, !1, {
         fileName: "app/routes/__dama.jsx",
         lineNumber: 24,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_react49.Outlet, { context: { user } }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react51.Outlet, { context: { user } }, void 0, !1, {
         fileName: "app/routes/__dama.jsx",
         lineNumber: 25,
         columnNumber: 11
@@ -5278,9 +6853,9 @@ function Index2() {
 var sourceId_page_exports = {};
 __export(sourceId_page_exports, {
   default: () => Dama,
-  loader: () => loader5
+  loader: () => loader6
 });
-var import_react77 = __toESM(require("react"));
+var import_react79 = __toESM(require("react"));
 
 // app/modules/data-manager/attributes.js
 var SourceAttributes = {
@@ -5317,28 +6892,28 @@ var SourceAttributes = {
 var pgEnv = "pan";
 
 // app/modules/data-manager/data-types/default/Overview.js
-var import_react50 = __toESM(require("react"));
-var import_lodash8 = __toESM(require("lodash.get"));
-var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), Edit = ({ startValue, attr, sourceId, cancel = () => {
+var import_react52 = __toESM(require("react"));
+var import_lodash9 = __toESM(require("lodash.get"));
+var import_jsx_dev_runtime41 = require("react/jsx-dev-runtime"), Edit = ({ startValue, attr, sourceId, cancel = () => {
 } }) => {
-  let [value, setValue] = (0, import_react50.useState)("");
-  (0, import_react50.useEffect)(() => {
+  let [value, setValue] = (0, import_react52.useState)("");
+  (0, import_react52.useEffect)(() => {
     setValue(startValue);
   }, [startValue]);
   let save = (attr2, value2) => {
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "w-full flex", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(input_default, { className: "flex-1 px-2 shadow bg-blue-100 focus:ring-blue-700 focus:border-blue-500  border-gray-300 rounded-none rounded-l-md", value, onChange: (e) => setValue(e) }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "w-full flex", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(input_default, { className: "flex-1 px-2 shadow bg-blue-100 focus:ring-blue-700 focus:border-blue-500  border-gray-300 rounded-none rounded-l-md", value, onChange: (e) => setValue(e) }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/default/Overview.js",
       lineNumber: 42,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(Button, { themeOptions: { size: "sm", color: "primary" }, onClick: (e) => save(attr, value), children: " Save " }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(Button, { themeOptions: { size: "sm", color: "primary" }, onClick: (e) => save(attr, value), children: " Save " }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/default/Overview.js",
       lineNumber: 43,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(Button, { themeOptions: { size: "sm", color: "cancel" }, onClick: (e) => cancel(), children: " Cancel " }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(Button, { themeOptions: { size: "sm", color: "cancel" }, onClick: (e) => cancel(), children: " Cancel " }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/default/Overview.js",
       lineNumber: 44,
       columnNumber: 7
@@ -5349,13 +6924,13 @@ var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), Edit = ({ start
     columnNumber: 5
   }, this);
 }, OverviewEdit = ({ source, views, user }) => {
-  let [editing, setEditing] = import_react50.default.useState(null), authLevel = (0, import_lodash8.default)(user, "authLevel", 0);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "overflow-hidden", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "pl-4 py-6 hover:py-6 sm:pl-6 flex justify-between group", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "flex-1 mt-1 max-w-2xl text-sm text-gray-500", children: editing === "description" ? /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
+  let [editing, setEditing] = import_react52.default.useState(null), authLevel = (0, import_lodash9.default)(user, "authLevel", 0);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "overflow-hidden", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "pl-4 py-6 hover:py-6 sm:pl-6 flex justify-between group", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "flex-1 mt-1 max-w-2xl text-sm text-gray-500", children: editing === "description" ? /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
         Edit,
         {
-          startValue: (0, import_lodash8.default)(source, "description", ""),
+          startValue: (0, import_lodash9.default)(source, "description", ""),
           attr: "description",
           sourceId: source.source_id,
           cancel: () => setEditing(null)
@@ -5368,12 +6943,12 @@ var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), Edit = ({ start
           columnNumber: 13
         },
         this
-      ) : (0, import_lodash8.default)(source, "description", !1) || "No Description" }, void 0, !1, {
+      ) : (0, import_lodash9.default)(source, "description", !1) || "No Description" }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/default/Overview.js",
         lineNumber: 55,
         columnNumber: 9
       }, this),
-      authLevel > 5 ? /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "hidden group-hover:block text-blue-500 cursor-pointer", onClick: (e) => setEditing("description"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("i", { className: "fad fa-pencil absolute -ml-12  p-2 hover:bg-blue-500 rounded focus:bg-blue-700 hover:text-white " }, void 0, !1, {
+      authLevel > 5 ? /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "hidden group-hover:block text-blue-500 cursor-pointer", onClick: (e) => setEditing("description"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("i", { className: "fad fa-pencil absolute -ml-12  p-2 hover:bg-blue-500 rounded focus:bg-blue-700 hover:text-white " }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/default/Overview.js",
         lineNumber: 66,
         columnNumber: 13
@@ -5387,17 +6962,17 @@ var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), Edit = ({ start
       lineNumber: 54,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: [
       Object.keys(SourceAttributes).filter((d2) => !["source_id", "metadata", "description", "statistics", "category"].includes(d2)).map((attr, i) => {
         let val = typeof source[attr] == "object" ? JSON.stringify(source[attr]) : source[attr];
-        return /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "flex justify-between group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: attr }, void 0, !1, {
+        return /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "flex justify-between group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: attr }, void 0, !1, {
               fileName: "app/modules/data-manager/data-types/default/Overview.js",
               lineNumber: 78,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2", children: editing === attr ? /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2", children: editing === attr ? /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
               Edit,
               {
                 startValue: val,
@@ -5417,7 +6992,7 @@ var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), Edit = ({ start
               fileName: "app/modules/data-manager/data-types/default/Overview.js",
               lineNumber: 81,
               columnNumber: 25
-            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "py-5 px-2", children: val }, void 0, !1, {
+            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "py-5 px-2", children: val }, void 0, !1, {
               fileName: "app/modules/data-manager/data-types/default/Overview.js",
               lineNumber: 89,
               columnNumber: 25
@@ -5431,7 +7006,7 @@ var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), Edit = ({ start
             lineNumber: 77,
             columnNumber: 19
           }, this),
-          authLevel > 5 ? /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "hidden group-hover:block text-blue-500 cursor-pointer", onClick: (e) => setEditing(editing === attr ? null : attr), children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("i", { className: "fad fa-pencil absolute -ml-12 mt-3 p-2.5 rounded hover:bg-blue-500 hover:text-white " }, void 0, !1, {
+          authLevel > 5 ? /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "hidden group-hover:block text-blue-500 cursor-pointer", onClick: (e) => setEditing(editing === attr ? null : attr), children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("i", { className: "fad fa-pencil absolute -ml-12 mt-3 p-2.5 rounded hover:bg-blue-500 hover:text-white " }, void 0, !1, {
             fileName: "app/modules/data-manager/data-types/default/Overview.js",
             lineNumber: 95,
             columnNumber: 21
@@ -5446,13 +7021,13 @@ var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), Edit = ({ start
           columnNumber: 17
         }, this);
       }),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { className: "py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500", children: "Versions" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500", children: "Versions" }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/default/Overview.js",
           lineNumber: 102,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("ul", { className: "border border-gray-200 rounded-md divide-y divide-gray-200", children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("select", { className: "pl-3 pr-4 py-3 w-full bg-white mr-2 flex items-center justify-between text-sm", children: views.map((v, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("option", { className: "ml-2  truncate", children: v.version }, i, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("ul", { className: "border border-gray-200 rounded-md divide-y divide-gray-200", children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("select", { className: "pl-3 pr-4 py-3 w-full bg-white mr-2 flex items-center justify-between text-sm", children: views.map((v, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("option", { className: "ml-2  truncate", children: v.version }, i, !1, {
           fileName: "app/modules/data-manager/data-types/default/Overview.js",
           lineNumber: 108,
           columnNumber: 25
@@ -5491,25 +7066,25 @@ var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), Edit = ({ start
 }, Overview_default = OverviewEdit;
 
 // app/modules/data-manager/data-types/default/Metadata.js
-var import_react51 = require("react"), import_lodash9 = __toESM(require("lodash.get")), import_jsx_dev_runtime41 = require("react/jsx-dev-runtime"), Metadata = ({ source }) => {
-  let metadata = (0, import_lodash9.default)(source, "metadata", []);
-  return !metadata || metadata.length === 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { children: " Metadata Not Available " }, void 0, !1, {
+var import_react53 = require("react"), import_lodash10 = __toESM(require("lodash.get")), import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), Metadata = ({ source }) => {
+  let metadata = (0, import_lodash10.default)(source, "metadata", []);
+  return !metadata || metadata.length === 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { children: " Metadata Not Available " }, void 0, !1, {
     fileName: "app/modules/data-manager/data-types/default/Metadata.js",
     lineNumber: 8,
     columnNumber: 50
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "overflow-hidden", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "py-4 sm:py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dt", { className: "text-sm font-medium text-gray-600", children: "Column" }, void 0, !1, {
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "overflow-hidden", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "py-4 sm:py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 border-b-2", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("dt", { className: "text-sm font-medium text-gray-600", children: "Column" }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/default/Metadata.js",
         lineNumber: 12,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dd", { className: "text-sm font-medium text-gray-600 ", children: "Description" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("dd", { className: "text-sm font-medium text-gray-600 ", children: "Description" }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/default/Metadata.js",
         lineNumber: 15,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dd", { className: "text-sm font-medium text-gray-600", children: "Type" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("dd", { className: "text-sm font-medium text-gray-600", children: "Type" }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/default/Metadata.js",
         lineNumber: 18,
         columnNumber: 9
@@ -5519,18 +7094,18 @@ var import_react51 = require("react"), import_lodash9 = __toESM(require("lodash.
       lineNumber: 11,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: metadata.map((col, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dt", { className: "text-sm text-gray-900", children: col.name }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: metadata.map((col, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("dt", { className: "text-sm text-gray-900", children: col.name }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/default/Metadata.js",
         lineNumber: 29,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 ", children: (0, import_lodash9.default)(col, "desc", !1) || "No Description" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 ", children: (0, import_lodash10.default)(col, "desc", !1) || "No Description" }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/default/Metadata.js",
         lineNumber: 32,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { className: "text-gray-400 italic", children: col.type }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("div", { className: "text-gray-400 italic", children: col.type }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/default/Metadata.js",
         lineNumber: 36,
         columnNumber: 17
@@ -5574,39 +7149,39 @@ var Pages = {
 }, default_default = Pages;
 
 // app/modules/data-manager/data-types/freight_atlas_shapefile/index.js
-var import_react61 = __toESM(require("react"));
-var import_lodash15 = __toESM(require("lodash.get"));
+var import_react63 = __toESM(require("react"));
+var import_lodash16 = __toESM(require("lodash.get"));
 
 // app/modules/data-manager/data-types/freight_atlas_shapefile/FreightAtlasLayer.js
-var import_react58 = __toESM(require("react"));
+var import_react60 = __toESM(require("react"));
 
 // app/modules/avl-map/src/avl-map.js
-var import_react55 = __toESM(require("react")), import_maplibre_gl = __toESM(require("maplibre-gl")), import_lodash11 = __toESM(require("lodash.get"));
+var import_react57 = __toESM(require("react")), import_maplibre_gl = __toESM(require("maplibre-gl")), import_lodash12 = __toESM(require("lodash.get"));
 
 // app/modules/avl-map/src/components/utils.js
-var import_react52 = __toESM(require("react")), getRect = (ref) => {
+var import_react54 = __toESM(require("react")), getRect = (ref) => {
   let node = ref && ref.current;
   return node ? node.getBoundingClientRect() : { width: 0, height: 0 };
 }, useSetSize2 = (ref, callback) => {
-  let [size, setSize] = import_react52.default.useState({ width: 0, height: 0, x: 0, y: 0 }), doSetSize = import_react52.default.useCallback(() => {
+  let [size, setSize] = import_react54.default.useState({ width: 0, height: 0, x: 0, y: 0 }), doSetSize = import_react54.default.useCallback(() => {
     let rect = getRect(ref), { width, height, x, y } = rect;
     (width !== size.width || height !== size.height) && (typeof callback == "function" && callback({ width, height, x, y }), setSize({ width, height, x, y }));
   }, [ref, size, callback]);
-  return import_react52.default.useEffect(() => (window.addEventListener("resize", doSetSize), () => {
+  return import_react54.default.useEffect(() => (window.addEventListener("resize", doSetSize), () => {
     window.removeEventListener("resize", doSetSize);
-  }), [doSetSize]), import_react52.default.useEffect(() => {
+  }), [doSetSize]), import_react54.default.useEffect(() => {
     doSetSize();
   }), size;
 }, hasValue2 = (value) => value == null || typeof value == "string" && !value.length ? !1 : Array.isArray(value) ? value.reduce((a, c) => a || hasValue2(c), !1) : typeof value == "number" && isNaN(value) ? !1 : typeof value == "object" ? Object.values(value).reduce((a, c) => a || hasValue2(c), !1) : !0;
 
 // app/modules/avl-map/src/components/HoverCompContainer.js
-var import_react53 = __toESM(require("react")), import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), Icon = ({
+var import_react55 = __toESM(require("react")), import_jsx_dev_runtime43 = require("react/jsx-dev-runtime"), Icon = ({
   onClick,
   cursor = "cursor-pointer",
   className = "",
   style = {},
   children
-}) => /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
+}) => /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
   "div",
   {
     onClick,
@@ -5646,7 +7221,7 @@ var import_react53 = __toESM(require("react")), import_jsx_dev_runtime42 = requi
     calc(-100% + ${x - 30}px),
     ${yTrans}
   )`;
-}, getTransform = ({ x }, orientation) => orientation === "right" ? "translate(-50%, -50%) rotate(45deg) skew(-15deg, -15deg)" : "translate(50%, -50%) rotate(45deg) skew(-15deg, -15deg)", RemoveButton = ({ orientation, children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
+}, getTransform = ({ x }, orientation) => orientation === "right" ? "translate(-50%, -50%) rotate(45deg) skew(-15deg, -15deg)" : "translate(50%, -50%) rotate(45deg) skew(-15deg, -15deg)", RemoveButton = ({ orientation, children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
   "div",
   {
     style: {
@@ -5668,11 +7243,11 @@ var import_react53 = __toESM(require("react")), import_jsx_dev_runtime42 = requi
   },
   this
 ), PinnedHoverComp = ({ children, remove, id: id2, project, lngLat, width }) => {
-  let pos = project(lngLat), orientation = import_react53.default.useRef(pos.x < width * 0.5 ? "right" : "left"), style = import_react53.default.useMemo(() => ({
+  let pos = project(lngLat), orientation = import_react55.default.useRef(pos.x < width * 0.5 ? "right" : "left"), style = import_react55.default.useMemo(() => ({
     top: "50%",
     transform: getTransform(pos, orientation.current)
   }), [pos]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
     "div",
     {
       className: `
@@ -5687,7 +7262,7 @@ var import_react53 = __toESM(require("react")), import_jsx_dev_runtime42 = requi
         boxShadow: "2px 2px 8px 0px rgba(0, 0, 0, 0.75)"
       },
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
           "div",
           {
             className: `
@@ -5706,7 +7281,7 @@ var import_react53 = __toESM(require("react")), import_jsx_dev_runtime42 = requi
           this
         ),
         children,
-        /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(RemoveButton, { orientation: orientation.current, children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(Icon, { onClick: (e) => remove(id2), children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)("span", { className: "fa fa-times" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(RemoveButton, { orientation: orientation.current, children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(Icon, { onClick: (e) => remove(id2), children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)("span", { className: "fa fa-times" }, void 0, !1, {
           fileName: "app/modules/avl-map/src/components/HoverCompContainer.js",
           lineNumber: 127,
           columnNumber: 13
@@ -5732,7 +7307,7 @@ var import_react53 = __toESM(require("react")), import_jsx_dev_runtime42 = requi
   );
 }, HoverCompContainer = ({ show, children, lngLat, project, ...rest }) => {
   let pos = project(lngLat);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
     "div",
     {
       className: `
@@ -5760,14 +7335,14 @@ var import_react53 = __toESM(require("react")), import_jsx_dev_runtime42 = requi
 };
 
 // app/modules/avl-map/src/components/InfoBoxContainer.js
-var import_react54 = __toESM(require("react")), import_lodash10 = __toESM(require("lodash.get")), import_jsx_dev_runtime43 = require("react/jsx-dev-runtime"), InfoBoxContainer = ({
+var import_react56 = __toESM(require("react")), import_lodash11 = __toESM(require("lodash.get")), import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), InfoBoxContainer = ({
   activeLayers,
   width = 320,
   padding = 8,
   MapActions,
   ...props
 }) => {
-  let [infoBoxLayers, infoBoxWidth] = import_react54.default.useMemo(() => activeLayers.reduce(
+  let [infoBoxLayers, infoBoxWidth] = import_react56.default.useMemo(() => activeLayers.reduce(
     (a, c) => {
       let shownInfoBoxes = c.infoBoxes.filter(({ show = !0 }) => {
         let bool = show;
@@ -5775,12 +7350,12 @@ var import_react54 = __toESM(require("react")), import_lodash10 = __toESM(requir
       });
       return shownInfoBoxes.length && (a[0].push([c, shownInfoBoxes]), a[1] = Math.max(
         a[1],
-        c.infoBoxes.reduce((aa, cc) => Math.max(aa, (0, import_lodash10.default)(cc, "width", 0)), 0)
+        c.infoBoxes.reduce((aa, cc) => Math.max(aa, (0, import_lodash11.default)(cc, "width", 0)), 0)
       )), a;
     },
     [[], [], width]
   ), [activeLayers, width]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
     "div",
     {
       className: `
@@ -5788,13 +7363,13 @@ var import_react54 = __toESM(require("react")), import_lodash10 = __toESM(requir
         pointer-events-none
       `,
       style: { padding: `${padding}px` },
-      children: infoBoxLayers.length ? /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
+      children: infoBoxLayers.length ? /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
         "div",
         {
           style: {
             width: `${infoBoxWidth - padding * 2}px`
           },
-          children: infoBoxLayers.map(([layer, infoBoxes], y) => /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)("div", { children: infoBoxes.map((box, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
+          children: infoBoxLayers.map(([layer, infoBoxes], y) => /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)("div", { children: infoBoxes.map((box, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
             InfoBox,
             {
               ...props,
@@ -5841,7 +7416,7 @@ var import_react54 = __toESM(require("react")), import_lodash10 = __toESM(requir
   Component,
   MapActions,
   ...props
-}) => /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_jsx_dev_runtime43.Fragment, { children: Component ? /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_jsx_dev_runtime43.Fragment, { children: typeof Component == "function" ? /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(Component, { layer, MapActions, ...props }, void 0, !1, {
+}) => /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_jsx_dev_runtime44.Fragment, { children: Component ? /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_jsx_dev_runtime44.Fragment, { children: typeof Component == "function" ? /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(Component, { layer, MapActions, ...props }, void 0, !1, {
   fileName: "app/modules/avl-map/src/components/InfoBoxContainer.js",
   lineNumber: 82,
   columnNumber: 13
@@ -5856,7 +7431,7 @@ var import_react54 = __toESM(require("react")), import_lodash10 = __toESM(requir
 }, this);
 
 // app/modules/avl-map/src/avl-map.js
-var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 = require("react"), DefaultStyles = [
+var import_jsx_dev_runtime45 = require("react/jsx-dev-runtime"), import_react58 = require("react"), DefaultStyles = [
   { name: "Dark", style: "mapbox://styles/am3081/ckm85o7hq6d8817nr0y6ute5v" },
   { name: "Light", style: "mapbox://styles/am3081/ckm86j4bw11tj18o5zf8y9pou" },
   {
@@ -5916,7 +7491,7 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
         ...state,
         layersLoading: {
           ...state.layersLoading,
-          [payload.layerId]: (0, import_lodash11.default)(state, ["layersLoading", payload.layerId], 0) + 1
+          [payload.layerId]: (0, import_lodash12.default)(state, ["layersLoading", payload.layerId], 0) + 1
         }
       };
     case "loading-stop":
@@ -6050,12 +7625,12 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
       let { layerProps, updateProps, updateStates } = payload, prevLayerProps = state.prevLayerProps;
       updateProps.length && (prevLayerProps = {
         ...state.prevLayerProps,
-        ...updateProps.reduce((a, c) => (a[c.id] = (0, import_lodash11.default)(layerProps, c.id, {}), a), {})
+        ...updateProps.reduce((a, c) => (a[c.id] = (0, import_lodash12.default)(layerProps, c.id, {}), a), {})
       });
       let prevLayerStates = state.prevLayerStates;
       return updateStates.length && (prevLayerStates = {
         ...state.prevLayerStates,
-        ...updateStates.reduce((a, c) => (a[c.id] = (0, import_lodash11.default)(state.layerStates, c.id, {}), a), {})
+        ...updateStates.reduce((a, c) => (a[c.id] = (0, import_lodash12.default)(state.layerStates, c.id, {}), a), {})
       }), {
         ...state,
         prevLayerProps,
@@ -6083,14 +7658,14 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
     navigationControl = "bottom-right",
     falcor: falcor3 = () => {
     }
-  } = props, [state, dispatch] = import_react55.default.useReducer(Reducer, InitialState), updateHover = import_react55.default.useCallback((hoverData2) => {
+  } = props, [state, dispatch] = import_react57.default.useReducer(Reducer, InitialState), updateHover = import_react57.default.useCallback((hoverData2) => {
     dispatch(hoverData2);
-  }, []), projectLngLat = import_react55.default.useCallback(
+  }, []), projectLngLat = import_react57.default.useCallback(
     (lngLat) => state.map.project(lngLat),
     [state.map]
-  ), updateFilter = import_react55.default.useCallback(
+  ), updateFilter = import_react57.default.useCallback(
     (layer, filterName, value) => {
-      if (!(0, import_lodash11.default)(layer, ["filters", filterName], null))
+      if (!(0, import_lodash12.default)(layer, ["filters", filterName], null))
         return;
       dispatch({ type: "loading-start", layerId: layer.id });
       let prevValue = layer.filters[filterName].value;
@@ -6102,33 +7677,33 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
           value
         }
       };
-      let props2 = (0, import_lodash11.default)(layerProps, layer.id, {});
+      let props2 = (0, import_lodash12.default)(layerProps, layer.id, {});
       Promise.resolve(layer.onFilterChange(filterName, value, prevValue, props2)).then(() => layer.fetchData(falcor3, props2)).then(() => layer.render(state.map, falcor3, props2)).then(() => {
         dispatch({ type: "loading-stop", layerId: layer.id });
       });
     },
     [state.map, falcor3, layerProps]
-  ), fetchData = import_react55.default.useCallback(
+  ), fetchData = import_react57.default.useCallback(
     (layer) => {
       dispatch({ type: "loading-start", layerId: layer.id }), Promise.resolve(layer.fetchData(falcor3)).then(() => layer.render(state.map, falcor3)).then(() => {
         dispatch({ type: "loading-stop", layerId: layer.id });
       });
     },
     [state.map, falcor3]
-  ), updateLegend = import_react55.default.useCallback(
+  ), updateLegend = import_react57.default.useCallback(
     (layer, update) => {
-      !(0, import_lodash11.default)(layer, "legend", null) || (layer.legend = {
+      !(0, import_lodash12.default)(layer, "legend", null) || (layer.legend = {
         ...layer.legend,
         ...update
       }, layer.render(state.map, falcor3), dispatch({ type: "update-state" }));
     },
     [state.map, falcor3]
-  ), addDynamicLayer = import_react55.default.useCallback((layer) => {
+  ), addDynamicLayer = import_react57.default.useCallback((layer) => {
     layer.isDynamic = !0, dispatch({
       type: "add-dynamic-layer",
       layer
     });
-  }, []), removeDynamicLayer = import_react55.default.useCallback(
+  }, []), removeDynamicLayer = import_react57.default.useCallback(
     (layer) => {
       layer._onRemove(state.map), dispatch({
         type: "remove-dynamic-layer",
@@ -6136,12 +7711,12 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
       });
     },
     [state.map]
-  ), toggleVisibility = import_react55.default.useCallback(
+  ), toggleVisibility = import_react57.default.useCallback(
     (layer) => {
       layer.toggleVisibility(state.map), dispatch({ type: "update-state" });
     },
     [state.map]
-  ), addLayer = import_react55.default.useCallback(
+  ), addLayer = import_react57.default.useCallback(
     (layer) => {
       layer._onAdd(state.map, falcor3, updateHover), dispatch({
         type: "activate-layer",
@@ -6149,7 +7724,7 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
       });
     },
     [state.map, falcor3, updateHover]
-  ), removeLayer = import_react55.default.useCallback(
+  ), removeLayer = import_react57.default.useCallback(
     (layer) => {
       layer._onRemove(state.map), dispatch({
         type: "deactivate-layer",
@@ -6157,35 +7732,35 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
       });
     },
     [state.map]
-  ), setSidebarTab = import_react55.default.useCallback((sidebarTabIndex) => {
+  ), setSidebarTab = import_react57.default.useCallback((sidebarTabIndex) => {
     dispatch({
       type: "switch-tab",
       sidebarTabIndex
     });
-  }, []), showModal = import_react55.default.useCallback((layerId, modalKey) => {
+  }, []), showModal = import_react57.default.useCallback((layerId, modalKey) => {
     dispatch({
       type: "show-modal",
       layerId,
       modalKey
     });
-  }, []), closeModal = import_react55.default.useCallback((layerId, modalKey) => {
+  }, []), closeModal = import_react57.default.useCallback((layerId, modalKey) => {
     dispatch({
       type: "close-modal",
       layerId,
       modalKey
     });
-  }, []), bringModalToFront = import_react55.default.useCallback((layerId, modalKey) => {
+  }, []), bringModalToFront = import_react57.default.useCallback((layerId, modalKey) => {
     dispatch({
       type: "bring-modal-to-front",
       layerId,
       modalKey
     });
-  }, []), removePinnedHoverComp = import_react55.default.useCallback((id3) => {
+  }, []), removePinnedHoverComp = import_react57.default.useCallback((id3) => {
     dispatch({
       type: "remove-pinned",
       id: id3
     });
-  }, []), addPinnedHoverComp = import_react55.default.useCallback(
+  }, []), addPinnedHoverComp = import_react57.default.useCallback(
     ({ lngLat, hoverData: hoverData2 }) => {
       if (hoverData2.pinnable) {
         let marker = new import_maplibre_gl.default.Marker().setLngLat(lngLat).addTo(state.map);
@@ -6197,13 +7772,13 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
       }
     },
     [state.map]
-  ), saveMapAsImage = import_react55.default.useCallback(
+  ), saveMapAsImage = import_react57.default.useCallback(
     (fileName = "map.png") => {
       let canvas = state.map.getCanvas(), a = document.createElement("a");
       a.download = fileName, a.href = canvas.toDataURL(), a.click();
     },
     [state.map]
-  ), setMapStyle = import_react55.default.useCallback(
+  ), setMapStyle = import_react57.default.useCallback(
     (styleIndex) => {
       state.map.once("style.load", (e) => {
         state.activeLayers.slice().reverse().reduce((promise, layer) => promise.then(
@@ -6217,7 +7792,7 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
       });
     },
     [state.map, state.mapStyles, state.activeLayers, updateHover, falcor3]
-  ), MapActions = import_react55.default.useMemo(
+  ), MapActions = import_react57.default.useMemo(
     () => ({
       toggleVisibility,
       addLayer,
@@ -6254,8 +7829,8 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
       addPinnedHoverComp,
       projectLngLat
     ]
-  ), MapOptions = import_react55.default.useRef({ ...DefaultMapOptions, ...mapOptions }), id2 = import_react55.default.useRef(props.id || getUniqueId());
-  import_react55.default.useEffect(() => {
+  ), MapOptions = import_react57.default.useRef({ ...DefaultMapOptions, ...mapOptions }), id2 = import_react57.default.useRef(props.id || getUniqueId());
+  import_react57.default.useEffect(() => {
     if (!accessToken)
       return;
     import_maplibre_gl.default.accessToken = accessToken;
@@ -6271,18 +7846,18 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
         imageUrl: getStaticImageUrl(style, Options)
       }) : styleIndex = index;
     }
-    let map = new import_maplibre_gl.default.Map({
+    let map3 = new import_maplibre_gl.default.Map({
       container: id2.current,
       logoControl: !1,
       ...Options,
       style: mapStyles[styleIndex].style
     });
-    return navigationControl && map.addControl(new import_maplibre_gl.default.NavigationControl(), navigationControl), map.on("move", (e) => {
+    return navigationControl && map3.addControl(new import_maplibre_gl.default.NavigationControl(), navigationControl), map3.on("move", (e) => {
       dispatch({ type: "update-state", mapMoved: performance.now() });
-    }), map.once("load", (e) => {
-      dispatch({ type: "map-loaded", map, mapStyles, styleIndex });
-    }), () => map.remove();
-  }, [accessToken, navigationControl]), import_react55.default.useEffect(() => {
+    }), map3.once("load", (e) => {
+      dispatch({ type: "map-loaded", map: map3, mapStyles, styleIndex });
+    }), () => map3.remove();
+  }, [accessToken, navigationControl]), import_react57.default.useEffect(() => {
     !state.map || [...layers, ...state.dynamicLayers].filter(({ id: id3 }) => !state.initializedLayers.includes(id3)).reverse().reduce((promise, layer) => {
       dispatch({ type: "init-layer", layer }), layer.dispatchStateUpdate = (layer2, newState) => {
         dispatch({
@@ -6290,7 +7865,7 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
           newState,
           layer: layer2
         });
-      }, layer.props = (0, import_lodash11.default)(layerProps, layer.id, {});
+      }, layer.props = (0, import_lodash12.default)(layerProps, layer.id, {});
       for (let filterName in layer.filters)
         layer.filters[filterName].onChange = (v) => updateFilter(layer, filterName, v);
       return layer.toolbar.forEach((tool) => {
@@ -6312,7 +7887,7 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
     state.initializedLayers,
     layerProps
   ]);
-  let pinHoverComp = import_react55.default.useCallback(
+  let pinHoverComp = import_react57.default.useCallback(
     ({ lngLat }) => {
       if (state.hoverData.pinnable) {
         let marker = new import_maplibre_gl.default.Marker().setLngLat(lngLat).addTo(state.map);
@@ -6325,33 +7900,33 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
     },
     [state.map, state.hoverData.pinnable]
   ), hovering = Boolean(state.hoverData.data.size);
-  import_react55.default.useEffect(() => {
+  import_react57.default.useEffect(() => {
     if (!!hovering)
       return state.map.on("click", pinHoverComp), () => state.map.off("click", pinHoverComp);
   }, [state.map, pinHoverComp, hovering]);
-  let loadingLayers = import_react55.default.useMemo(() => [...layers, ...state.dynamicLayers].filter(
+  let loadingLayers = import_react57.default.useMemo(() => [...layers, ...state.dynamicLayers].filter(
     (layer) => Boolean(state.layersLoading[layer.id])
-  ), [layers, state.dynamicLayers, state.layersLoading]), { HoverComps, ...hoverData } = import_react55.default.useMemo(() => {
+  ), [layers, state.dynamicLayers, state.layersLoading]), { HoverComps, ...hoverData } = import_react57.default.useMemo(() => {
     let HoverComps2 = [...state.hoverData.data.values()].sort(
       (a, b) => a.sortOrder - b.sortOrder
     );
     return { ...state.hoverData, show: Boolean(HoverComps2.length), HoverComps: HoverComps2 };
-  }, [state.hoverData]), inactiveLayers = import_react55.default.useMemo(() => [...layers, ...state.dynamicLayers].filter((layer) => !state.initializedLayers.includes(layer.id) || !state.activeLayers.includes(layer)), [
+  }, [state.hoverData]), inactiveLayers = import_react57.default.useMemo(() => [...layers, ...state.dynamicLayers].filter((layer) => !state.initializedLayers.includes(layer.id) || !state.activeLayers.includes(layer)), [
     layers,
     state.dynamicLayers,
     state.initializedLayers,
     state.activeLayers
   ]);
-  import_react55.default.useEffect(() => {
+  import_react57.default.useEffect(() => {
     let needsFetch = [], needsRender = [];
     state.activeLayers.forEach((layer) => {
-      layer.props = (0, import_lodash11.default)(layerProps, layer.id, {});
-      let props2 = (0, import_lodash11.default)(layerProps, layer.id, null), prevProps = (0, import_lodash11.default)(state.prevLayerProps, layer.id, null);
+      layer.props = (0, import_lodash12.default)(layerProps, layer.id, {});
+      let props2 = (0, import_lodash12.default)(layerProps, layer.id, null), prevProps = (0, import_lodash12.default)(state.prevLayerProps, layer.id, null);
       if (props2 !== prevProps) {
         needsFetch.push(layer);
         return;
       }
-      let layerState = (0, import_lodash11.default)(state.layerStates, layer.id, null), prevLayerState = (0, import_lodash11.default)(state.prevLayerStates, layer.id, null);
+      let layerState = (0, import_lodash12.default)(state.layerStates, layer.id, null), prevLayerState = (0, import_lodash12.default)(state.prevLayerStates, layer.id, null);
       layerState !== prevLayerState && needsRender.push(layer);
     }), needsFetch.forEach((layer) => {
       fetchData(layer);
@@ -6373,16 +7948,16 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
     falcor3,
     fetchData
   ]);
-  let ref = import_react55.default.useRef(null), size = useSetSize2(ref), AllMapActions = import_react55.default.useMemo(() => ({ ...MapActions, setMapStyle }), [MapActions, setMapStyle]), getRect2 = import_react55.default.useCallback(() => ref.current ? ref.current.getBoundingClientRect() : { width: 0, height: 0 }, []), { width, height } = getRect2();
-  return import_react55.default.useEffect(() => {
+  let ref = import_react57.default.useRef(null), size = useSetSize2(ref), AllMapActions = import_react57.default.useMemo(() => ({ ...MapActions, setMapStyle }), [MapActions, setMapStyle]), getRect2 = import_react57.default.useCallback(() => ref.current ? ref.current.getBoundingClientRect() : { width: 0, height: 0 }, []), { width, height } = getRect2();
+  return import_react57.default.useEffect(() => {
     state.map && state.map.resize();
-  }, [width, height, state.map]), /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)("div", { ref, className: "w-full h-full relative focus:outline-none", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)("div", { id: id2.current, className: "w-full h-full relative" }, void 0, !1, {
+  }, [width, height, state.map]), /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)("div", { ref, className: "w-full h-full relative focus:outline-none", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)("div", { id: id2.current, className: "w-full h-full relative" }, void 0, !1, {
       fileName: "app/modules/avl-map/src/avl-map.js",
       lineNumber: 915,
       columnNumber: 7
     }, this),
-    Sidebar ? /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
+    Sidebar ? /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
       Sidebar,
       {
         mapboxMap: state.map,
@@ -6404,12 +7979,12 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
         columnNumber: 9
       },
       this
-    ) : /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)("span", {}, void 0, !1, {
+    ) : /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)("span", {}, void 0, !1, {
       fileName: "app/modules/avl-map/src/avl-map.js",
       lineNumber: 930,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
       InfoBoxContainer_default,
       {
         activeLayers: state.activeLayers,
@@ -6429,7 +8004,7 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
       "div",
       {
         className: `
@@ -6438,7 +8013,7 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
       `,
         children: [
           state.pinnedHoverComps.map(
-            ({ HoverComps: HoverComps2, data, id: id3, ...hoverData2 }) => /* @__PURE__ */ (0, import_react56.createElement)(
+            ({ HoverComps: HoverComps2, data, id: id3, ...hoverData2 }) => /* @__PURE__ */ (0, import_react58.createElement)(
               PinnedHoverComp,
               {
                 ...hoverData2,
@@ -6448,7 +8023,7 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
                 key: id3,
                 id: id3
               },
-              HoverComps2.map(({ HoverComp: HoverComp2, data: data2, layer }, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
+              HoverComps2.map(({ HoverComp: HoverComp2, data: data2, layer }, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
                 HoverComp2,
                 {
                   layer,
@@ -6473,7 +8048,7 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
               ))
             )
           ),
-          Boolean(state.hoverData.data.size) ? /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(HoverCompContainer, { ...hoverData, ...size, project: projectLngLat, children: HoverComps.map(({ HoverComp: HoverComp2, data, layer }, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
+          Boolean(state.hoverData.data.size) ? /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(HoverCompContainer, { ...hoverData, ...size, project: projectLngLat, children: HoverComps.map(({ HoverComp: HoverComp2, data, layer }, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
             HoverComp2,
             {
               layer,
@@ -6522,16 +8097,16 @@ var import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), import_react56 
 var import_maplibre_gl2 = __toESM(require("maplibre-gl"));
 
 // app/modules/avl-map/src/components/DefaultHoverComp.js
-var import_react57 = require("react"), import_jsx_dev_runtime45 = require("react/jsx-dev-runtime"), DefaultHoverComp = ({ data, layer }) => {
+var import_react59 = require("react"), import_jsx_dev_runtime46 = require("react/jsx-dev-runtime"), DefaultHoverComp = ({ data, layer }) => {
   let groups = data.reduce((a, c, i) => {
     (i === 0 || c.length === 1) && a.push([]);
     let ii = a.length - 1;
     return a[ii].push(c), a;
   }, []);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)("div", { className: `
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)("div", { className: `
       bg-white p-1 rounded relative z-20 grid grid-cols-1 gap-1
-    `, children: groups.map((rows, g) => /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)("div", { className: "rounded relative px-1 bg-white", children: rows.map((row, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)("div", { className: "flex", children: row.map(
-    (d2, ii) => /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
+    `, children: groups.map((rows, g) => /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)("div", { className: "rounded relative px-1 bg-white", children: rows.map((row, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)("div", { className: "flex", children: row.map(
+    (d2, ii) => /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(
       "div",
       {
         className: `
@@ -6566,7 +8141,7 @@ var import_react57 = require("react"), import_jsx_dev_runtime45 = require("react
 }, DefaultHoverComp_default = DefaultHoverComp;
 
 // app/modules/avl-map/src/LayerContainer.js
-var import_lodash12 = __toESM(require("lodash.get"));
+var import_lodash13 = __toESM(require("lodash.get"));
 var id = -1, getLayerId = () => `avl-layer-${++id}`, DefaultCallback = () => null, DefaultOptions = {
   setActive: !0,
   isDynamic: !1,
@@ -6642,7 +8217,7 @@ var id = -1, getLayerId = () => `avl-layer-${++id}`, DefaultCallback = () => nul
     }), this.hoveredFeatures.delete(layerId));
   }
   addHover(mapboxMap, updateHover) {
-    let callback = (0, import_lodash12.default)(this, ["onHover", "callback"], DefaultCallback).bind(this), HoverComp2 = (0, import_lodash12.default)(this, ["onHover", "HoverComp"], DefaultHoverComp_default), property = (0, import_lodash12.default)(this, ["onHover", "property"], null), filterFunc = (0, import_lodash12.default)(this, ["onHover", "filterFunc"], null), pinnable = (0, import_lodash12.default)(this, ["onHover", "pinnable"], !0), sortOrder = (0, import_lodash12.default)(this, ["onHover", "sortOrder"], 1 / 0), mousemove = (layerId, { point, features, lngLat }) => {
+    let callback = (0, import_lodash13.default)(this, ["onHover", "callback"], DefaultCallback).bind(this), HoverComp2 = (0, import_lodash13.default)(this, ["onHover", "HoverComp"], DefaultHoverComp_default), property = (0, import_lodash13.default)(this, ["onHover", "property"], null), filterFunc = (0, import_lodash13.default)(this, ["onHover", "filterFunc"], null), pinnable = (0, import_lodash13.default)(this, ["onHover", "pinnable"], !0), sortOrder = (0, import_lodash13.default)(this, ["onHover", "sortOrder"], 1 / 0), mousemove = (layerId, { point, features, lngLat }) => {
       let hoveredFeatures = this.hoveredFeatures.get(layerId) || /* @__PURE__ */ new Map();
       this.hoveredFeatures.set(layerId, /* @__PURE__ */ new Map());
       let hoverFeatures = (features2) => {
@@ -6658,7 +8233,7 @@ var id = -1, getLayerId = () => `avl-layer-${++id}`, DefaultCallback = () => nul
       }, featuresMap = /* @__PURE__ */ new Map();
       if (property) {
         let properties = features.reduce((a, c) => {
-          let prop = (0, import_lodash12.default)(c, ["properties", property], null);
+          let prop = (0, import_lodash13.default)(c, ["properties", property], null);
           return prop && (a[prop] = !0), a;
         }, {});
         mapboxMap.queryRenderedFeatures({
@@ -6718,7 +8293,7 @@ var id = -1, getLayerId = () => `avl-layer-${++id}`, DefaultCallback = () => nul
       );
     }, mousemove = (e) => {
       if (e.preventDefault(), current = getPos(e), !box) {
-        let className = (0, import_lodash12.default)(this, ["onBoxSelect", "className"], "bg-black bg-opacity-50 border-2 border-black");
+        let className = (0, import_lodash13.default)(this, ["onBoxSelect", "className"], "bg-black bg-opacity-50 border-2 border-black");
         box = document.createElement("div"), box.className = "absolute top-0 left-0 w-0 h-0 " + className, canvasContainer.appendChild(box);
       }
       var minX = Math.min(start.x, current.x), maxX = Math.max(start.x, current.x), minY = Math.min(start.y, current.y), maxY = Math.max(start.y, current.y);
@@ -6730,8 +8305,8 @@ var id = -1, getLayerId = () => `avl-layer-${++id}`, DefaultCallback = () => nul
     }, finish = (bbox) => {
       if (document.removeEventListener("mousemove", mousemove), document.removeEventListener("mouseup", mouseup), document.removeEventListener("keydown", keyup), mapboxMap.dragPan.enable(), box && (box.parentNode.removeChild(box), box = null), bbox) {
         let featureMap = mapboxMap.queryRenderedFeatures(bbox, {
-          layers: (0, import_lodash12.default)(this, ["onBoxSelect", "layers"]),
-          filter: (0, import_lodash12.default)(this, ["onBoxSelect", "filter"])
+          layers: (0, import_lodash13.default)(this, ["onBoxSelect", "layers"]),
+          filter: (0, import_lodash13.default)(this, ["onBoxSelect", "filter"])
         }).reduce((a, c) => (a[c.id] = c, a), {}), features = Object.values(featureMap), values = [];
         features.forEach((feature) => {
           values.push({
@@ -6739,7 +8314,7 @@ var id = -1, getLayerId = () => `avl-layer-${++id}`, DefaultCallback = () => nul
             source: feature.source,
             sourceLayer: feature.sourceLayer
           });
-        }), (0, import_lodash12.default)(this, ["onBoxSelect", "selectedValues"], []).forEach((value) => {
+        }), (0, import_lodash13.default)(this, ["onBoxSelect", "selectedValues"], []).forEach((value) => {
           mapboxMap.setFeatureState(value, { select: !1 });
         }), this.onBoxSelect.selectedValues = values, values.forEach((value) => {
           mapboxMap.setFeatureState(value, { select: !0 });
@@ -6793,12 +8368,12 @@ var id = -1, getLayerId = () => `avl-layer-${++id}`, DefaultCallback = () => nul
 };
 
 // app/modules/data-manager/data-types/freight_atlas_shapefile/FreightAtlasLayer.js
-var import_lodash13 = __toESM(require("lodash.get")), import_jsx_dev_runtime46 = require("react/jsx-dev-runtime"), HoverComp = ({ data, layer }) => {
-  let { falcor: falcor3, falcorCache } = useFalcor(), { layerName, version } = layer, id2 = import_react58.default.useMemo(() => (0, import_lodash13.default)(data, "[0]", null), [data]), attributes = import_react58.default.useMemo(
-    () => (0, import_lodash13.default)(layer.source, "metadata", []).map((d2) => d2.name).filter((d2) => !["wkb_geometry", "objectid", "objectid_1"].includes(d2)),
+var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 = require("react/jsx-dev-runtime"), HoverComp = ({ data, layer }) => {
+  let { falcor: falcor3, falcorCache } = useFalcor(), { layerName, version } = layer, id2 = import_react60.default.useMemo(() => (0, import_lodash14.default)(data, "[0]", null), [data]), attributes = import_react60.default.useMemo(
+    () => (0, import_lodash14.default)(layer.source, "metadata", []).map((d2) => d2.name).filter((d2) => !["wkb_geometry", "objectid", "objectid_1"].includes(d2)),
     [layer.source]
   );
-  import_react58.default.useEffect(() => {
+  import_react60.default.useEffect(() => {
     falcor3.get(
       [
         "nysdot-freight-atlas",
@@ -6811,7 +8386,7 @@ var import_lodash13 = __toESM(require("lodash.get")), import_jsx_dev_runtime46 =
       ]
     );
   }, [id2, layerName, version, attributes, falcor3]);
-  let AttrInfo = import_react58.default.useMemo(() => (0, import_lodash13.default)(falcorCache, [
+  let AttrInfo = import_react60.default.useMemo(() => (0, import_lodash14.default)(falcorCache, [
     "nysdot-freight-atlas",
     layerName,
     "byVersion",
@@ -6819,21 +8394,21 @@ var import_lodash13 = __toESM(require("lodash.get")), import_jsx_dev_runtime46 =
     "byId",
     id2
   ], {}), [id2, falcorCache, layerName, version]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)("div", { className: "bg-white p-4 max-h-64 scrollbar-xs overflow-y-scroll", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)("div", { className: "font-medium pb-1 w-full border-b ", children: layer.source.display_name }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "bg-white p-4 max-h-64 scrollbar-xs overflow-y-scroll", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "font-medium pb-1 w-full border-b ", children: layer.source.display_name }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/FreightAtlasLayer.js",
       lineNumber: 42,
       columnNumber: 7
     }, this),
     Object.keys(AttrInfo).length === 0 ? `Fetching Attributes ${id2}` : "",
     Object.keys(AttrInfo).map(
-      (k, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)("div", { className: "flex border-b pt-1", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)("div", { className: "flex-1 font-medium text-sm pl-1", children: k }, void 0, !1, {
+      (k, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "flex border-b pt-1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "flex-1 font-medium text-sm pl-1", children: k }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/FreightAtlasLayer.js",
           lineNumber: 46,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)("div", { className: "flex-1 text-right font-thin pl-4 pr-1", children: AttrInfo[k].value }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "flex-1 text-right font-thin pl-4 pr-1", children: AttrInfo[k].value }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/FreightAtlasLayer.js",
           lineNumber: 47,
           columnNumber: 13
@@ -6863,13 +8438,13 @@ var import_lodash13 = __toESM(require("lodash.get")), import_jsx_dev_runtime46 =
     callback: (layerId, features, lngLat) => [features[0].properties.id, layerId],
     HoverComp
   };
-  init(map, falcor3) {
+  init(map3, falcor3) {
     console.log("init freight atlas layer");
-    let { data_table } = (0, import_lodash13.default)(this, `views[${this.activeView}]`, "");
-    this.layerName = (0, import_lodash13.default)(data_table.split("."), "[1]", "").slice(0, -6), this.version = (0, import_lodash13.default)(data_table.split("."), "[1]", "").slice(-4);
+    let { data_table } = (0, import_lodash14.default)(this, `views[${this.activeView}]`, "");
+    this.layerName = (0, import_lodash14.default)(data_table.split("."), "[1]", "").slice(0, -6), this.version = (0, import_lodash14.default)(data_table.split("."), "[1]", "").slice(-4);
   }
   fetchData(falcor3) {
-    let { layerName, version } = this, columns = (0, import_lodash13.default)(this, "symbology", []).reduce((out, curr) => (out.includes(curr.column) || out.push(curr.column), out), []);
+    let { layerName, version } = this, columns = (0, import_lodash14.default)(this, "symbology", []).reduce((out, curr) => (out.includes(curr.column) || out.push(curr.column), out), []);
     return columns.length > 0 && layerName && version ? falcor3.get([
       "nysdot-freight-atlas",
       layerName,
@@ -6877,7 +8452,7 @@ var import_lodash13 = __toESM(require("lodash.get")), import_jsx_dev_runtime46 =
       version,
       "length"
     ]).then((res) => {
-      let length = (0, import_lodash13.default)(res, [
+      let length = (0, import_lodash14.default)(res, [
         "json",
         "nysdot-freight-atlas",
         layerName,
@@ -6896,18 +8471,18 @@ var import_lodash13 = __toESM(require("lodash.get")), import_jsx_dev_runtime46 =
       ]) : res;
     }) : Promise.resolve({});
   }
-  render(map) {
-    let { layerName, version } = this, falcorCache = this.falcor.getCache(), versionData = (0, import_lodash13.default)(falcorCache, [
+  render(map3) {
+    let { layerName, version } = this, falcorCache = this.falcor.getCache(), versionData = (0, import_lodash14.default)(falcorCache, [
       "nysdot-freight-atlas",
       layerName,
       "byVersion",
       version,
       "byId"
     ], {});
-    (0, import_lodash13.default)(this, "symbology", []).forEach((sym) => {
+    (0, import_lodash14.default)(this, "symbology", []).forEach((sym) => {
       switch (sym.type) {
         case "simple":
-          map.setPaintProperty(`${layerName}_v${version}`, sym.paint, isNaN(+sym.value) ? sym.value : +sym.value);
+          map3.setPaintProperty(`${layerName}_v${version}`, sym.paint, isNaN(+sym.value) ? sym.value : +sym.value);
           break;
         default:
           console.log("no type for symbology", sym);
@@ -6917,26 +8492,26 @@ var import_lodash13 = __toESM(require("lodash.get")), import_jsx_dev_runtime46 =
 }, FreightAtlasFactory = (options = {}) => new FreightAtlasLayer(options), FreightAtlasLayer_default = FreightAtlasFactory;
 
 // app/modules/data-manager/components/SymbologyControls.js
-var import_react59 = __toESM(require("react"));
-var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 = require("react/jsx-dev-runtime"), SymbologyControls = ({ layer, onChange }) => {
-  let [symbology, setSymbology] = (0, import_react59.useState)((0, import_lodash14.default)(layer.views, `[${layer.activeView}]metadata.tiles.symbology`, []));
-  (0, import_react59.useEffect)(() => {
+var import_react61 = __toESM(require("react"));
+var import_lodash15 = __toESM(require("lodash.get")), import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), SymbologyControls = ({ layer, onChange }) => {
+  let [symbology, setSymbology] = (0, import_react61.useState)((0, import_lodash15.default)(layer.views, `[${layer.activeView}]metadata.tiles.symbology`, []));
+  (0, import_react61.useEffect)(() => {
     onChange(symbology);
   }, [symbology]);
-  let mapBoxLayer = import_react59.default.useMemo(
-    () => (0, import_lodash14.default)(layer.views, `[${layer.activeView}]metadata.tiles.layers[0]`, {}),
+  let mapBoxLayer = import_react61.default.useMemo(
+    () => (0, import_lodash15.default)(layer.views, `[${layer.activeView}]metadata.tiles.layers[0]`, {}),
     [layer.views, layer.activeView]
-  ), data_table = (0, import_react59.useMemo)(
-    () => (0, import_lodash14.default)(layer.views, `[${layer.activeView}].data_table`, ""),
+  ), data_table = (0, import_react61.useMemo)(
+    () => (0, import_lodash15.default)(layer.views, `[${layer.activeView}].data_table`, ""),
     [layer.views, layer.activeView]
-  ), layerName = (0, import_react59.useMemo)(
-    () => (0, import_lodash14.default)(data_table.split("."), "[1]", "").slice(0, -6),
+  ), layerName = (0, import_react61.useMemo)(
+    () => (0, import_lodash15.default)(data_table.split("."), "[1]", "").slice(0, -6),
     [data_table]
-  ), version = (0, import_react59.useMemo)(
-    () => (0, import_lodash14.default)(data_table.split("."), "[1]", "").slice(-4),
+  ), version = (0, import_react61.useMemo)(
+    () => (0, import_lodash15.default)(data_table.split("."), "[1]", "").slice(-4),
     [data_table]
   );
-  return import_react59.default.useMemo(() => /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "border-t border-gray-300 h-full w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+  return import_react61.default.useMemo(() => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "border-t border-gray-300 h-full w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
     SymbologyControl,
     {
       layerType: mapBoxLayer.type,
@@ -6958,7 +8533,7 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
     lineNumber: 30,
     columnNumber: 5
   }, this), [mapBoxLayer, symbology, layerName, version]);
-}, SymbologyControl = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "", children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+}, SymbologyControl = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "", children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
   TabPanel_default,
   {
     tabs: [
@@ -6984,7 +8559,7 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
         Component: SimpleNumberControl
       }
     ].filter((attr) => attr.layerType === props.layerType).map((attr) => ({
-      name: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "text-sm text-left", children: [
+      name: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "text-sm text-left", children: [
         " ",
         attr.name,
         " "
@@ -6993,7 +8568,7 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
         lineNumber: 79,
         columnNumber: 20
       }, this),
-      Component: () => /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(PaintControl, { ...props, ...attr }, void 0, !1, {
+      Component: () => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(PaintControl, { ...props, ...attr }, void 0, !1, {
         fileName: "app/modules/data-manager/components/SymbologyControls.js",
         lineNumber: 80,
         columnNumber: 31
@@ -7022,16 +8597,16 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
   version,
   setSymbology
 }) => {
-  let lineColorIndex = (0, import_react59.useMemo)(() => getStyleIndex(symbology, paintAttribute), [symbology]), [lineColor, setLineColor] = (0, import_react59.useState)({
+  let lineColorIndex = (0, import_react61.useMemo)(() => getStyleIndex(symbology, paintAttribute), [symbology]), [lineColor, setLineColor] = (0, import_react61.useState)({
     paint: paintAttribute,
-    type: (0, import_lodash14.default)(symbology, `[${lineColorIndex}].type`, "simple"),
-    value: (0, import_lodash14.default)(symbology, `[${lineColorIndex}].value`, defaultData),
-    range: (0, import_lodash14.default)(symbology, `[${lineColorIndex}].range`, []),
-    domain: (0, import_lodash14.default)(symbology, `[${lineColorIndex}].domain`, []),
-    column: (0, import_lodash14.default)(symbology, `[${lineColorIndex}].column`, ""),
-    options: (0, import_lodash14.default)(symbology, `[${lineColorIndex}].options`, "")
+    type: (0, import_lodash15.default)(symbology, `[${lineColorIndex}].type`, "simple"),
+    value: (0, import_lodash15.default)(symbology, `[${lineColorIndex}].value`, defaultData),
+    range: (0, import_lodash15.default)(symbology, `[${lineColorIndex}].range`, []),
+    domain: (0, import_lodash15.default)(symbology, `[${lineColorIndex}].domain`, []),
+    column: (0, import_lodash15.default)(symbology, `[${lineColorIndex}].column`, ""),
+    options: (0, import_lodash15.default)(symbology, `[${lineColorIndex}].options`, "")
   });
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "flex px-2 py-4 h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "bg-white flex-1 border border-gray-300 hover:bg-gray-100 h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "flex px-2 py-4 h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "bg-white flex-1 border border-gray-300 hover:bg-gray-100 h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
     Component,
     {
       symbology: lineColor,
@@ -7065,10 +8640,10 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
     columnNumber: 3
   }, this);
 }, ColorControl = ({ symbology, onChange }) => {
-  let renderControl = import_react59.default.useMemo(() => {
+  let renderControl = import_react61.default.useMemo(() => {
     switch (symbology.type) {
       case "simple":
-        return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+        return /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
           SimpleColorControl,
           {
             ...symbology,
@@ -7084,7 +8659,7 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
           this
         );
       case "scale-ordinal":
-        return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+        return /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
           OrdinalScaleColorControl,
           {
             ...symbology,
@@ -7100,7 +8675,7 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
           this
         );
       case "scale-threshold":
-        return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+        return /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
           ThresholdScaleColorControl,
           {
             ...symbology,
@@ -7116,32 +8691,32 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
           this
         );
       default:
-        return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { children: "Invalid Layer" }, void 0, !1, {
+        return /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { children: "Invalid Layer" }, void 0, !1, {
           fileName: "app/modules/data-manager/components/SymbologyControls.js",
           lineNumber: 158,
           columnNumber: 14
         }, this);
     }
   }, [symbology]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "p-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "p-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
       "select",
       {
         className: "p-2 w-full bg-white",
         value: symbology.type,
         onChange: (v) => onChange("type", v.target.value),
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("option", { value: "simple", children: "Single Color" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("option", { value: "simple", children: "Single Color" }, void 0, !1, {
             fileName: "app/modules/data-manager/components/SymbologyControls.js",
             lineNumber: 169,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("option", { value: "scale-ordinal", children: "Category" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("option", { value: "scale-ordinal", children: "Category" }, void 0, !1, {
             fileName: "app/modules/data-manager/components/SymbologyControls.js",
             lineNumber: 170,
             columnNumber: 7
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("option", { value: "scale-threshold", children: "Threshold" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("option", { value: "scale-threshold", children: "Threshold" }, void 0, !1, {
             fileName: "app/modules/data-manager/components/SymbologyControls.js",
             lineNumber: 171,
             columnNumber: 7
@@ -7167,7 +8742,7 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
     lineNumber: 163,
     columnNumber: 4
   }, this);
-}, SimpleColorControl = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+}, SimpleColorControl = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
   input_default,
   {
     value,
@@ -7183,16 +8758,16 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
     columnNumber: 3
   },
   this
-), ThresholdScaleColorControl = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { children: " Threshold Scale Color Control " }, void 0, !1, {
+), ThresholdScaleColorControl = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { children: " Threshold Scale Color Control " }, void 0, !1, {
   fileName: "app/modules/data-manager/components/SymbologyControls.js",
   lineNumber: 189,
   columnNumber: 3
-}, this), OrdinalScaleColorControl = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { children: " Ordinal Scale Color Control " }, void 0, !1, {
+}, this), OrdinalScaleColorControl = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { children: " Ordinal Scale Color Control " }, void 0, !1, {
   fileName: "app/modules/data-manager/components/SymbologyControls.js",
   lineNumber: 192,
   columnNumber: 3
-}, this), SimpleRangeControl = ({ symbology, onChange, min = 0, max = 1, step = 0.01 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "flex justify-between items-center p-1 ", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "pt-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+}, this), SimpleRangeControl = ({ symbology, onChange, min = 0, max = 1, step = 0.01 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "flex justify-between items-center p-1 ", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "pt-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
     "input",
     {
       type: "range",
@@ -7215,7 +8790,7 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
     lineNumber: 196,
     columnNumber: 4
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { children: symbology.value }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { children: symbology.value }, void 0, !1, {
     fileName: "app/modules/data-manager/components/SymbologyControls.js",
     lineNumber: 206,
     columnNumber: 5
@@ -7224,8 +8799,8 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
   fileName: "app/modules/data-manager/components/SymbologyControls.js",
   lineNumber: 195,
   columnNumber: 3
-}, this), SimpleNumberControl = ({ symbology, onChange, min = 1, max = 50, step = 1 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "flex justify-between items-center p-1 ", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { className: "flex-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+}, this), SimpleNumberControl = ({ symbology, onChange, min = 1, max = 50, step = 1 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "flex justify-between items-center p-1 ", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "flex-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
     "input",
     {
       className: "p-2 w-full bg-white text-right",
@@ -7249,7 +8824,7 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
     lineNumber: 211,
     columnNumber: 4
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { children: "px" }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { children: "px" }, void 0, !1, {
     fileName: "app/modules/data-manager/components/SymbologyControls.js",
     lineNumber: 222,
     columnNumber: 5
@@ -7261,7 +8836,7 @@ var import_lodash14 = __toESM(require("lodash.get")), import_jsx_dev_runtime47 =
 }, this), getStyleIndex = (symbologoy, paint) => symbologoy.reduce((out, current, i) => (current.paint === paint && (out = i), out), -1);
 
 // app/modules/data-manager/data-types/freight_atlas_shapefile/create.js
-var import_react60 = require("react"), import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), Create = () => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { children: " Add New Source" }, void 0, !1, {
+var import_react62 = require("react"), import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Create = () => /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: " Add New Source" }, void 0, !1, {
   fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/create.js",
   lineNumber: 7,
   columnNumber: 7
@@ -7275,7 +8850,7 @@ var import_react60 = require("react"), import_jsx_dev_runtime48 = require("react
 var mapbox_default = { MAPBOX_TOKEN: "pk.eyJ1IjoiYW0zMDgxIiwiYSI6IkxzS0FpU0UifQ.rYv6mHCcNd7KKMs7yhY3rw" };
 
 // app/modules/data-manager/data-types/freight_atlas_shapefile/index.js
-var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layers }) => {
+var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), Map2 = ({ layers }) => {
   let { falcor: falcor3 } = useFalcor(), mapOptions = {
     zoom: 6.2,
     center: [
@@ -7297,15 +8872,15 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
         style: "mapbox://styles/am3081/ckm85o7hq6d8817nr0y6ute5v"
       }
     ]
-  }, map_layers = (0, import_react61.useMemo)(() => layers.map((l) => FreightAtlasLayer_default(l)), []);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+  }, map_layers = (0, import_react63.useMemo)(() => layers.map((l) => FreightAtlasLayer_default(l)), []);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
     AvlMap,
     {
       accessToken: mapbox_default.MAPBOX_TOKEN,
       mapOptions,
       falcor: falcor3,
       layers: map_layers,
-      CustomSidebar: () => /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", {}, void 0, !1, {
+      CustomSidebar: () => /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", {}, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/index.js",
         lineNumber: 48,
         columnNumber: 38
@@ -7326,10 +8901,10 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
   }, this);
 }, Edit2 = ({ startValue, attr, viewId, parentData, cancel = () => {
 } }) => {
-  let { falcor: falcor3 } = useFalcor(), [value, setValue] = (0, import_react61.useState)(""), inputEl = (0, import_react61.useRef)(null);
-  (0, import_react61.useEffect)(() => {
+  let { falcor: falcor3 } = useFalcor(), [value, setValue] = (0, import_react63.useState)(""), inputEl = (0, import_react63.useRef)(null);
+  (0, import_react63.useEffect)(() => {
     setValue(startValue), inputEl.current.focus();
-  }, [startValue]), (0, import_react61.useEffect)(() => {
+  }, [startValue]), (0, import_react63.useEffect)(() => {
     inputEl.current.style.height = "inherit", inputEl.current.style.height = `${inputEl.current.scrollHeight}px`;
   }, [value]);
   let save = async (attr2, value2) => {
@@ -7355,8 +8930,8 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
       } catch {
       }
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "w-full", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "w-full flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "w-full flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
       "textarea",
       {
         ref: inputEl,
@@ -7377,13 +8952,13 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
       lineNumber: 106,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(Button, { themeOptions: { size: "sm", color: "primary" }, onClick: (e) => save(attr, value), children: " Save " }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(Button, { themeOptions: { size: "sm", color: "primary" }, onClick: (e) => save(attr, value), children: " Save " }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/index.js",
         lineNumber: 115,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(Button, { themeOptions: { size: "sm", color: "cancel" }, onClick: (e) => cancel(), children: " Cancel " }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(Button, { themeOptions: { size: "sm", color: "cancel" }, onClick: (e) => cancel(), children: " Cancel " }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/index.js",
         lineNumber: 116,
         columnNumber: 9
@@ -7399,18 +8974,18 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
     columnNumber: 5
   }, this);
 }, MapPage = ({ source, views, user }) => {
-  let { falcor: falcor3 } = useFalcor(), [activeView] = (0, import_react61.useState)(0), [mapData] = (0, import_react61.useState)((0, import_lodash15.default)(views, `[${activeView}].metadata.tiles`, {})), [editing, setEditing] = import_react61.default.useState(null), viewId = import_react61.default.useMemo(() => (0, import_lodash15.default)(views, `[${activeView}].id`, null), [views, activeView]), layer = import_react61.default.useMemo(() => ({
+  let { falcor: falcor3 } = useFalcor(), [activeView] = (0, import_react63.useState)(0), [mapData] = (0, import_react63.useState)((0, import_lodash16.default)(views, `[${activeView}].metadata.tiles`, {})), [editing, setEditing] = import_react63.default.useState(null), viewId = import_react63.default.useMemo(() => (0, import_lodash16.default)(views, `[${activeView}].id`, null), [views, activeView]), layer = import_react63.default.useMemo(() => ({
     name: source.name,
     source,
     views,
     activeView,
-    sources: (0, import_lodash15.default)(mapData, "sources", []),
-    layers: (0, import_lodash15.default)(mapData, "layers", []),
-    symbology: (0, import_lodash15.default)(mapData, "symbology", [])
+    sources: (0, import_lodash16.default)(mapData, "sources", []),
+    layers: (0, import_lodash16.default)(mapData, "layers", []),
+    symbology: (0, import_lodash16.default)(mapData, "symbology", [])
   }), [source, views, mapData, activeView]), save = async (attr, value) => {
     if (viewId)
       try {
-        let update = value, val = (0, import_lodash15.default)(views, `[${activeView}].metadata`, {});
+        let update = value, val = (0, import_lodash16.default)(views, `[${activeView}].metadata`, {});
         val.tiles[attr] = update, await falcor3.set({
           paths: [
             ["datamanager", "views", "byId", viewId, "attributes", "metadata"]
@@ -7430,9 +9005,9 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
       } catch {
       }
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { children: [
     "Map View ",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "w-ful h-[700px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(Map2, { layers: [layer] }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "w-ful h-[700px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(Map2, { layers: [layer] }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/index.js",
       lineNumber: 181,
       columnNumber: 9
@@ -7441,8 +9016,8 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
       lineNumber: 180,
       columnNumber: 7
     }, this),
-    user.authLevel >= 5 ? /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+    user.authLevel >= 5 ? /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
         SymbologyControls,
         {
           layer,
@@ -7457,22 +9032,22 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: ["sources", "layers", "symbology"].map((attr, i) => {
-        let val = JSON.stringify((0, import_lodash15.default)(mapData, attr, []), null, 3);
-        return /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "flex justify-between group", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-6", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: attr }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: ["sources", "layers", "symbology"].map((attr, i) => {
+        let val = JSON.stringify((0, import_lodash16.default)(mapData, attr, []), null, 3);
+        return /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "flex justify-between group", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-6", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: attr }, void 0, !1, {
               fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/index.js",
               lineNumber: 196,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-4", children: editing === attr ? /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-4", children: editing === attr ? /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
               Edit2,
               {
                 startValue: val,
                 attr,
-                viewId: (0, import_lodash15.default)(views, `[${activeView}].view_id`, null),
-                parentData: (0, import_lodash15.default)(views, `[${activeView}].metadata`, {}),
+                viewId: (0, import_lodash16.default)(views, `[${activeView}].view_id`, null),
+                parentData: (0, import_lodash16.default)(views, `[${activeView}].metadata`, {}),
                 cancel: () => setEditing(null)
               },
               void 0,
@@ -7487,7 +9062,7 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
               fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/index.js",
               lineNumber: 199,
               columnNumber: 25
-            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "py-3 pl-2 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("pre", { className: "bg-gray-100 tracking-tighter overflow-auto scrollbar-xs", children: val }, void 0, !1, {
+            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "py-3 pl-2 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("pre", { className: "bg-gray-100 tracking-tighter overflow-auto scrollbar-xs", children: val }, void 0, !1, {
               fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/index.js",
               lineNumber: 209,
               columnNumber: 27
@@ -7505,7 +9080,7 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
             lineNumber: 195,
             columnNumber: 19
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { className: "hidden group-hover:block text-blue-500 cursor-pointer", onClick: (e) => setEditing(editing === attr ? null : attr), children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("i", { className: "fad fa-pencil absolute -ml-12 mt-3 p-2.5 rounded hover:bg-blue-500 hover:text-white " }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "hidden group-hover:block text-blue-500 cursor-pointer", onClick: (e) => setEditing(editing === attr ? null : attr), children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("i", { className: "fad fa-pencil absolute -ml-12 mt-3 p-2.5 rounded hover:bg-blue-500 hover:text-white " }, void 0, !1, {
             fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/index.js",
             lineNumber: 218,
             columnNumber: 21
@@ -7534,7 +9109,7 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
     lineNumber: 177,
     columnNumber: 5
   }, this);
-}, Table = ({ source }) => /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: " Table View " }, void 0, !1, {
+}, Table = ({ source }) => /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { children: " Table View " }, void 0, !1, {
   fileName: "app/modules/data-manager/data-types/freight_atlas_shapefile/index.js",
   lineNumber: 231,
   columnNumber: 10
@@ -7556,8 +9131,8 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), Map2 = ({ layer
 }, freight_atlas_shapefile_default = FreightAtlashShapefileConfig;
 
 // app/modules/data-manager/data-types/npmrdsTravelTime/index.js
-var import_react62 = require("react");
-var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), availableStats = [
+var import_react64 = require("react");
+var import_jsx_dev_runtime51 = require("react/jsx-dev-runtime"), availableStats = [
   "total_tmcs",
   "total_miles",
   "avg_pct_epochs_reporting",
@@ -7567,7 +9142,7 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), availableStats 
   "var_pct_epochs_reporting",
   "stddev_pct_epochs_reporting"
 ], Stats = ({ source }) => {
-  let [state, setState] = (0, import_react62.useState)("ny"), [stat, setStat] = (0, import_react62.useState)("total_tmcs"), availableStates = Object.keys(source.statistics).sort(), selectedStats = source.statistics[state], lineData = (0, import_react62.useMemo)(() => {
+  let [state, setState] = (0, import_react64.useState)("ny"), [stat, setStat] = (0, import_react64.useState)("total_tmcs"), availableStates = Object.keys(source.statistics).sort(), selectedStats = source.statistics[state], lineData = (0, import_react64.useMemo)(() => {
     let d2 = {}, yrmos = Object.keys(selectedStats).sort();
     for (let yrmo of yrmos) {
       let frcs = Object.keys(selectedStats[yrmo]);
@@ -7584,13 +9159,13 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), availableStats 
       data: d2[frc]
     }));
   }, [selectedStats, stat]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("h4", { children: "Stats View" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("h4", { children: "Stats View" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/npmrdsTravelTime/index.js",
       lineNumber: 54,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
       Select_default,
       {
         options: availableStates,
@@ -7609,7 +9184,7 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), availableStats 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
       Select_default,
       {
         options: availableStats,
@@ -7628,7 +9203,7 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), availableStats 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { className: "bg-white rounded relative", style: { height: "30rem" } }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("div", { className: "bg-white rounded relative", style: { height: "30rem" } }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/npmrdsTravelTime/index.js",
       lineNumber: 74,
       columnNumber: 7
@@ -7647,13 +9222,13 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), availableStats 
 }, npmrdsTravelTime_default = NpmrdsTravelTimeConfig;
 
 // app/modules/data-manager/data-types/gis_dataset/index.js
-var import_react76 = require("react");
+var import_react78 = require("react");
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/create/index.js
-var import_react70 = require("react"), import_react71 = require("@remix-run/react"), import_mapValues2 = __toESM(require("lodash/mapValues")), import_merge = __toESM(require("lodash/merge")), import_get4 = __toESM(require("lodash/get"));
+var import_react72 = require("react"), import_react73 = require("@remix-run/react"), import_mapValues2 = __toESM(require("lodash/mapValues")), import_merge = __toESM(require("lodash/merge")), import_get4 = __toESM(require("lodash/get"));
 
 // app/modules/data-manager/data-types/gis_dataset/utils/EtlContext/index.js
-var import_react63 = require("react"), import_lodash16 = require("lodash"), import_eventemitter3 = __toESM(require("eventemitter3"));
+var import_react65 = require("react"), import_lodash17 = require("lodash"), import_eventemitter3 = __toESM(require("eventemitter3"));
 
 // node_modules/p-event/index.js
 var normalizeEmitter = (emitter) => {
@@ -7782,7 +9357,7 @@ function extractPropertiesFromEtlContextHierarchy(ctx, deps) {
   let curCtx = ctx, unresolvedDeps = deps, props = {};
   for (; curCtx && unresolvedDeps.length; ) {
     let depProps = extractPropertiesFromEtlCtx(curCtx, unresolvedDeps);
-    (0, import_lodash16.merge)(props, depProps), unresolvedDeps = unresolvedDeps.filter((dep) => props[dep] === void 0), curCtx = curCtx.parentCtx;
+    (0, import_lodash17.merge)(props, depProps), unresolvedDeps = unresolvedDeps.filter((dep) => props[dep] === void 0), curCtx = curCtx.parentCtx;
   }
   return props;
 }
@@ -7801,14 +9376,14 @@ function createEtlContextPropsProxy(ctx) {
   );
 }
 function useEtlContextDependencies(_ctx, deps) {
-  let { current: ctx } = (0, import_react63.useRef)(_ctx), [dependencies] = (0, import_react63.useState)(deps.slice()), prevSliceRef = (0, import_react63.useRef)({}), { current: prevSlice } = prevSliceRef, newSlice = extractPropertiesFromEtlContextHierarchy(ctx, deps);
+  let { current: ctx } = (0, import_react65.useRef)(_ctx), [dependencies] = (0, import_react65.useState)(deps.slice()), prevSliceRef = (0, import_react65.useRef)({}), { current: prevSlice } = prevSliceRef, newSlice = extractPropertiesFromEtlContextHierarchy(ctx, deps);
   for (let dep of dependencies)
-    if (!(0, import_lodash16.isEqual)(prevSlice[dep], newSlice[dep]))
+    if (!(0, import_lodash17.isEqual)(prevSlice[dep], newSlice[dep]))
       return prevSliceRef.current = newSlice, newSlice;
   return prevSlice;
 }
 function useEtlContext(_ctx) {
-  let { current: ctx } = (0, import_react63.useRef)(_ctx), { current: dependencies } = (0, import_react63.useRef)(/* @__PURE__ */ new Set()), prevSliceRef = (0, import_react63.useRef)(null);
+  let { current: ctx } = (0, import_react65.useRef)(_ctx), { current: dependencies } = (0, import_react65.useRef)(/* @__PURE__ */ new Set()), prevSliceRef = (0, import_react65.useRef)(null);
   if (prevSliceRef.current === null) {
     let initialSlice = {};
     return prevSliceRef.current = initialSlice, new Proxy(
@@ -7829,13 +9404,13 @@ function useEtlContext(_ctx) {
     ...dependencies
   ]);
   for (let dep of dependencies)
-    if (!(0, import_lodash16.isEqual)(prevSlice[dep], newSlice[dep]))
+    if (!(0, import_lodash17.isEqual)(prevSlice[dep], newSlice[dep]))
       return prevSliceRef.current = newSlice, console.log("useEtlContext for", ctx.name, "dependency", dep, "changed"), newSlice;
   return prevSliceRef.current;
 }
 var EtlContext = class {
   constructor(config) {
-    (0, import_lodash16.assign)(this, (0, import_lodash16.omit)(config, ["getState", "setState", "assignMeta"])), this.id = (0, import_uuid.v4)(), this.meta = this.meta || this.parentCtx && this.parentCtx.meta || {}, this.getState = this.getState.bind(this), this.setState = this.setState.bind(this), this._stateUpdateEventEmitter = new import_eventemitter3.default();
+    (0, import_lodash17.assign)(this, (0, import_lodash17.omit)(config, ["getState", "setState", "assignMeta"])), this.id = (0, import_uuid.v4)(), this.meta = this.meta || this.parentCtx && this.parentCtx.meta || {}, this.getState = this.getState.bind(this), this.setState = this.setState.bind(this), this._stateUpdateEventEmitter = new import_eventemitter3.default();
   }
   _resetNextStatePromise() {
     this._nextState = new Promise((resolve) => {
@@ -7852,7 +9427,7 @@ var EtlContext = class {
     let emitter = new import_eventemitter3.default(), oldSlice = extractPropertiesFromEtlContextHierarchy(this, deps), fn = () => {
       let newSlice = extractPropertiesFromEtlContextHierarchy(this, deps);
       for (let dep of deps)
-        if (!(0, import_lodash16.isEqual)(oldSlice[dep], newSlice[dep])) {
+        if (!(0, import_lodash17.isEqual)(oldSlice[dep], newSlice[dep])) {
           emitter.emit("data", newSlice);
           break;
         }
@@ -7873,16 +9448,16 @@ var EtlContext = class {
     }
   }
   assignMeta(meta2) {
-    (0, import_lodash16.assign)(this.meta, meta2);
+    (0, import_lodash17.assign)(this.meta, meta2);
   }
   clone() {
     return new EtlContext({ ...this });
   }
   spawn(config) {
     let etlCtx = new EtlContext();
-    return (0, import_lodash16.assign)(etlCtx, { ...config, state: (0, import_lodash16.cloneDeep)(this.state) }), config.meta || (etlCtx.meta = this.meta), etlCtx.parentCtx = this, etlCtx;
+    return (0, import_lodash17.assign)(etlCtx, { ...config, state: (0, import_lodash17.cloneDeep)(this.state) }), config.meta || (etlCtx.meta = this.meta), etlCtx.parentCtx = this, etlCtx;
   }
-}, EtlContextReact = (0, import_react63.createContext)(null);
+}, EtlContextReact = (0, import_react65.createContext)(null);
 
 // app/config.js
 var CLIENT_HOST = "transportny.org", DAMA_HOST2 = "https://dama-dev.availabs.org";
@@ -8022,7 +9597,7 @@ var PublishStatus = {
 }, constants_default = PublishStatus;
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/index.js
-var import_react64 = require("react");
+var import_react66 = require("react");
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/store/index.js
 var store_exports = {};
@@ -8223,7 +9798,7 @@ function prettyBytes(number, options) {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/ProgressBar.js
-var import_jsx_dev_runtime51 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime52 = require("react/jsx-dev-runtime");
 function ProgressBar({ progress }) {
   let Parentdiv = {
     display: "inline-block",
@@ -8240,8 +9815,8 @@ function ProgressBar({ progress }) {
     borderRadius: 40,
     textAlign: "right"
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("div", { style: Parentdiv, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("div", { style: Parentdiv, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
       "span",
       {
         style: {
@@ -8263,7 +9838,7 @@ function ProgressBar({ progress }) {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("div", { style: Childdiv, children: /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("span", { style: {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("div", { style: Childdiv, children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("span", { style: {
       padding: 10,
       color: "black",
       fontWeight: 900
@@ -8284,9 +9859,9 @@ function ProgressBar({ progress }) {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js
-var import_jsx_dev_runtime52 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime53 = require("react/jsx-dev-runtime");
 function GisDatasetUploadButton({ uploadGisDataset: uploadGisDataset3 }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("div", { className: "w-full border border-dashed border-gray-300 bg-gray-100", children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("div", { className: "p-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("button", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("div", { className: "w-full border border-dashed border-gray-300 bg-gray-100", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("div", { className: "p-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("button", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
     "input",
     {
       type: "file",
@@ -8317,37 +9892,37 @@ function GisDatasetUploadButton({ uploadGisDataset: uploadGisDataset3 }) {
 function GisDatasetUploadStatusElem({ fileUploadStatus }) {
   let fileUploadStatusElem;
   if (!fileUploadStatus)
-    fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "py-4 text-center", children: "Sending GIS File to server" }, void 0, !1, {
+    fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "py-4 text-center", children: "Sending GIS File to server" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
       lineNumber: 25,
       columnNumber: 7
     }, this);
   else {
     let { type, payload } = fileUploadStatus;
-    /GIS_FILE_UPLOAD_PROGRESS$/.test(type) ? fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(ProgressBar, { progress: payload.progress }, void 0, !1, {
+    /GIS_FILE_UPLOAD_PROGRESS$/.test(type) ? fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(ProgressBar, { progress: payload.progress }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
       lineNumber: 31,
       columnNumber: 30
-    }, this) : /GIS_FILE_RECEIVED$/.test(type) ? fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "py-4 text-center", children: "File Received" }, void 0, !1, {
+    }, this) : /GIS_FILE_RECEIVED$/.test(type) ? fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "py-4 text-center", children: "File Received" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
       lineNumber: 34,
       columnNumber: 9
-    }, this) : /START_GIS_FILE_UPLOAD_ANALYSIS$/.test(type) ? fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "py-4 text-center", children: "Server Analyzing the GIS File" }, void 0, !1, {
+    }, this) : /START_GIS_FILE_UPLOAD_ANALYSIS$/.test(type) ? fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "py-4 text-center", children: "Server Analyzing the GIS File" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
       lineNumber: 38,
       columnNumber: 9
-    }, this) : /FINISH_GIS_FILE_UPLOAD$/.test(type) ? fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "py-4 text-center", children: "GIS File Analysis Complete" }, void 0, !1, {
+    }, this) : /FINISH_GIS_FILE_UPLOAD$/.test(type) ? fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "py-4 text-center", children: "GIS File Analysis Complete" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
       lineNumber: 42,
       columnNumber: 9
-    }, this) : fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "py-4 text-center", children: "Processing" }, void 0, !1, {
+    }, this) : fileUploadStatusElem = /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "py-4 text-center", children: "Processing" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
       lineNumber: 45,
       columnNumber: 30
     }, this);
   }
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("tr", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "py-4 text-left", children: "File Upload Status" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("tr", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "py-4 text-left", children: "File Upload Status" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
       lineNumber: 51,
       columnNumber: 7
@@ -8360,8 +9935,8 @@ function GisDatasetUploadStatusElem({ fileUploadStatus }) {
   }, this);
 }
 function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
-  return uploadedFile ? /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+  return uploadedFile ? /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
       "div",
       {
         style: {
@@ -8373,7 +9948,7 @@ function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
           fontSize: "20px",
           fontWeight: "bold"
         },
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("span", { children: "File Metadata" }, void 0, !1, {
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("span", { children: "File Metadata" }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
           lineNumber: 75,
           columnNumber: 9
@@ -8388,14 +9963,14 @@ function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("table", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("tbody", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("tr", { className: "border-b", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "py-4 text-left", children: "Name" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("table", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("tbody", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("tr", { className: "border-b", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "py-4 text-left", children: "Name" }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
           lineNumber: 81,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "text-center  p-2", children: uploadedFile.name }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "text-center  p-2", children: uploadedFile.name }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
           lineNumber: 82,
           columnNumber: 13
@@ -8405,13 +9980,13 @@ function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
         lineNumber: 80,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("tr", { className: "border-b", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "py-4 text-left", children: "Last Modified" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("tr", { className: "border-b", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "py-4 text-left", children: "Last Modified" }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
           lineNumber: 86,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "text-center  p-2", children: uploadedFile.lastModifiedDate.toLocaleString() }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "text-center  p-2", children: uploadedFile.lastModifiedDate.toLocaleString() }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
           lineNumber: 87,
           columnNumber: 13
@@ -8421,13 +9996,13 @@ function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
         lineNumber: 85,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("tr", { className: "border-b", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "py-4 text-left", children: "Size" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("tr", { className: "border-b", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "py-4 text-left", children: "Size" }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
           lineNumber: 93,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { className: "text-center  p-2", children: prettyBytes(uploadedFile.size) }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { className: "text-center  p-2", children: prettyBytes(uploadedFile.size) }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
           lineNumber: 94,
           columnNumber: 13
@@ -8437,7 +10012,7 @@ function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
         lineNumber: 92,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(GisDatasetUploadStatusElem, { fileUploadStatus }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(GisDatasetUploadStatusElem, { fileUploadStatus }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
         lineNumber: 99,
         columnNumber: 11
@@ -8458,7 +10033,7 @@ function GisDatasetFileMeta({ uploadedFile, fileUploadStatus }) {
   }, this) : "";
 }
 function GisDatasetUploadErrorMessage({ etlContextId, uploadErrMsg }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
     "table",
     {
       className: "w-2/3",
@@ -8469,7 +10044,7 @@ function GisDatasetUploadErrorMessage({ etlContextId, uploadErrMsg }) {
         borderColor: "back"
       },
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
           "thead",
           {
             style: {
@@ -8482,8 +10057,8 @@ function GisDatasetUploadErrorMessage({ etlContextId, uploadErrMsg }) {
               border: "1px solid",
               borderColor: "black"
             },
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("tr", { children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("tr", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
                 " ",
                 "GIS Dataset Upload Error"
               ] }, void 0, !0, {
@@ -8491,7 +10066,7 @@ function GisDatasetUploadErrorMessage({ etlContextId, uploadErrMsg }) {
                 lineNumber: 130,
                 columnNumber: 11
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
                 " ",
                 "ETL Context ID"
               ] }, void 0, !0, {
@@ -8514,8 +10089,8 @@ function GisDatasetUploadErrorMessage({ etlContextId, uploadErrMsg }) {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("tbody", { style: { border: "1px solid" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("tr", { style: { border: "1px solid" }, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("tbody", { style: { border: "1px solid" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("tr", { style: { border: "1px solid" }, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
             "td",
             {
               style: {
@@ -8535,7 +10110,7 @@ function GisDatasetUploadErrorMessage({ etlContextId, uploadErrMsg }) {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("td", { style: { border: "1px solid", backgroundColor: "white" }, children: etlContextId }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("td", { style: { border: "1px solid", backgroundColor: "white" }, children: etlContextId }, void 0, !1, {
             fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/components/index.js",
             lineNumber: 152,
             columnNumber: 11
@@ -8563,15 +10138,15 @@ function GisDatasetUploadErrorMessage({ etlContextId, uploadErrMsg }) {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/uploadGisDataset/index.js
-var import_jsx_dev_runtime53 = require("react/jsx-dev-runtime"), {
+var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), {
   operations: { uploadGisDataset: uploadGisDataset2 }
 } = store_exports, taskName = "uploadGisDataset";
 function UploadGisDataset() {
-  let parentCtx = (0, import_react64.useContext)(EtlContextReact), [state, dispatch] = (0, import_react64.useReducer)(
+  let parentCtx = (0, import_react66.useContext)(EtlContextReact), [state, dispatch] = (0, import_react66.useReducer)(
     reducer,
     { maxSeenEventId: parentCtx.getState().maxSeenEventId || -1 },
     init
-  ), { current: ctx } = (0, import_react64.useRef)(
+  ), { current: ctx } = (0, import_react66.useRef)(
     new EtlContext({
       name: taskName,
       ...store_exports,
@@ -8579,14 +10154,14 @@ function UploadGisDataset() {
       parentCtx
     })
   );
-  ctx.setState(state), (0, import_react64.useEffect)(() => {
+  ctx.setState(state), (0, import_react66.useEffect)(() => {
     parentCtx.dispatch({
       type: `${taskName}:STATE_UPDATE`,
       payload: state
     });
   }, [parentCtx, state]);
   let { etlContextId, fileUploadStatus, uploadedFile, uploadErrMsg } = useEtlContext(ctx);
-  return etlContextId ? (uploadErrMsg && GisDatasetUploadErrorMessage, uploadedFile ? /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
+  return etlContextId ? (uploadErrMsg && GisDatasetUploadErrorMessage, uploadedFile ? /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
     GisDatasetFileMeta,
     {
       uploadedFile,
@@ -8600,7 +10175,7 @@ function UploadGisDataset() {
       columnNumber: 5
     },
     this
-  ) : /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
+  ) : /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
     GisDatasetUploadButton,
     {
       uploadGisDataset: uploadGisDataset2.bind(null, ctx)
@@ -8617,7 +10192,7 @@ function UploadGisDataset() {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/index.js
-var import_react66 = require("react");
+var import_react68 = require("react");
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/store/index.js
 var store_exports2 = {};
@@ -8727,22 +10302,22 @@ function reducer2(state, action7) {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js
-var import_react65 = require("react");
-var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: selectLayer2 } = operations_exports2, LayerSelector = () => {
-  let ctx = (0, import_react65.useContext)(EtlContextReact), { layerNames, layerName } = useEtlContextDependencies(ctx, [
+var import_react67 = require("react");
+var import_jsx_dev_runtime55 = require("react/jsx-dev-runtime"), { selectLayer: selectLayer2 } = operations_exports2, LayerSelector = () => {
+  let ctx = (0, import_react67.useContext)(EtlContextReact), { layerNames, layerName } = useEtlContextDependencies(ctx, [
     "layerNames",
     "layerName"
   ]);
   if (!layerNames)
     return "";
   let layerRow;
-  return layerNames.length === 1 ? (layerName || selectLayer2(ctx, layerNames[0]), layerRow = /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("tr", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("td", { className: "py-4 text-left", children: "Layer Name" }, void 0, !1, {
+  return layerNames.length === 1 ? (layerName || selectLayer2(ctx, layerNames[0]), layerRow = /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("tr", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("td", { className: "py-4 text-left", children: "Layer Name" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
       lineNumber: 33,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("td", { className: "py-4 text-center", children: layerName }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("td", { className: "py-4 text-center", children: layerName }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
       lineNumber: 34,
       columnNumber: 9
@@ -8751,19 +10326,19 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
     fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
     lineNumber: 32,
     columnNumber: 7
-  }, this)) : layerRow = /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("tr", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("td", { className: "py-4 text-left", children: "Select Layer" }, void 0, !1, {
+  }, this)) : layerRow = /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("tr", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("td", { className: "py-4 text-left", children: "Select Layer" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
       lineNumber: 40,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("td", { className: "py-4 text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("td", { className: "py-4 text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
       "select",
       {
         className: "text-center w-1/2 bg-white p-2 shadow bg-grey-50 focus:bg-blue-100 border-gray-300",
         value: layerName || "",
         onChange: (e) => selectLayer2(ctx, e.target.value),
-        children: ["", ...layerNames].map((l) => /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("option", { value: l, children: l }, l, !1, {
+        children: ["", ...layerNames].map((l) => /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("option", { value: l, children: l }, l, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
           lineNumber: 48,
           columnNumber: 15
@@ -8786,8 +10361,8 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
     fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
     lineNumber: 39,
     columnNumber: 7
-  }, this), /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+  }, this), /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
       "div",
       {
         style: {
@@ -8799,7 +10374,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
           fontSize: "20px",
           fontWeight: "bold"
         },
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
           "span",
           {
             style: {
@@ -8833,7 +10408,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("table", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("tbody", { children: layerRow }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("table", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("tbody", { children: layerRow }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
       lineNumber: 88,
       columnNumber: 9
@@ -8848,7 +10423,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
     columnNumber: 5
   }, this);
 }, LayerAnalysisSection = () => {
-  let ctx = (0, import_react65.useContext)(EtlContextReact), { etlContextId, layerName, lyrAnlysErrMsg, layerAnalysis } = useEtlContextDependencies(ctx, [
+  let ctx = (0, import_react67.useContext)(EtlContextReact), { etlContextId, layerName, lyrAnlysErrMsg, layerAnalysis } = useEtlContextDependencies(ctx, [
     "etlContextId",
     "layerName",
     "lyrAnlysErrMsg",
@@ -8857,7 +10432,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
   if (!layerName)
     return "";
   if (lyrAnlysErrMsg)
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
       "table",
       {
         className: "w-2/3",
@@ -8868,7 +10443,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
           borderColor: "back"
         },
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
             "thead",
             {
               style: {
@@ -8881,8 +10456,8 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
                 border: "1px solid",
                 borderColor: "black"
               },
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("tr", { children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("tr", { children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
                   " ",
                   "Layer Analysis Error"
                 ] }, void 0, !0, {
@@ -8890,7 +10465,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
                   lineNumber: 133,
                   columnNumber: 13
                 }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
                   " ",
                   "ETL Context ID"
                 ] }, void 0, !0, {
@@ -8913,8 +10488,8 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("tbody", { style: { border: "1px solid" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("tr", { style: { border: "1px solid" }, children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("tbody", { style: { border: "1px solid" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("tr", { style: { border: "1px solid" }, children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
               "td",
               {
                 style: {
@@ -8934,7 +10509,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("td", { style: { border: "1px solid", backgroundColor: "white" }, children: etlContextId }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("td", { style: { border: "1px solid", backgroundColor: "white" }, children: etlContextId }, void 0, !1, {
               fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
               lineNumber: 155,
               columnNumber: 13
@@ -8960,7 +10535,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
       this
     );
   if (!layerAnalysis)
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("div", { children: "Analyzing Layer... please wait." }, void 0, !1, {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("div", { children: "Analyzing Layer... please wait." }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
       lineNumber: 165,
       columnNumber: 12
@@ -8970,7 +10545,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
   ), geomTypeSection;
   if (geomTypes.length === 1) {
     let [geomType] = geomTypes;
-    geomTypeSection = /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+    geomTypeSection = /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
       "div",
       {
         className: "text-blue-500",
@@ -8995,9 +10570,9 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
       this
     );
   } else
-    geomTypeSection = /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("div", { style: { width: "100%" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("div", { style: { width: "50%", margin: "10px auto" }, children: [
+    geomTypeSection = /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("div", { style: { width: "100%" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("div", { style: { width: "50%", margin: "10px auto" }, children: [
       "The layer contained features of multiple geometry types:",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
         "table",
         {
           style: {
@@ -9007,8 +10582,8 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
             border: "1px solid"
           },
           children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("thead", { style: { backgroundColor: "black", color: "white" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("tr", { children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("thead", { style: { backgroundColor: "black", color: "white" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("tr", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
                 "th",
                 {
                   className: "text-center",
@@ -9024,7 +10599,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("th", { className: "text-center", style: { padding: "10px" }, children: "Feature Count" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("th", { className: "text-center", style: { padding: "10px" }, children: "Feature Count" }, void 0, !1, {
                 fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/components/index.js",
                 lineNumber: 212,
                 columnNumber: 17
@@ -9038,8 +10613,8 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
               lineNumber: 204,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("tbody", { children: geomTypes.map((type) => /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("tr", { className: "border-b", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("tbody", { children: geomTypes.map((type) => /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("tr", { className: "border-b", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
                 "td",
                 {
                   className: "py-4 text-center",
@@ -9055,7 +10630,7 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
                 "td",
                 {
                   className: "text-center  p-2",
@@ -9104,8 +10679,8 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
       lineNumber: 193,
       columnNumber: 7
     }, this);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
       "span",
       {
         style: {
@@ -9137,11 +10712,11 @@ var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), { selectLayer: 
 };
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/index.js
-var import_jsx_dev_runtime55 = require("react/jsx-dev-runtime"), {
+var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), {
   operations: { getLayerNames: getLayerNames2, getLayerAnalysis: getLayerAnalysis2 }
 } = store_exports2;
 function SelectGisDatasetLayer() {
-  let parentCtx = (0, import_react66.useContext)(EtlContextReact), [state, dispatch] = (0, import_react66.useReducer)(reducer2, null, init2), { current: ctx } = (0, import_react66.useRef)(
+  let parentCtx = (0, import_react68.useContext)(EtlContextReact), [state, dispatch] = (0, import_react68.useReducer)(reducer2, null, init2), { current: ctx } = (0, import_react68.useRef)(
     new EtlContext({
       name: "SelectGisDatasetLayer",
       ...store_exports2,
@@ -9149,24 +10724,24 @@ function SelectGisDatasetLayer() {
       parentCtx
     })
   );
-  ctx.setState(state), (0, import_react66.useEffect)(() => {
+  ctx.setState(state), (0, import_react68.useEffect)(() => {
     parentCtx.dispatch({
       type: "selectGisDatasetLayer:STATE_UPDATE",
       payload: state
     });
   }, [parentCtx, state]);
   let { gisUploadId, uploadedFile, layerNames, layerName } = useEtlContext(ctx);
-  return (0, import_react66.useEffect)(() => {
+  return (0, import_react68.useEffect)(() => {
     gisUploadId && uploadedFile && getLayerNames2(ctx, gisUploadId);
-  }, [ctx, gisUploadId, uploadedFile]), (0, import_react66.useEffect)(() => {
+  }, [ctx, gisUploadId, uploadedFile]), (0, import_react68.useEffect)(() => {
     gisUploadId && layerName && getLayerAnalysis2(ctx, gisUploadId, layerName);
-  }, [ctx, gisUploadId, layerName]), layerNames ? /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(EtlContextReact.Provider, { value: ctx, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(LayerSelector, {}, void 0, !1, {
+  }, [ctx, gisUploadId, layerName]), layerNames ? /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(EtlContextReact.Provider, { value: ctx, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(LayerSelector, {}, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/index.js",
       lineNumber: 60,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(LayerAnalysisSection, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(LayerAnalysisSection, {}, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/selectGisDatasetLayer/index.js",
       lineNumber: 61,
       columnNumber: 7
@@ -9179,7 +10754,7 @@ function SelectGisDatasetLayer() {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/index.js
-var import_react68 = require("react");
+var import_react70 = require("react");
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/store/index.js
 var store_exports3 = {};
@@ -9221,7 +10796,7 @@ var selectDatabaseColumnNames = createSimpleSelector_default(
 ), selectTableDescriptor = createSimpleSelector_default("tableDescriptor");
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/store/reducers.js
-var import_lodash17 = require("lodash"), initialState3 = {
+var import_lodash18 = require("lodash"), initialState3 = {
   databaseColumnNames: null,
   tableDescriptor: null
 };
@@ -9233,7 +10808,7 @@ function reducer3(state, action7) {
   switch (type) {
     case "databaseColumnNames/UPDATE_DATABASE_COLUMN_NAMES": {
       let { databaseColumnNames } = state;
-      return (0, import_lodash17.isEqual)(databaseColumnNames, payload) ? state : { ...state, databaseColumnNames: payload };
+      return (0, import_lodash18.isEqual)(databaseColumnNames, payload) ? state : { ...state, databaseColumnNames: payload };
     }
     case "tableDescriptor/UPDATE_TABLE_DESCRIPTOR": {
       let { tableDescriptor } = state;
@@ -9241,7 +10816,7 @@ function reducer3(state, action7) {
     }
     case "tableDescriptor/UPDATE_DATABASE_COLUMN_NAME": {
       let { rowIdx, colName: newColName } = payload, { tableDescriptor } = state;
-      if ((0, import_lodash17.get)(tableDescriptor, ["columnTypes", rowIdx, "col"]) === newColName)
+      if ((0, import_lodash18.get)(tableDescriptor, ["columnTypes", rowIdx, "col"]) === newColName)
         return state;
       let newTblDscr = { ...tableDescriptor };
       return newTblDscr.columnTypes = tableDescriptor.columnTypes.slice(), newTblDscr.columnTypes[rowIdx] = {
@@ -9255,8 +10830,8 @@ function reducer3(state, action7) {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js
-var import_react67 = require("react"), import_debounce = __toESM(require("lodash/debounce")), import_mapValues = __toESM(require("lodash/mapValues"));
-var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), FreeFormColumnNameInput = ({ publishStatus, field, col, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
+var import_react69 = require("react"), import_debounce = __toESM(require("lodash/debounce")), import_mapValues = __toESM(require("lodash/mapValues"));
+var import_jsx_dev_runtime57 = require("react/jsx-dev-runtime"), FreeFormColumnNameInput = ({ publishStatus, field, col, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
   "input",
   {
     className: "w-full p-2 flex-1 shadow bg-grey-50 focus:bg-blue-100 border-gray-300",
@@ -9278,18 +10853,18 @@ var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), FreeFormColumnN
   if (!availableDbColNames)
     return "";
   let matches = col && availableDbColNames.includes(col), key = `col-names-dropdown-for-${field}`, hasAvailableDbColNames = availableDbColNames.filter(Boolean).length > 0;
-  return availableDbColNames.length ? matches && availableDbColNames.length === 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("span", { style: { textAlign: "center" }, children: col }, void 0, !1, {
+  return availableDbColNames.length ? matches && availableDbColNames.length === 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("span", { style: { textAlign: "center" }, children: col }, void 0, !1, {
     fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js",
     lineNumber: 49,
     columnNumber: 12
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
     "select",
     {
       onChange: (e) => onChange(e.target.value),
       value: matches ? col : "",
       placeholder: "Select the db column name",
       disabled: !hasAvailableDbColNames || publishStatus !== constants_default.AWAITING,
-      children: availableDbColNames.map((col2) => /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("option", { value: d, children: d }, void 0, !1, {
+      children: availableDbColNames.map((col2) => /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("option", { value: d, children: d }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js",
         lineNumber: 62,
         columnNumber: 39
@@ -9303,13 +10878,13 @@ var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), FreeFormColumnN
       columnNumber: 5
     },
     this
-  ) : /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("span", { style: { color: "darkgray" }, children: "All table columns have been assigned." }, void 0, !1, {
+  ) : /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("span", { style: { color: "darkgray" }, children: "All table columns have been assigned." }, void 0, !1, {
     fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js",
     lineNumber: 42,
     columnNumber: 7
   }, this);
 }, GisDatasetLayerDatabaseDbSchemaForm = () => {
-  let ctx = (0, import_react67.useContext)(EtlContextReact), {
+  let ctx = (0, import_react69.useContext)(EtlContextReact), {
     dispatch,
     actions: { updateGisDatasetLayerDatabaseColumnName: updateGisDatasetLayerDatabaseColumnName2 }
   } = ctx, etlCtxDeps = useEtlContextDependencies(ctx, [
@@ -9317,17 +10892,17 @@ var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), FreeFormColumnN
     "tableDescriptor",
     "publishStatus",
     "databaseColumnNames"
-  ]), { layerName, tableDescriptor, publishStatus, databaseColumnNames } = etlCtxDeps, [omittedFields, setOmittedFields] = (0, import_react67.useState)(null), [defaultMappings, setDefaultMappings] = (0, import_react67.useState)(null), tableDescriptorColumnTypes = tableDescriptor && tableDescriptor.columnTypes, gisDatasetFieldNamesToDbColumns = tableDescriptorColumnTypes && tableDescriptorColumnTypes.reduce((acc, { key, col }) => (acc[key] = col || null, acc), {});
-  if ((0, import_react67.useEffect)(() => {
+  ]), { layerName, tableDescriptor, publishStatus, databaseColumnNames } = etlCtxDeps, [omittedFields, setOmittedFields] = (0, import_react69.useState)(null), [defaultMappings, setDefaultMappings] = (0, import_react69.useState)(null), tableDescriptorColumnTypes = tableDescriptor && tableDescriptor.columnTypes, gisDatasetFieldNamesToDbColumns = tableDescriptorColumnTypes && tableDescriptorColumnTypes.reduce((acc, { key, col }) => (acc[key] = col || null, acc), {});
+  if ((0, import_react69.useEffect)(() => {
     defaultMappings === null && gisDatasetFieldNamesToDbColumns && setDefaultMappings(gisDatasetFieldNamesToDbColumns);
-  }, [defaultMappings, gisDatasetFieldNamesToDbColumns]), (0, import_react67.useEffect)(() => {
+  }, [defaultMappings, gisDatasetFieldNamesToDbColumns]), (0, import_react69.useEffect)(() => {
     gisDatasetFieldNamesToDbColumns && !omittedFields && setOmittedFields(
       (0, import_mapValues.default)(gisDatasetFieldNamesToDbColumns, (v) => v === null)
     );
   }, [gisDatasetFieldNamesToDbColumns, omittedFields]), !layerName)
     return "";
   if (!gisDatasetFieldNamesToDbColumns)
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
       "span",
       {
         style: {
@@ -9355,19 +10930,19 @@ var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), FreeFormColumnN
     return null;
   let InputElem = databaseColumnNames ? ConstrainedColumnNameInput : FreeFormColumnNameInput, assignedColNamesSet = new Set(
     Object.values(gisDatasetFieldNamesToDbColumns).filter(Boolean)
-  ), availableDbColNames = databaseColumnNames && databaseColumnNames.filter((c) => !assignedColNamesSet.has(c)).filter(Boolean), fieldsMappingSection = /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("table", { className: "w-full", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("thead", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("tr", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("th", { className: "text-center", style: { paddingRight: "40px" }, children: "GIS Dataset Field Name" }, void 0, !1, {
+  ), availableDbColNames = databaseColumnNames && databaseColumnNames.filter((c) => !assignedColNamesSet.has(c)).filter(Boolean), fieldsMappingSection = /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("table", { className: "w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("thead", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("tr", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("th", { className: "text-center", style: { paddingRight: "40px" }, children: "GIS Dataset Field Name" }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js",
         lineNumber: 155,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("th", { className: "text-center", children: "Database Column Name" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("th", { className: "text-center", children: "Database Column Name" }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js",
         lineNumber: 158,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("th", { className: "text-center", children: "Omit" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("th", { className: "text-center", children: "Omit" }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js",
         lineNumber: 159,
         columnNumber: 13
@@ -9381,14 +10956,14 @@ var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), FreeFormColumnN
       lineNumber: 153,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("tbody", { children: tableDescriptorColumnTypes.map(({ key, col }, rowIdx) => {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("tbody", { children: tableDescriptorColumnTypes.map(({ key, col }, rowIdx) => {
       let fieldColNameOptions;
       Array.isArray(availableDbColNames) && (fieldColNameOptions = assignedColNamesSet.has(col) ? [col, ...availableDbColNames] : availableDbColNames);
-      let ColNameCell = omittedFields[key] ? /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("span", {}, void 0, !1, {
+      let ColNameCell = omittedFields[key] ? /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("span", {}, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js",
         lineNumber: 172,
         columnNumber: 15
-      }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
+      }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
         InputElem,
         {
           availableDbColNames: fieldColNameOptions,
@@ -9411,18 +10986,18 @@ var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), FreeFormColumnN
         },
         this
       );
-      return /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("tr", { className: "border-b", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("td", { className: "py-4 text-left", children: key }, void 0, !1, {
+      return /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("tr", { className: "border-b", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("td", { className: "py-4 text-left", children: key }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js",
           lineNumber: 193,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("td", { className: "text-center  p-2", children: ColNameCell }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("td", { className: "text-center  p-2", children: ColNameCell }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/components/index.js",
           lineNumber: 194,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("td", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("td", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
           "input",
           {
             type: "checkbox",
@@ -9475,8 +11050,8 @@ var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), FreeFormColumnN
     lineNumber: 151,
     columnNumber: 5
   }, this);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
       "span",
       {
         style: {
@@ -9509,11 +11084,11 @@ var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), FreeFormColumnN
 };
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/index.js
-var import_jsx_dev_runtime57 = require("react/jsx-dev-runtime"), {
+var import_jsx_dev_runtime58 = require("react/jsx-dev-runtime"), {
   actions: { updateTableDescriptor: updateTableDescriptor2, updateDatabaseColumnNames: updateDatabaseColumnNames2 }
 } = store_exports3, taskName2 = "updateGisDatasetLayerDatabaseSchema";
 function UpdateGisDatasetLayerDatabaseDbSchema() {
-  let parentCtx = (0, import_react68.useContext)(EtlContextReact), [state, dispatch] = (0, import_react68.useReducer)(reducer3, null, init3), { current: ctx } = (0, import_react68.useRef)(
+  let parentCtx = (0, import_react70.useContext)(EtlContextReact), [state, dispatch] = (0, import_react70.useReducer)(reducer3, null, init3), { current: ctx } = (0, import_react70.useRef)(
     new EtlContext({
       name: taskName2,
       ...store_exports3,
@@ -9525,14 +11100,14 @@ function UpdateGisDatasetLayerDatabaseDbSchema() {
   let {
     meta: { rtPfx }
   } = parentCtx;
-  (0, import_react68.useEffect)(() => {
+  (0, import_react70.useEffect)(() => {
     parentCtx.dispatch({
       type: `${taskName2}:STATE_UPDATE`,
       payload: state
     });
   }, [parentCtx, state]);
-  let { damaSourceId, databaseColumnNames, gisUploadId, layerName } = useEtlContext(ctx), [isCreatingNew] = (0, import_react68.useState)(!damaSourceId), gisDatasetUploadedAndAnalyzed = gisUploadId && layerName, mustAwaitDbColNames = !(isCreatingNew || Array.isArray(databaseColumnNames)), ready = !mustAwaitDbColNames && gisDatasetUploadedAndAnalyzed;
-  return (0, import_react68.useEffect)(() => {
+  let { damaSourceId, databaseColumnNames, gisUploadId, layerName } = useEtlContext(ctx), [isCreatingNew] = (0, import_react70.useState)(!damaSourceId), gisDatasetUploadedAndAnalyzed = gisUploadId && layerName, mustAwaitDbColNames = !(isCreatingNew || Array.isArray(databaseColumnNames)), ready = !mustAwaitDbColNames && gisDatasetUploadedAndAnalyzed;
+  return (0, import_react70.useEffect)(() => {
     (async () => {
       if (mustAwaitDbColNames) {
         let url = new URL(
@@ -9547,7 +11122,7 @@ function UpdateGisDatasetLayerDatabaseDbSchema() {
         ), dispatch(updateDatabaseColumnNames2(dbColNames));
       }
     })();
-  }, [rtPfx, mustAwaitDbColNames, damaSourceId]), (0, import_react68.useEffect)(() => {
+  }, [rtPfx, mustAwaitDbColNames, damaSourceId]), (0, import_react70.useEffect)(() => {
     (async () => {
       if (dispatch(updateTableDescriptor2(null)), !ready)
         return;
@@ -9570,7 +11145,7 @@ function UpdateGisDatasetLayerDatabaseDbSchema() {
     databaseColumnNames,
     gisUploadId,
     layerName
-  ]), ready ? /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(EtlContextReact.Provider, { value: ctx, children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(GisDatasetLayerDatabaseDbSchemaForm, {}, void 0, !1, {
+  ]), ready ? /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(EtlContextReact.Provider, { value: ctx, children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(GisDatasetLayerDatabaseDbSchemaForm, {}, void 0, !1, {
     fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/updateGisDatasetLayerDatabaseSchema/index.js",
     lineNumber: 142,
     columnNumber: 7
@@ -9582,10 +11157,10 @@ function UpdateGisDatasetLayerDatabaseDbSchema() {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/create/components/PublishButton.js
-var import_react69 = require("react");
-var import_jsx_dev_runtime58 = require("react/jsx-dev-runtime");
+var import_react71 = require("react");
+var import_jsx_dev_runtime59 = require("react/jsx-dev-runtime");
 function PublishButton({ publishOperation }) {
-  let ctx = (0, import_react69.useContext)(EtlContextReact), {
+  let ctx = (0, import_react71.useContext)(EtlContextReact), {
     layerName,
     publishStatus,
     uploadErrMsg,
@@ -9601,7 +11176,7 @@ function PublishButton({ publishOperation }) {
   if (!layerName || uploadErrMsg || lyrAnlysErrMsg || !tableDescriptor)
     return "";
   let publishButtonText = "Publish", publishButtonBgColor = "#3b82f680";
-  return publishStatus === constants_default.IN_PROGRESS && (publishButtonText = "Publishing...", publishButtonBgColor = "#e5e7eb"), publishStatus === constants_default.PUBLISHED && (publishButtonText = "Published", publishButtonBgColor = "#e5e7eb"), publishStatus === constants_default.ERROR && (publishButtonText = "Publish Error", publishButtonBgColor = "red"), /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
+  return publishStatus === constants_default.IN_PROGRESS && (publishButtonText = "Publishing...", publishButtonBgColor = "#e5e7eb"), publishStatus === constants_default.PUBLISHED && (publishButtonText = "Published", publishButtonBgColor = "#e5e7eb"), publishStatus === constants_default.ERROR && (publishButtonText = "Publish Error", publishButtonBgColor = "red"), /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
     "span",
     {
       style: {
@@ -9630,12 +11205,12 @@ function PublishButton({ publishOperation }) {
   );
 }
 function PublishErrorMessage() {
-  let ctx = (0, import_react69.useContext)(EtlContextReact), { etlContextId, publishStatus, publishErrMsg } = useEtlContextDependencies(ctx, [
+  let ctx = (0, import_react71.useContext)(EtlContextReact), { etlContextId, publishStatus, publishErrMsg } = useEtlContextDependencies(ctx, [
     "etlContextId",
     "publishStatus",
     "publishErrMsg"
   ]);
-  return publishStatus !== constants_default.ERROR ? "" : /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
+  return publishStatus !== constants_default.ERROR ? "" : /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
     "table",
     {
       className: "w-2/3",
@@ -9646,7 +11221,7 @@ function PublishErrorMessage() {
         borderColor: "back"
       },
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
           "thead",
           {
             style: {
@@ -9659,8 +11234,8 @@ function PublishErrorMessage() {
               border: "1px solid",
               borderColor: "black"
             },
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)("tr", { children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)("tr", { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
                 " ",
                 "Publish Error"
               ] }, void 0, !0, {
@@ -9668,7 +11243,7 @@ function PublishErrorMessage() {
                 lineNumber: 108,
                 columnNumber: 11
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)("th", { style: { border: "1px solid", borderColor: "black" }, children: [
                 " ",
                 "ETL Context ID"
               ] }, void 0, !0, {
@@ -9691,8 +11266,8 @@ function PublishErrorMessage() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)("tbody", { style: { border: "1px solid" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)("tr", { style: { border: "1px solid" }, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)("tbody", { style: { border: "1px solid" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)("tr", { style: { border: "1px solid" }, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
             "td",
             {
               style: {
@@ -9712,7 +11287,7 @@ function PublishErrorMessage() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)("td", { style: { border: "1px solid", backgroundColor: "white" }, children: etlContextId }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)("td", { style: { border: "1px solid", backgroundColor: "white" }, children: etlContextId }, void 0, !1, {
             fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/create/components/PublishButton.js",
             lineNumber: 130,
             columnNumber: 11
@@ -9882,7 +11457,7 @@ function reducer4(state, action7) {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/tasks/create/index.js
-var import_jsx_dev_runtime59 = require("react/jsx-dev-runtime"), workflow = [
+var import_jsx_dev_runtime60 = require("react/jsx-dev-runtime"), workflow = [
   UploadGisDataset,
   SelectGisDatasetLayer,
   UpdateGisDatasetLayerDatabaseDbSchema
@@ -9906,11 +11481,11 @@ var import_jsx_dev_runtime59 = require("react/jsx-dev-runtime"), workflow = [
   (sel) => (state) => sel(selectGisDatasetLayerDatabaseSchemaState2(state))
 );
 function RequestSourceName() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
     "div",
     {
       className: "w-full mt-10 text-center font-lg font-bold",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)("span", { children: "Please provide a source name above." }, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { children: "Please provide a source name above." }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/create/index.js",
         lineNumber: 71,
         columnNumber: 7
@@ -9927,11 +11502,11 @@ function RequestSourceName() {
   );
 }
 var GisDataset = (props) => {
-  let { sourceId } = (0, import_react71.useParams)(), { source } = props, { name: damaSourceName, display_name: damaSourceDisplayName } = source, [isCreatingNew] = (0, import_react70.useState)(!!source.source_id), publishOperation = isCreatingNew ? updateExistingDamaSource2 : createNewDamaSource2, userId = (0, import_get4.default)(props, "user.id", null), [state, dispatch] = (0, import_react70.useReducer)(
+  let { sourceId } = (0, import_react73.useParams)(), { source } = props, { name: damaSourceName, display_name: damaSourceDisplayName } = source, [isCreatingNew] = (0, import_react72.useState)(!!source.source_id), publishOperation = isCreatingNew ? updateExistingDamaSource2 : createNewDamaSource2, userId = (0, import_get4.default)(props, "user.id", null), [state, dispatch] = (0, import_react72.useReducer)(
     reducer4,
     (0, import_merge.default)(source, { source_id: sourceId }),
     init4
-  ), rtPfx = pgEnv ? getDamaApiRoutePrefix(pgEnv) : null, { current: ctx } = (0, import_react70.useRef)(
+  ), rtPfx = pgEnv ? getDamaApiRoutePrefix(pgEnv) : null, { current: ctx } = (0, import_react72.useRef)(
     new EtlContext({
       name: "CreateGisDataset",
       actions: actions_exports4,
@@ -9948,34 +11523,34 @@ var GisDataset = (props) => {
   );
   ctx.setState(state);
   let { etlContextId, damaSourceId, publishStatus } = useEtlContext(ctx);
-  ctx.assignMeta({ etlContextId, rtPfx }), (0, import_react70.useEffect)(() => {
+  ctx.assignMeta({ etlContextId, rtPfx }), (0, import_react72.useEffect)(() => {
     dispatch(updateDamaSourceId2(damaSourceId));
-  }, [damaSourceId]), (0, import_react70.useEffect)(() => {
+  }, [damaSourceId]), (0, import_react72.useEffect)(() => {
     dispatch(updateDamaSourceName2(damaSourceName));
-  }, [damaSourceName]), (0, import_react70.useEffect)(() => {
+  }, [damaSourceName]), (0, import_react72.useEffect)(() => {
     dispatch(updateDamaSourceDisplayName2(damaSourceDisplayName));
-  }, [damaSourceDisplayName]), (0, import_react70.useEffect)(() => {
+  }, [damaSourceDisplayName]), (0, import_react72.useEffect)(() => {
     (async () => (ctx.meta.etlContextId = await getNewEtlContextId(pgEnv), ctx.dispatch(updateEtlContextId2(ctx.meta.etlContextId))))();
   }, [pgEnv, ctx]);
-  let navigate = (0, import_react71.useNavigate)(), fetcher = (0, import_react71.useFetcher)();
-  if ((0, import_react70.useEffect)(() => {
+  let navigate = (0, import_react73.useNavigate)(), fetcher = (0, import_react73.useFetcher)();
+  if ((0, import_react72.useEffect)(() => {
     publishStatus === constants_default.PUBLISHED && (async () => (await fetcher.submit({}, {
       method: "post",
       action: "/source/create"
     }), navigate(`/source/${damaSourceId}`)))();
   }, [publishStatus, damaSourceId, history]), !sourceId && !damaSourceName)
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(RequestSourceName, {}, void 0, !1, {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(RequestSourceName, {}, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/create/index.js",
       lineNumber: 161,
       columnNumber: 12
     }, this);
-  let workflowElems = workflow.map((Elem, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(Elem, {}, `create_gis_dataset_workflow_step_${i}`, !1, {
+  let workflowElems = workflow.map((Elem, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(Elem, {}, `create_gis_dataset_workflow_step_${i}`, !1, {
     fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/create/index.js",
     lineNumber: 165,
     columnNumber: 12
   }, this));
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)("div", { className: "w-full", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { className: "w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
       "div",
       {
         style: {
@@ -9988,7 +11563,7 @@ var GisDataset = (props) => {
           fontSize: "25px",
           borderTop: "8px solid"
         },
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)("span", { children: "GIS Data Source" }, void 0, !1, {
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("span", { children: "GIS Data Source" }, void 0, !1, {
           fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/create/index.js",
           lineNumber: 183,
           columnNumber: 9
@@ -10003,14 +11578,14 @@ var GisDataset = (props) => {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(EtlContextReact.Provider, { value: ctx, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(EtlContextReact.Provider, { value: ctx, children: [
       workflowElems,
-      /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(PublishButton, { publishOperation }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(PublishButton, { publishOperation }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/create/index.js",
         lineNumber: 188,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(PublishErrorMessage, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(PublishErrorMessage, {}, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/tasks/create/index.js",
         lineNumber: 189,
         columnNumber: 9
@@ -10020,7 +11595,7 @@ var GisDataset = (props) => {
       lineNumber: 186,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
       "div",
       {
         style: {
@@ -10051,14 +11626,14 @@ var GisDataset = (props) => {
 }, create_default2 = GisDataset;
 
 // app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js
-var import_react72 = __toESM(require("react")), import_react73 = require("@remix-run/react");
-var import_lodash18 = __toESM(require("lodash"));
+var import_react74 = __toESM(require("react")), import_react75 = require("@remix-run/react");
+var import_lodash19 = __toESM(require("lodash"));
 
 // app/mapbox.json
 var mapbox_default2 = { MAPBOX_TOKEN: "pk.eyJ1IjoiYW0zMDgxIiwiYSI6IkxzS0FpU0UifQ.rYv6mHCcNd7KKMs7yhY3rw" };
 
 // app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js
-var import_jsx_dev_runtime60 = require("react/jsx-dev-runtime"), mapboxConfigPaintStylePath = ["layers", 0, "paint"];
+var import_jsx_dev_runtime61 = require("react/jsx-dev-runtime"), mapboxConfigPaintStylePath = ["layers", 0, "paint"];
 function Map3({ layers }) {
   let mapOptions = {
     zoom: 6.2,
@@ -10078,14 +11653,14 @@ function Map3({ layers }) {
         style: "mapbox://styles/am3081/ckm85o7hq6d8817nr0y6ute5v"
       }
     ]
-  }, map_layers = (0, import_react72.useMemo)(() => [], [layers]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { className: "w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+  }, map_layers = (0, import_react74.useMemo)(() => [], [layers]);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
     AvlMap,
     {
       accessToken: mapbox_default2.MAPBOX_TOKEN,
       mapOptions,
       layers: map_layers,
-      CustomSidebar: () => /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", {}, void 0, !1, {
+      CustomSidebar: () => /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", {}, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js",
         lineNumber: 53,
         columnNumber: 30
@@ -10109,13 +11684,13 @@ var ViewSelector = ({ damaViewIds, damaViewId, setDamaViewId }) => {
   if (!Array.isArray(damaViewIds) || damaViewIds.length === 0)
     return "";
   let viewRow;
-  return damaViewIds.length === 1 ? (damaViewId || setDamaViewId(damaViewIds[0]), viewRow = /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("tr", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("td", { className: "py-4 text-left", children: "View ID" }, void 0, !1, {
+  return damaViewIds.length === 1 ? (damaViewId || setDamaViewId(damaViewIds[0]), viewRow = /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("tr", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("td", { className: "py-4 text-left", children: "View ID" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js",
       lineNumber: 74,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("td", { className: "py-4 text-center", children: damaViewId }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("td", { className: "py-4 text-center", children: damaViewId }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js",
       lineNumber: 75,
       columnNumber: 9
@@ -10124,19 +11699,19 @@ var ViewSelector = ({ damaViewIds, damaViewId, setDamaViewId }) => {
     fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js",
     lineNumber: 73,
     columnNumber: 7
-  }, this)) : viewRow = /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("tr", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("td", { className: "py-4 text-left", children: "Select Layer" }, void 0, !1, {
+  }, this)) : viewRow = /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("tr", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("td", { className: "py-4 text-left", children: "Select Layer" }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js",
       lineNumber: 81,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("td", { className: "py-4 text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("td", { className: "py-4 text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
       "select",
       {
         className: "text-center w-1/2 bg-white p-2 shadow bg-grey-50 focus:bg-blue-100 border-gray-300",
         value: damaViewId || "",
         onChange: (e) => setDamaViewId(e.target.value),
-        children: [...damaViewIds].map((v) => /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("option", { value: v, children: [
+        children: [...damaViewIds].map((v) => /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("option", { value: v, children: [
           "View ",
           v
         ] }, v, !0, {
@@ -10162,8 +11737,8 @@ var ViewSelector = ({ damaViewIds, damaViewId, setDamaViewId }) => {
     fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js",
     lineNumber: 80,
     columnNumber: 7
-  }, this), /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+  }, this), /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
       "div",
       {
         style: {
@@ -10185,7 +11760,7 @@ var ViewSelector = ({ damaViewIds, damaViewId, setDamaViewId }) => {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("table", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("tbody", { children: viewRow }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("table", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("tbody", { children: viewRow }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js",
       lineNumber: 114,
       columnNumber: 9
@@ -10231,15 +11806,15 @@ var ViewSelector = ({ damaViewIds, damaViewId, setDamaViewId }) => {
   }
 };
 function ConfigurationEditor({ startValue, updateValue }) {
-  let [value, setValue] = (0, import_react72.useState)(startValue), inputEl = (0, import_react72.useRef)(null);
-  (0, import_react72.useEffect)(() => {
+  let [value, setValue] = (0, import_react74.useState)(startValue), inputEl = (0, import_react74.useRef)(null);
+  (0, import_react74.useEffect)(() => {
     setValue(startValue);
-  }, [startValue]), (0, import_react72.useEffect)(() => {
+  }, [startValue]), (0, import_react74.useEffect)(() => {
     inputEl.current.style.height = `${inputEl.current.scrollHeight}px`;
   }, [value]);
-  let configChanged = value && isValidJSON(value) && (!isValidJSON(startValue) || !import_lodash18.default.isEqual(JSON.parse(startValue), JSON.parse(value))), bgColor = isValidJSON(value) ? "blue" : "red", className = `flex-1 px-2 shadow text-base focus:ring-${bgColor}-700 focus:border-${bgColor}-500  border-gray-300 rounded-none rounded-l-md`, style = isValidJSON(value) ? { backgroundColor: "rgb(147 197 253)" } : { backgroundColor: "rgb(252 165 165)" };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { className: "w-full", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { className: "w-full flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+  let configChanged = value && isValidJSON(value) && (!isValidJSON(startValue) || !import_lodash19.default.isEqual(JSON.parse(startValue), JSON.parse(value))), bgColor = isValidJSON(value) ? "blue" : "red", className = `flex-1 px-2 shadow text-base focus:ring-${bgColor}-700 focus:border-${bgColor}-500  border-gray-300 rounded-none rounded-l-md`, style = isValidJSON(value) ? { backgroundColor: "rgb(147 197 253)" } : { backgroundColor: "rgb(252 165 165)" };
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "w-full flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
       "textarea",
       {
         ref: inputEl,
@@ -10263,8 +11838,8 @@ function ConfigurationEditor({ startValue, updateValue }) {
       lineNumber: 214,
       columnNumber: 7
     }, this),
-    configChanged ? /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+    configChanged ? /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
         Button,
         {
           themeOptions: { size: "sm" },
@@ -10288,7 +11863,7 @@ function ConfigurationEditor({ startValue, updateValue }) {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
         Button,
         {
           themeOptions: { size: "sm", color: "cancel" },
@@ -10320,8 +11895,8 @@ function ConfigurationEditor({ startValue, updateValue }) {
   }, this);
 }
 function MapPage2() {
-  let { sourceId } = (0, import_react73.useParams)(), [damaTileServerUrl, setDamaTileServerUrl] = (0, import_react72.useState)(null), [damaViewId, setDamaViewId] = (0, import_react72.useState)(null), [mapboxConfiguration, setMapboxConfiguration] = (0, import_react72.useState)(null), [draftMapboxConfig, setDraftMapboxConfig] = (0, import_react72.useState)(null), [editing, setEditing] = import_react72.default.useState(null), { falcor: falcor3, falcorCache } = useFalcor();
-  import_react72.default.useEffect(() => {
+  let { sourceId } = (0, import_react75.useParams)(), [damaTileServerUrl, setDamaTileServerUrl] = (0, import_react74.useState)(null), [damaViewId, setDamaViewId] = (0, import_react74.useState)(null), [mapboxConfiguration, setMapboxConfiguration] = (0, import_react74.useState)(null), [draftMapboxConfig, setDraftMapboxConfig] = (0, import_react74.useState)(null), [editing, setEditing] = import_react74.default.useState(null), { falcor: falcor3, falcorCache } = useFalcor();
+  import_react74.default.useEffect(() => {
     (async () => {
       let viewsLenQuery = [
         "dama",
@@ -10331,7 +11906,7 @@ function MapPage2() {
         sourceId,
         "views",
         "length"
-      ], viewsLenResp = await falcor3.get(viewsLenQuery), viewsLen = import_lodash18.default.get(viewsLenResp, ["json", ...viewsLenQuery]), viewsIdsQuery = [
+      ], viewsLenResp = await falcor3.get(viewsLenQuery), viewsLen = import_lodash19.default.get(viewsLenResp, ["json", ...viewsLenQuery]), viewsIdsQuery = [
         "dama",
         pgEnv,
         "sources",
@@ -10343,36 +11918,36 @@ function MapPage2() {
       ];
       await falcor3.get(viewsIdsQuery);
     })();
-  }, [falcor3, pgEnv, sourceId]), import_react72.default.useEffect(() => {
+  }, [falcor3, pgEnv, sourceId]), import_react74.default.useEffect(() => {
     (async () => {
       let url = await getDamaTileServerUrl();
       console.log("getDamaTileServerUrl", url), url && setDamaTileServerUrl(url);
     })();
-  }, []), import_react72.default.useEffect(() => {
+  }, []), import_react74.default.useEffect(() => {
     damaViewId && falcor3.get(["dama", pgEnv, "viewId", damaViewId, "mapboxConfiguration"]);
-  }, [falcor3, pgEnv, damaViewId]), import_react72.default.useEffect(() => {
+  }, [falcor3, pgEnv, damaViewId]), import_react74.default.useEffect(() => {
     (!damaViewId || !damaTileServerUrl) && setMapboxConfiguration(null);
-    let config = import_lodash18.default.get(
+    let config = import_lodash19.default.get(
       falcorCache,
       ["dama", pgEnv, "viewId", damaViewId, "mapboxConfiguration", "value"],
       null
     );
     config || (setMapboxConfiguration(null), console.warn("No mapbox config from falcorCache"));
-    let _config = import_lodash18.default.cloneDeep(config);
+    let _config = import_lodash19.default.cloneDeep(config);
     console.log("==> mapbox config from falcorCache:", config), setMapboxConfiguration(_config), setDraftMapboxConfig(_config);
   }, [falcorCache, pgEnv, damaViewId, damaTileServerUrl]);
   function updateDraftMapboxConfig(path, value) {
-    let _draft = import_lodash18.default.cloneDeep(draftMapboxConfig);
-    import_lodash18.default.set(_draft, path, value), setDraftMapboxConfig(_draft);
+    let _draft = import_lodash19.default.cloneDeep(draftMapboxConfig);
+    import_lodash19.default.set(_draft, path, value), setDraftMapboxConfig(_draft);
   }
-  let damaViewIds = import_react72.default.useMemo(() => {
-    let viewsById = import_lodash18.default.get(falcorCache, ["dama", pgEnv, "views", "byId"]);
+  let damaViewIds = import_react74.default.useMemo(() => {
+    let viewsById = import_lodash19.default.get(falcorCache, ["dama", pgEnv, "views", "byId"]);
     return viewsById ? Object.keys(viewsById).sort((a, b) => +b - +a) : null;
   }, [falcorCache, pgEnv]);
-  import_react72.default.useEffect(() => {
+  import_react74.default.useEffect(() => {
     damaViewIds && damaViewId === null && setDamaViewId(damaViewIds[0]), damaViewIds || setDamaViewId(null);
   }, [damaViewIds, damaViewId]);
-  let draftPaintConfig = import_lodash18.default.get(draftMapboxConfig, ["layers", 0, "paint"]), configChanged = !import_lodash18.default.isEqual(mapboxConfiguration, draftMapboxConfig), saveNewConfigButton = configChanged ? /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+  let draftPaintConfig = import_lodash19.default.get(draftMapboxConfig, ["layers", 0, "paint"]), configChanged = !import_lodash19.default.isEqual(mapboxConfiguration, draftMapboxConfig), saveNewConfigButton = configChanged ? /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
     Button,
     {
       themeOptions: { size: "md" },
@@ -10401,16 +11976,16 @@ function MapPage2() {
     },
     this
   ) : "";
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { children: [
     "Map View ",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { className: "w-ful h-[700px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "w-ful h-[700px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
       Map3,
       {
         layers: [
           {
             name: damaViewId ? `dama_view_${damaViewId}` : "empty_map",
-            sources: import_lodash18.default.get(mapboxConfiguration, "sources", []),
-            layers: import_lodash18.default.get(mapboxConfiguration, "layers", [])
+            sources: import_lodash19.default.get(mapboxConfiguration, "sources", []),
+            layers: import_lodash19.default.get(mapboxConfiguration, "layers", [])
           }
         ]
       },
@@ -10427,7 +12002,7 @@ function MapPage2() {
       lineNumber: 387,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
       ViewSelector,
       {
         damaViewIds,
@@ -10443,13 +12018,13 @@ function MapPage2() {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { className: "flex justify-between group", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-6", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: "Map Paint Style" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "flex justify-between group", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-6", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: "Map Paint Style" }, void 0, !1, {
         fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Map/index.js",
         lineNumber: 407,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
         ConfigurationEditor,
         {
           startValue: JSON.stringify(draftPaintConfig, null, 4),
@@ -10501,7 +12076,7 @@ function MapPage2() {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/pages/Create/index.js
-var import_react74 = require("react"), import_react75 = require("@remix-run/react"), import_get5 = __toESM(require("lodash/get"));
+var import_react76 = require("react"), import_react77 = require("@remix-run/react"), import_get5 = __toESM(require("lodash/get"));
 
 // app/modules/data-manager/data-types/gis_dataset/pages/Create/components/constants.js
 var PublishStatus2 = {
@@ -10512,9 +12087,9 @@ var PublishStatus2 = {
 }, constants_default2 = PublishStatus2;
 
 // app/modules/data-manager/data-types/gis_dataset/pages/Create/index.js
-var import_jsx_dev_runtime61 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime62 = require("react/jsx-dev-runtime");
 function UploadGisDataset2({ source = {}, user = {} }) {
-  let { name: damaSourceName, source_id: sourceId } = source, userId = (0, import_get5.default)(user, "id", null), [state, setState] = (0, import_react74.useState)({
+  let { name: damaSourceName, source_id: sourceId } = source, userId = (0, import_get5.default)(user, "id", null), [state, setState] = (0, import_react76.useState)({
     damaSourceId: sourceId,
     damaSourceName,
     etlContextId: null,
@@ -10522,17 +12097,17 @@ function UploadGisDataset2({ source = {}, user = {} }) {
     publishStatus: constants_default2.AWAITING,
     publishErrMsg: null
   });
-  return !sourceId && !damaSourceName ? /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { children: " Please enter a datasource name." }, void 0, !1, {
+  return !sourceId && !damaSourceName ? /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("div", { children: " Please enter a datasource name." }, void 0, !1, {
     fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Create/index.js",
     lineNumber: 41,
     columnNumber: 12
-  }, this) : ((0, import_react74.useEffect)(() => {
+  }, this) : ((0, import_react76.useEffect)(() => {
     (async () => {
       let newEtlCtxId = +await (await fetch(`${DAMA_HOST}/dama-admin/${pgEnv}/etl/new-context-id`)).text();
       setState({ ...state, etlContextId: newEtlCtxId });
     })();
-  }, [pgEnv]), /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "fixed right-0 top-[170px] w-100 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("pre", { children: JSON.stringify(state, null, 3) }, void 0, !1, {
+  }, [pgEnv]), /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("div", { className: "fixed right-0 top-[170px] w-100 ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("pre", { children: JSON.stringify(state, null, 3) }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Create/index.js",
       lineNumber: 55,
       columnNumber: 13
@@ -10541,7 +12116,7 @@ function UploadGisDataset2({ source = {}, user = {} }) {
       lineNumber: 54,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { children: "Stuff coming here." }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("div", { children: "Stuff coming here." }, void 0, !1, {
       fileName: "app/modules/data-manager/data-types/gis_dataset/pages/Create/index.js",
       lineNumber: 59,
       columnNumber: 7
@@ -10554,7 +12129,7 @@ function UploadGisDataset2({ source = {}, user = {} }) {
 }
 
 // app/modules/data-manager/data-types/gis_dataset/index.js
-var import_jsx_dev_runtime62 = require("react/jsx-dev-runtime"), Table2 = () => /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("div", { children: " Table View " }, void 0, !1, {
+var import_jsx_dev_runtime63 = require("react/jsx-dev-runtime"), Table2 = () => /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)("div", { children: " Table View " }, void 0, !1, {
   fileName: "app/modules/data-manager/data-types/gis_dataset/index.js",
   lineNumber: 10,
   columnNumber: 10
@@ -10589,8 +12164,8 @@ var DataTypes = {
 };
 
 // app/routes/__dama/source/$sourceId.($page).js
-var import_react78 = require("@remix-run/react"), import_lodash19 = __toESM(require("lodash.get")), import_jsx_dev_runtime63 = require("react/jsx-dev-runtime");
-async function loader5({ params, request }) {
+var import_react80 = require("@remix-run/react"), import_lodash20 = __toESM(require("lodash.get")), import_jsx_dev_runtime64 = require("react/jsx-dev-runtime");
+async function loader6({ params, request }) {
   let { sourceId } = params, lengthPath = ["dama", pgEnv, "sources", "byId", sourceId, "views", "length"], resp = await falcor2.get(lengthPath), data = await falcor2.get(
     [
       "dama",
@@ -10600,7 +12175,7 @@ async function loader5({ params, request }) {
       sourceId,
       "views",
       "byIndex",
-      { from: 0, to: (0, import_lodash19.default)(resp.json, lengthPath, 0) - 1 },
+      { from: 0, to: (0, import_lodash20.default)(resp.json, lengthPath, 0) - 1 },
       "attributes",
       Object.values(ViewAttributes)
     ],
@@ -10616,14 +12191,14 @@ async function loader5({ params, request }) {
   ), falcorCache = falcor2.getCache();
   return {
     views: Object.values(
-      (0, import_lodash19.default)(
+      (0, import_lodash20.default)(
         falcorCache,
         ["dama", pgEnv, "sources", "byId", sourceId, "views", "byIndex"],
         {}
       )
     ).map(
       (v) => getAttributes(
-        (0, import_lodash19.default)(
+        (0, import_lodash20.default)(
           falcorCache,
           v.value,
           { attributes: {} }
@@ -10631,7 +12206,7 @@ async function loader5({ params, request }) {
       )
     ),
     source: getAttributes(
-      (0, import_lodash19.default)(
+      (0, import_lodash20.default)(
         falcorCache,
         ["dama", pgEnv, "sources", "byId", sourceId],
         { attributes: {} }
@@ -10640,21 +12215,21 @@ async function loader5({ params, request }) {
   };
 }
 function Dama() {
-  let { views, source } = (0, import_react78.useLoaderData)(), { sourceId, page: page2 } = (0, import_react78.useParams)(), [pages, setPages] = (0, import_react77.useState)(default_default), { user } = (0, import_react78.useOutletContext)();
-  import_react77.default.useEffect(() => {
+  let { views, source } = (0, import_react80.useLoaderData)(), { sourceId, page: page2 } = (0, import_react80.useParams)(), [pages, setPages] = (0, import_react79.useState)(default_default), { user } = (0, import_react80.useOutletContext)();
+  import_react79.default.useEffect(() => {
     if (DataTypes[source.type]) {
       let typePages = Object.keys(DataTypes[source.type]).reduce((a, c) => (DataTypes[source.type][c].path && (a[c] = DataTypes[source.type][c]), a), {}), allPages = { ...default_default, ...typePages };
       setPages(allPages);
     }
   }, [source.type]);
-  let Page = (0, import_react77.useMemo)(() => page2 ? (0, import_lodash19.default)(pages, `[${page2}].component`, default_default.overview.component) : default_default.overview.component, [page2, pages]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)("div", { className: "text-xl font-medium overflow-hidden p-2 border-b ", children: source.display_name || source.name }, void 0, !1, {
+  let Page = (0, import_react79.useMemo)(() => page2 ? (0, import_lodash20.default)(pages, `[${page2}].component`, default_default.overview.component) : default_default.overview.component, [page2, pages]);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "text-xl font-medium overflow-hidden p-2 border-b ", children: source.display_name || source.name }, void 0, !1, {
       fileName: "app/routes/__dama/source/$sourceId.($page).js",
       lineNumber: 86,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)(
       Top_default,
       {
         menuItems: Object.values(pages).map((d2) => ({
@@ -10672,7 +12247,7 @@ function Dama() {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)("div", { className: "w-full p-4 bg-white shadow mb-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(Page, { source, views, user }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "w-full p-4 bg-white shadow mb-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)(Page, { source, views, user }, void 0, !1, {
       fileName: "app/routes/__dama/source/$sourceId.($page).js",
       lineNumber: 100,
       columnNumber: 11
@@ -10694,39 +12269,39 @@ __export(create_exports, {
   action: () => action4,
   default: () => sourceCreate
 });
-var import_react79 = require("react"), import_react80 = require("@remix-run/react");
-var import_lodash20 = __toESM(require("lodash.get"));
-var import_jsx_dev_runtime64 = require("react/jsx-dev-runtime"), action4 = async ({ request, params }) => (console.log("gonna invalidate sources length"), await falcor2.invalidate(["dama", pgEnv, "sources", "length"]), null);
+var import_react81 = require("react"), import_react82 = require("@remix-run/react");
+var import_lodash21 = __toESM(require("lodash.get"));
+var import_jsx_dev_runtime65 = require("react/jsx-dev-runtime"), action4 = async ({ request, params }) => (console.log("gonna invalidate sources length"), await falcor2.invalidate(["dama", pgEnv, "sources", "length"]), null);
 function sourceCreate() {
-  let { user } = (0, import_react80.useOutletContext)(), [source, setSource] = (0, import_react79.useState)(
+  let { user } = (0, import_react82.useOutletContext)(), [source, setSource] = (0, import_react81.useState)(
     Object.keys(SourceAttributes).filter((d2) => !["source_id", "metadata", "statistics"].includes(d2)).reduce((out, current) => (out[current] = "", out), {})
-  ), CreateComp = (0, import_react79.useMemo)(
-    () => (0, import_lodash20.default)(DataTypes, `[${source.type}].sourceCreate.component`, () => /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", {}, void 0, !1, {
+  ), CreateComp = (0, import_react81.useMemo)(
+    () => (0, import_lodash21.default)(DataTypes, `[${source.type}].sourceCreate.component`, () => /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", {}, void 0, !1, {
       fileName: "app/routes/__dama/source/create.js",
       lineNumber: 38,
       columnNumber: 69
     }, this)),
     [DataTypes, source.type]
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "p-4 font-medium", children: " Create New Source " }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "p-4 font-medium", children: " Create New Source " }, void 0, !1, {
       fileName: "app/routes/__dama/source/create.js",
       lineNumber: 50,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: [
-        Object.keys(SourceAttributes).filter((d2) => !["source_id", "metadata", "description", "type", "statistics", "category", "update_interval", "categories"].includes(d2)).map((attr, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "flex justify-between group", children: /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: attr }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "border-t border-gray-200 px-4 py-5 sm:p-0", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("dl", { className: "sm:divide-y sm:divide-gray-200", children: [
+        Object.keys(SourceAttributes).filter((d2) => !["source_id", "metadata", "description", "type", "statistics", "category", "update_interval", "categories"].includes(d2)).map((attr, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "flex justify-between group", children: /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: attr }, void 0, !1, {
             fileName: "app/routes/__dama/source/create.js",
             lineNumber: 61,
             columnNumber: 21
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)(
             input_default,
             {
               className: "w-full p-2 flex-1 px-2 shadow bg-grey-50 focus:bg-blue-100  border-gray-300 ",
-              value: (0, import_lodash20.default)(source, attr, ""),
+              value: (0, import_lodash21.default)(source, attr, ""),
               onChange: (e) => {
                 setSource({ ...source, [attr]: e });
               }
@@ -10757,27 +12332,27 @@ function sourceCreate() {
           lineNumber: 59,
           columnNumber: 17
         }, this)),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "flex justify-between group", children: /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: "Data Type" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "flex justify-between group", children: /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "flex-1 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("dt", { className: "text-sm font-medium text-gray-500 py-5", children: "Data Type" }, void 0, !1, {
             fileName: "app/routes/__dama/source/create.js",
             lineNumber: 84,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("dd", { className: "mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "pt-3 pr-8", children: /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)(
             "select",
             {
               className: "w-full bg-white p-3 flex-1 shadow bg-grey-50 focus:bg-blue-100  border-gray-300",
-              value: (0, import_lodash20.default)(source, "type", ""),
+              value: (0, import_lodash21.default)(source, "type", ""),
               onChange: (e) => {
                 setSource({ ...source, type: e.target.value });
               },
               children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("option", { value: "", disabled: !0, children: "Select your option" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("option", { value: "", disabled: !0, children: "Select your option" }, void 0, !1, {
                   fileName: "app/routes/__dama/source/create.js",
                   lineNumber: 95,
                   columnNumber: 25
                 }, this),
-                Object.keys(DataTypes).filter((k) => DataTypes[k].sourceCreate).map((k) => /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)("option", { value: k, className: "p-2", children: k }, k, !1, {
+                Object.keys(DataTypes).filter((k) => DataTypes[k].sourceCreate).map((k) => /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("option", { value: k, className: "p-2", children: k }, k, !1, {
                   fileName: "app/routes/__dama/source/create.js",
                   lineNumber: 98,
                   columnNumber: 37
@@ -10815,7 +12390,7 @@ function sourceCreate() {
         lineNumber: 53,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime64.jsxDEV)(CreateComp, { source, user }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)(CreateComp, { source, user }, void 0, !1, {
         fileName: "app/routes/__dama/source/create.js",
         lineNumber: 108,
         columnNumber: 9
@@ -10835,28 +12410,28 @@ function sourceCreate() {
 // app/routes/__dama/index.(cat).js
 var index_cat_exports = {};
 __export(index_cat_exports, {
-  ErrorBoundary: () => ErrorBoundary2,
+  ErrorBoundary: () => ErrorBoundary3,
   default: () => Dama2,
-  loader: () => loader6
+  loader: () => loader7
 });
-var import_react81 = require("react");
-var import_react82 = require("@remix-run/react"), import_lodash21 = __toESM(require("lodash.get")), import_jsx_dev_runtime65 = require("react/jsx-dev-runtime");
-async function loader6({ request }) {
+var import_react83 = require("react");
+var import_react84 = require("@remix-run/react"), import_lodash22 = __toESM(require("lodash.get")), import_jsx_dev_runtime66 = require("react/jsx-dev-runtime");
+async function loader7({ request }) {
   let lengthPath = ["dama", pgEnv, "sources", "length"], resp = await falcor2.get(lengthPath), sourceData = await falcor2.get([
     "dama",
     pgEnv,
     "sources",
     "byIndex",
-    { from: 0, to: (0, import_lodash21.default)(resp.json, lengthPath, 0) - 1 },
+    { from: 0, to: (0, import_lodash22.default)(resp.json, lengthPath, 0) - 1 },
     "attributes",
     Object.values(SourceAttributes)
   ]), falcorCache = falcor2.getCache();
-  return Object.values((0, import_lodash21.default)(falcorCache, ["dama", pgEnv, "sources", "byIndex"], {})).map((v) => getAttributes((0, import_lodash21.default)(falcorCache, v.value, { attributes: {} }).attributes));
+  return Object.values((0, import_lodash22.default)(falcorCache, ["dama", pgEnv, "sources", "byIndex"], {})).map((v) => getAttributes((0, import_lodash22.default)(falcorCache, v.value, { attributes: {} }).attributes));
 }
 function Dama2() {
-  let [layerSearch, setLayerSearch] = (0, import_react81.useState)(""), sources = (0, import_react82.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "py-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)(
+  let [layerSearch, setLayerSearch] = (0, import_react83.useState)(""), sources = (0, import_react84.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("div", { className: "py-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)(
       "input",
       {
         className: "w-full text-lg p-2 border border-gray-300 ",
@@ -10882,9 +12457,9 @@ function Dama2() {
       columnNumber: 9
     }, this),
     sources.filter((source) => {
-      let searchTerm = source.name + " " + (0, import_lodash21.default)(source, "categories[0]", []).join(" ");
+      let searchTerm = source.name + " " + (0, import_lodash22.default)(source, "categories[0]", []).join(" ");
       return !layerSearch.length > 2 || searchTerm.toLowerCase().includes(layerSearch.toLowerCase());
-    }).map((s, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)(SourceThumb, { source: s }, i, !1, {
+    }).map((s, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)(SourceThumb, { source: s }, i, !1, {
       fileName: "app/routes/__dama/index.(cat).js",
       lineNumber: 48,
       columnNumber: 31
@@ -10895,8 +12470,8 @@ function Dama2() {
     columnNumber: 7
   }, this);
 }
-var SourceThumb = ({ source }) => /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { className: "w-full p-4 bg-white my-1 hover:bg-blue-50 block border shadow", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)(import_react82.Link, { to: `/source/${source.source_id}`, className: "text-xl font-medium w-full block", children: /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("span", { children: source.name }, void 0, !1, {
+var SourceThumb = ({ source }) => /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("div", { className: "w-full p-4 bg-white my-1 hover:bg-blue-50 block border shadow", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)(import_react84.Link, { to: `/source/${source.source_id}`, className: "text-xl font-medium w-full block", children: /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("span", { children: source.name }, void 0, !1, {
     fileName: "app/routes/__dama/index.(cat).js",
     lineNumber: 58,
     columnNumber: 9
@@ -10905,7 +12480,7 @@ var SourceThumb = ({ source }) => /* @__PURE__ */ (0, import_jsx_dev_runtime65.j
     lineNumber: 57,
     columnNumber: 7
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { children: ((0, import_lodash21.default)(source, "categories", []) || []).map((cat) => cat.map((s, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)(import_react82.Link, { to: `/cat/${i > 0 ? cat[i - 1] + "/" : ""}${s}`, className: "text-xs p-1 px-2 bg-blue-200 text-blue-600 mr-2", children: s }, i, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("div", { children: ((0, import_lodash22.default)(source, "categories", []) || []).map((cat) => cat.map((s, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)(import_react84.Link, { to: `/cat/${i > 0 ? cat[i - 1] + "/" : ""}${s}`, className: "text-xs p-1 px-2 bg-blue-200 text-blue-600 mr-2", children: s }, i, !1, {
     fileName: "app/routes/__dama/index.(cat).js",
     lineNumber: 63,
     columnNumber: 15
@@ -10914,7 +12489,7 @@ var SourceThumb = ({ source }) => /* @__PURE__ */ (0, import_jsx_dev_runtime65.j
     lineNumber: 60,
     columnNumber: 7
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)(import_react82.Link, { to: `/source/${source.source_id}`, className: "py-2 block", children: source.description }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)(import_react84.Link, { to: `/source/${source.source_id}`, className: "py-2 block", children: source.description }, void 0, !1, {
     fileName: "app/routes/__dama/index.(cat).js",
     lineNumber: 67,
     columnNumber: 7
@@ -10924,24 +12499,24 @@ var SourceThumb = ({ source }) => /* @__PURE__ */ (0, import_jsx_dev_runtime65.j
   lineNumber: 56,
   columnNumber: 5
 }, this);
-function ErrorBoundary2({ error }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("h1", { children: "Error" }, void 0, !1, {
+function ErrorBoundary3({ error }) {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("h1", { children: "Error" }, void 0, !1, {
       fileName: "app/routes/__dama/index.(cat).js",
       lineNumber: 77,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("p", { children: error.message }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("p", { children: error.message }, void 0, !1, {
       fileName: "app/routes/__dama/index.(cat).js",
       lineNumber: 78,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("p", { children: "The stack trace is:" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("p", { children: "The stack trace is:" }, void 0, !1, {
       fileName: "app/routes/__dama/index.(cat).js",
       lineNumber: 79,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime65.jsxDEV)("pre", { children: error.stack }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("pre", { children: error.stack }, void 0, !1, {
       fileName: "app/routes/__dama/index.(cat).js",
       lineNumber: 80,
       columnNumber: 7
@@ -10957,16 +12532,16 @@ function ErrorBoundary2({ error }) {
 var dms_exports = {};
 __export(dms_exports, {
   default: () => Index3,
-  loader: () => loader7
+  loader: () => loader8
 });
-var import_react83 = require("@remix-run/react");
-var import_jsx_dev_runtime66 = require("react/jsx-dev-runtime");
-async function loader7({ request }) {
+var import_react85 = require("@remix-run/react");
+var import_jsx_dev_runtime67 = require("react/jsx-dev-runtime");
+async function loader8({ request }) {
   return await checkAuth(request);
 }
 function Index3() {
-  let user = (0, import_react83.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("div", { className: "max-w-5xl mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)("div", { className: "bg-gray-100 px-4 text-gray-500 min-h-screen", children: /* @__PURE__ */ (0, import_jsx_dev_runtime66.jsxDEV)(import_react83.Outlet, {}, void 0, !1, {
+  let user = (0, import_react85.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("div", { className: "max-w-5xl mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("div", { className: "bg-gray-100 px-4 text-gray-500 min-h-screen", children: /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)(import_react85.Outlet, {}, void 0, !1, {
     fileName: "app/routes/__dms.jsx",
     lineNumber: 20,
     columnNumber: 9
@@ -10988,10 +12563,10 @@ __export(blog_config_exports, {
 });
 
 // app/modules/dms/components/table.js
-var import_react85 = require("@remix-run/react"), import_react86 = require("react");
+var import_react87 = require("@remix-run/react"), import_react88 = require("react");
 
 // app/modules/dms/theme/index.js
-var import_react84 = __toESM(require("react"));
+var import_react86 = __toESM(require("react"));
 
 // app/modules/dms/theme/default-theme.js
 function defaultTheme() {
@@ -11020,10 +12595,10 @@ function defaultTheme() {
 var default_theme_default = defaultTheme();
 
 // app/modules/dms/theme/index.js
-var ThemeContext2 = import_react84.default.createContext(default_theme_default), useTheme2 = () => (0, import_react84.useContext)(ThemeContext2), theme_default2 = ThemeContext2;
+var ThemeContext2 = import_react86.default.createContext(default_theme_default), useTheme2 = () => (0, import_react86.useContext)(ThemeContext2), theme_default2 = ThemeContext2;
 
 // app/modules/dms/components/table.js
-var import_lodash22 = __toESM(require("lodash.get")), import_jsx_dev_runtime67 = require("react/jsx-dev-runtime");
+var import_lodash23 = __toESM(require("lodash.get")), import_jsx_dev_runtime68 = require("react/jsx-dev-runtime");
 function replaceVars(url, data) {
   var regex = /:(\w+)/g;
   return url.replace(regex, function(match, p1) {
@@ -11032,9 +12607,9 @@ function replaceVars(url, data) {
 }
 var ColumnTypes = {
   data: function({ data, column, className, key }) {
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("td", { className, children: [
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("td", { className, children: [
       " ",
-      (0, import_lodash22.default)(data, [column.path], "").toString(),
+      (0, import_lodash23.default)(data, [column.path], "").toString(),
       " "
     ] }, key, !0, {
       fileName: "app/modules/dms/components/table.js",
@@ -11043,7 +12618,7 @@ var ColumnTypes = {
     }, this);
   },
   date: function({ data, column, className, key }) {
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("td", { className, children: [
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("td", { className, children: [
       " ",
       new Date(data[column.path]).toLocaleString(),
       " "
@@ -11054,7 +12629,7 @@ var ColumnTypes = {
     }, this);
   },
   link: function({ data, column, className, key }) {
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("td", { className, children: /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)(import_react85.Link, { to: replaceVars(column.to, data), children: replaceVars(column.text, data) }, void 0, !1, {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("td", { className, children: /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)(import_react87.Link, { to: replaceVars(column.to, data), children: replaceVars(column.text, data) }, void 0, !1, {
       fileName: "app/modules/dms/components/table.js",
       lineNumber: 23,
       columnNumber: 5
@@ -11066,8 +12641,8 @@ var ColumnTypes = {
   }
 };
 function TableColumn({ data, column, className }) {
-  let Column = (0, import_lodash22.default)(ColumnTypes, [column.type], ColumnTypes.data);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)(Column, { data, column, className }, void 0, !1, {
+  let Column = (0, import_lodash23.default)(ColumnTypes, [column.type], ColumnTypes.data);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)(Column, { data, column, className }, void 0, !1, {
     fileName: "app/modules/dms/components/table.js",
     lineNumber: 33,
     columnNumber: 9
@@ -11075,12 +12650,12 @@ function TableColumn({ data, column, className }) {
 }
 function Table3({ dataItems = [], attributes = {}, options = {} }) {
   let theme = useTheme2(), { columns = [] } = options;
-  return columns.length === 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("div", { children: " No columns specified. " }, void 0, !1, {
+  return columns.length === 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { children: " No columns specified. " }, void 0, !1, {
     fileName: "app/modules/dms/components/table.js",
     lineNumber: 40,
     columnNumber: 10
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("div", { className: "", children: /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("table", { className: `${theme.table.table}`, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("thead", { className: `${theme.table.thead}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("tr", { children: columns.map((col, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("th", { className: `${theme.table.th}`, children: col.name }, i, !1, {
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { className: "", children: /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("table", { className: `${theme.table.table}`, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("thead", { className: `${theme.table.thead}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("tr", { children: columns.map((col, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("th", { className: `${theme.table.th}`, children: col.name }, i, !1, {
       fileName: "app/modules/dms/components/table.js",
       lineNumber: 47,
       columnNumber: 31
@@ -11093,8 +12668,8 @@ function Table3({ dataItems = [], attributes = {}, options = {} }) {
       lineNumber: 45,
       columnNumber: 5
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("tbody", { className: `${theme.table.tbody}`, children: dataItems.map(
-      (d2) => /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)("tr", { children: columns.map((col, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime67.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("tbody", { className: `${theme.table.tbody}`, children: dataItems.map(
+      (d2) => /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("tr", { children: columns.map((col, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)(
         TableColumn,
         {
           className: `${theme.table.td}`,
@@ -11131,20 +12706,20 @@ function Table3({ dataItems = [], attributes = {}, options = {} }) {
 }
 
 // app/routes/__dms/blog/blog.config.js
-var import_react87 = require("@remix-run/react");
-var import_jsx_dev_runtime68 = require("react/jsx-dev-runtime"), BlogLayout = ({ children, user }) => /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { className: "flex p-2 text-gray-800 border-b w-full", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)(import_react87.NavLink, { to: "/blog", className: "p-4", children: "Home" }, void 0, !1, {
+var import_react89 = require("@remix-run/react");
+var import_jsx_dev_runtime69 = require("react/jsx-dev-runtime"), BlogLayout = ({ children, user }) => /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { className: "flex p-2 text-gray-800 border-b w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)(import_react89.NavLink, { to: "/blog", className: "p-4", children: "Home" }, void 0, !1, {
       fileName: "app/routes/__dms/blog/blog.config.js",
       lineNumber: 8,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)(import_react87.NavLink, { to: "/blog/admin", className: "p-4", children: "Admin" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)(import_react89.NavLink, { to: "/blog/admin", className: "p-4", children: "Admin" }, void 0, !1, {
       fileName: "app/routes/__dms/blog/blog.config.js",
       lineNumber: 9,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { className: "flex flex-1 justify-end ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)(AuthMenu_default, { user }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { className: "flex flex-1 justify-end ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)(AuthMenu_default, { user }, void 0, !1, {
       fileName: "app/routes/__dms/blog/blog.config.js",
       lineNumber: 12,
       columnNumber: 11
@@ -11162,7 +12737,7 @@ var import_jsx_dev_runtime68 = require("react/jsx-dev-runtime"), BlogLayout = ({
     lineNumber: 7,
     columnNumber: 5
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { children }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children }, void 0, !1, {
     fileName: "app/routes/__dms/blog/blog.config.js",
     lineNumber: 16,
     columnNumber: 5
@@ -11171,8 +12746,8 @@ var import_jsx_dev_runtime68 = require("react/jsx-dev-runtime"), BlogLayout = ({
   fileName: "app/routes/__dms/blog/blog.config.js",
   lineNumber: 6,
   columnNumber: 3
-}, this), BlogAdmin = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)(import_react87.Link, { to: "/blog/new", className: "p-4 border", children: " New Post " }, void 0, !1, {
+}, this), BlogAdmin = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { className: "w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)(import_react89.Link, { to: "/blog/new", className: "p-4 border", children: " New Post " }, void 0, !1, {
     fileName: "app/routes/__dms/blog/blog.config.js",
     lineNumber: 23,
     columnNumber: 7
@@ -11181,7 +12756,7 @@ var import_jsx_dev_runtime68 = require("react/jsx-dev-runtime"), BlogLayout = ({
     lineNumber: 22,
     columnNumber: 5
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)(Table3, { ...props }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)(Table3, { ...props }, void 0, !1, {
     fileName: "app/routes/__dms/blog/blog.config.js",
     lineNumber: 25,
     columnNumber: 5
@@ -11319,7 +12894,7 @@ var import_jsx_dev_runtime68 = require("react/jsx-dev-runtime"), BlogLayout = ({
       ]
     },
     {
-      type: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime68.jsxDEV)("div", { children: "Test Page" }, void 0, !1, {
+      type: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children: "Test Page" }, void 0, !1, {
         fileName: "app/routes/__dms/blog/blog.config.js",
         lineNumber: 152,
         columnNumber: 24
@@ -11336,8 +12911,8 @@ __export(site_config_exports, {
   pageSection: () => pageSection,
   siteConfig: () => siteConfig
 });
-var import_react88 = require("@remix-run/react");
-var import_jsx_dev_runtime69 = require("react/jsx-dev-runtime"), pageSection = {
+var import_react90 = require("@remix-run/react");
+var import_jsx_dev_runtime70 = require("react/jsx-dev-runtime"), pageSection = {
   app: "dms-remix",
   type: "page-section",
   attributes: [
@@ -11421,14 +12996,14 @@ var import_jsx_dev_runtime69 = require("react/jsx-dev-runtime"), pageSection = {
       required: !0
     }
   ]
-}, SiteLayout = ({ children, user }) => /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { className: "flex p-2 text-gray-800 border-b w-full", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)(import_react88.NavLink, { to: "/site", className: "p-4", children: "Home" }, void 0, !1, {
+}, SiteLayout = ({ children, user }) => /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)("div", { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)("div", { className: "flex p-2 text-gray-800 border-b w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)(import_react90.NavLink, { to: "/site", className: "p-4", children: "Home" }, void 0, !1, {
       fileName: "app/routes/__dms/site/site.config.js",
       lineNumber: 98,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { className: "flex flex-1 justify-end ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)(AuthMenu_default, { user }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)("div", { className: "flex flex-1 justify-end ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)(AuthMenu_default, { user }, void 0, !1, {
       fileName: "app/routes/__dms/site/site.config.js",
       lineNumber: 101,
       columnNumber: 11
@@ -11446,7 +13021,7 @@ var import_jsx_dev_runtime69 = require("react/jsx-dev-runtime"), pageSection = {
     lineNumber: 97,
     columnNumber: 5
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)("div", { children }, void 0, !1, {
     fileName: "app/routes/__dms/site/site.config.js",
     lineNumber: 105,
     columnNumber: 5
@@ -11455,8 +13030,8 @@ var import_jsx_dev_runtime69 = require("react/jsx-dev-runtime"), pageSection = {
   fileName: "app/routes/__dms/site/site.config.js",
   lineNumber: 96,
   columnNumber: 3
-}, this), SiteAdmin = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { className: "w-full p-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)(import_react88.Link, { to: "/site/new", className: "p-2 bg-blue-500 shadow text-gray-100", children: " New Page " }, void 0, !1, {
+}, this), SiteAdmin = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)("div", { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)("div", { className: "w-full p-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)(import_react90.Link, { to: "/site/new", className: "p-2 bg-blue-500 shadow text-gray-100", children: " New Page " }, void 0, !1, {
     fileName: "app/routes/__dms/site/site.config.js",
     lineNumber: 112,
     columnNumber: 7
@@ -11465,7 +13040,7 @@ var import_jsx_dev_runtime69 = require("react/jsx-dev-runtime"), pageSection = {
     lineNumber: 111,
     columnNumber: 5
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)(Table3, { ...props }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)(Table3, { ...props }, void 0, !1, {
     fileName: "app/routes/__dms/site/site.config.js",
     lineNumber: 114,
     columnNumber: 5
@@ -11551,7 +13126,7 @@ var import_jsx_dev_runtime69 = require("react/jsx-dev-runtime"), pageSection = {
       ]
     },
     {
-      type: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime69.jsxDEV)("div", { children: "Test Page" }, void 0, !1, {
+      type: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)("div", { children: "Test Page" }, void 0, !1, {
         fileName: "app/routes/__dms/site/site.config.js",
         lineNumber: 192,
         columnNumber: 24
@@ -11564,18 +13139,18 @@ var import_jsx_dev_runtime69 = require("react/jsx-dev-runtime"), pageSection = {
 // app/routes/__dms/blog/$.jsx
 var __exports = {};
 __export(__exports, {
-  ErrorBoundary: () => ErrorBoundary3,
+  ErrorBoundary: () => ErrorBoundary4,
   action: () => action5,
-  default: () => DMS2,
-  loader: () => loader8
+  default: () => DMS3,
+  loader: () => loader9
 });
-var import_react125 = require("react"), import_react126 = require("@remix-run/react");
+var import_react127 = require("react"), import_react128 = require("@remix-run/react");
 
 // app/modules/dms/wrappers/edit.js
-var import_react92 = __toESM(require("react")), import_react93 = require("@remix-run/react");
+var import_react94 = __toESM(require("react")), import_react95 = require("@remix-run/react");
 
 // app/modules/dms/data-types/text.js
-var import_react89 = require("react"), import_jsx_dev_runtime70 = require("react/jsx-dev-runtime"), Edit3 = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)(
+var import_react91 = require("react"), import_jsx_dev_runtime71 = require("react/jsx-dev-runtime"), Edit3 = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime71.jsxDEV)(
   "input",
   {
     value,
@@ -11589,7 +13164,7 @@ var import_react89 = require("react"), import_jsx_dev_runtime70 = require("react
     columnNumber: 9
   },
   this
-), View = ({ value }) => value ? /* @__PURE__ */ (0, import_jsx_dev_runtime70.jsxDEV)("div", { children: value }, void 0, !1, {
+), View = ({ value }) => value ? /* @__PURE__ */ (0, import_jsx_dev_runtime71.jsxDEV)("div", { children: value }, void 0, !1, {
   fileName: "app/modules/dms/data-types/text.js",
   lineNumber: 16,
   columnNumber: 9
@@ -11599,8 +13174,8 @@ var import_react89 = require("react"), import_jsx_dev_runtime70 = require("react
 };
 
 // app/modules/dms/data-types/textarea.js
-var import_react90 = require("react");
-var import_lodash23 = __toESM(require("lodash.get")), import_jsx_dev_runtime71 = require("react/jsx-dev-runtime"), Edit4 = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime71.jsxDEV)(
+var import_react92 = require("react");
+var import_lodash24 = __toESM(require("lodash.get")), import_jsx_dev_runtime72 = require("react/jsx-dev-runtime"), Edit4 = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime72.jsxDEV)(
   "textarea",
   {
     value,
@@ -11616,7 +13191,7 @@ var import_lodash23 = __toESM(require("lodash.get")), import_jsx_dev_runtime71 =
   this
 ), View2 = ({ value }) => {
   let theme = useTheme2();
-  return value ? /* @__PURE__ */ (0, import_jsx_dev_runtime71.jsxDEV)("pre", { className: (0, import_lodash23.default)(theme, "textarea.viewWrapper", ""), children: JSON.stringify(value, null, 3) }, void 0, !1, {
+  return value ? /* @__PURE__ */ (0, import_jsx_dev_runtime72.jsxDEV)("pre", { className: (0, import_lodash24.default)(theme, "textarea.viewWrapper", ""), children: JSON.stringify(value, null, 3) }, void 0, !1, {
     fileName: "app/modules/dms/data-types/textarea.js",
     lineNumber: 18,
     columnNumber: 9
@@ -11627,18 +13202,18 @@ var import_lodash23 = __toESM(require("lodash.get")), import_jsx_dev_runtime71 =
 };
 
 // app/modules/dms/data-types/boolean.js
-var import_react91 = require("react"), import_jsx_dev_runtime72 = require("react/jsx-dev-runtime"), Edit5 = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime72.jsxDEV)(
+var import_react93 = require("react"), import_jsx_dev_runtime73 = require("react/jsx-dev-runtime"), Edit5 = ({ value, onChange }) => /* @__PURE__ */ (0, import_jsx_dev_runtime73.jsxDEV)(
   "select",
   {
     value,
     onChange: (e) => onChange(e.target.value),
     children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime72.jsxDEV)("option", { value: !0, children: "True" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime73.jsxDEV)("option", { value: !0, children: "True" }, void 0, !1, {
         fileName: "app/modules/dms/data-types/boolean.js",
         lineNumber: 9,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime72.jsxDEV)("option", { value: !1, children: "False" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime73.jsxDEV)("option", { value: !1, children: "False" }, void 0, !1, {
         fileName: "app/modules/dms/data-types/boolean.js",
         lineNumber: 10,
         columnNumber: 13
@@ -11653,7 +13228,7 @@ var import_react91 = require("react"), import_jsx_dev_runtime72 = require("react
     columnNumber: 9
   },
   this
-), View3 = ({ value }) => value ? /* @__PURE__ */ (0, import_jsx_dev_runtime72.jsxDEV)("div", { children: value }, void 0, !1, {
+), View3 = ({ value }) => value ? /* @__PURE__ */ (0, import_jsx_dev_runtime73.jsxDEV)("div", { children: value }, void 0, !1, {
   fileName: "app/modules/dms/data-types/boolean.js",
   lineNumber: 19,
   columnNumber: 9
@@ -11663,7 +13238,7 @@ var import_react91 = require("react"), import_jsx_dev_runtime72 = require("react
 };
 
 // app/modules/dms/data-types/index.js
-var import_lodash24 = __toESM(require("lodash.get")), DmsDataTypes = {
+var import_lodash25 = __toESM(require("lodash.get")), DmsDataTypes = {
   text: text_default,
   datetime: text_default,
   textarea: textarea_default2,
@@ -11674,41 +13249,41 @@ function registerDataType(name, dataType) {
   DmsDataTypes[name] = dataType;
 }
 function getViewComp(type) {
-  return (0, import_lodash24.default)(DmsDataTypes, `[${type}]`, DmsDataTypes.default).ViewComp;
+  return (0, import_lodash25.default)(DmsDataTypes, `[${type}]`, DmsDataTypes.default).ViewComp;
 }
 function getEditComp(type) {
-  return (0, import_lodash24.default)(DmsDataTypes, `[${type}]`, DmsDataTypes.default).EditComp;
+  return (0, import_lodash25.default)(DmsDataTypes, `[${type}]`, DmsDataTypes.default).EditComp;
 }
 
 // app/modules/dms/wrappers/_utils.js
-var import_lodash25 = __toESM(require("lodash.get"));
+var import_lodash26 = __toESM(require("lodash.get"));
 function getAttributes2(format, options, mode = "") {
-  let attributeFilter = (0, import_lodash25.default)(options, "attributes", []), attributes = format.attributes.filter((attr) => attributeFilter.length === 0 || attributeFilter.includes(attr.key)).filter(
+  let attributeFilter = (0, import_lodash26.default)(options, "attributes", []), attributes = format.attributes.filter((attr) => attributeFilter.length === 0 || attributeFilter.includes(attr.key)).filter(
     (attr) => mode !== "edit" || typeof attr.editable > "u" || !!attr.editable
   ).reduce((out, attr) => (out[attr.key] = attr, out), {}), attributeKeys = Object.keys(attributes);
   return Object.keys(attributes).filter((attributeKey) => attributeKeys.includes(attributeKey)).map((attributeKey) => {
     attributes[attributeKey].ViewComp = getViewComp(
-      (0, import_lodash25.default)(attributes, `[${attributeKey}].type`, "default")
+      (0, import_lodash26.default)(attributes, `[${attributeKey}].type`, "default")
     ), attributes[attributeKey].EditComp = getEditComp(
-      (0, import_lodash25.default)(attributes, `[${attributeKey}].type`, "default")
+      (0, import_lodash26.default)(attributes, `[${attributeKey}].type`, "default")
     );
   }), attributes;
 }
 
 // app/modules/dms/wrappers/edit.js
-var import_lodash26 = require("lodash.get"), import_jsx_dev_runtime73 = require("react/jsx-dev-runtime");
+var import_lodash27 = require("lodash.get"), import_jsx_dev_runtime74 = require("react/jsx-dev-runtime");
 function EditWrapper({ Component, format, options, params, ...props }) {
-  let attributes = getAttributes2(format, options, "edit"), { "*": path } = (0, import_react93.useParams)(), pathParams = getParams(params, path), { data, user } = (0, import_react93.useLoaderData)(), status = (0, import_react93.useActionData)(), [item, setItem] = import_react92.default.useState(
+  let attributes = getAttributes2(format, options, "edit"), { "*": path } = (0, import_react95.useParams)(), pathParams = getParams(params, path), { data, user } = (0, import_react95.useLoaderData)(), status = (0, import_react95.useActionData)(), [item, setItem] = import_react94.default.useState(
     data.filter((d2) => filterParams(d2, pathParams))[0] || {}
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime73.jsxDEV)("div", { className: "border border-green-300", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime73.jsxDEV)("div", { className: "text-xs", children: "Edit Wrapper" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime74.jsxDEV)("div", { className: "border border-green-300", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime74.jsxDEV)("div", { className: "text-xs", children: "Edit Wrapper" }, void 0, !1, {
       fileName: "app/modules/dms/wrappers/edit.js",
       lineNumber: 26,
       columnNumber: 4
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime73.jsxDEV)("form", { method: "post", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime73.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime74.jsxDEV)("form", { method: "post", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime74.jsxDEV)(
         Component,
         {
           ...props,
@@ -11731,7 +13306,7 @@ function EditWrapper({ Component, format, options, params, ...props }) {
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime73.jsxDEV)("input", { type: "hidden", name: "data", value: JSON.stringify(item) }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime74.jsxDEV)("input", { type: "hidden", name: "data", value: JSON.stringify(item) }, void 0, !1, {
         fileName: "app/modules/dms/wrappers/edit.js",
         lineNumber: 39,
         columnNumber: 5
@@ -11749,17 +13324,17 @@ function EditWrapper({ Component, format, options, params, ...props }) {
 }
 
 // app/modules/dms/wrappers/list.js
-var import_react94 = require("react"), import_react95 = require("@remix-run/react");
-var import_jsx_dev_runtime74 = require("react/jsx-dev-runtime");
+var import_react96 = require("react"), import_react97 = require("@remix-run/react");
+var import_jsx_dev_runtime75 = require("react/jsx-dev-runtime");
 function ListWrapper({ Component, format, options, ...props }) {
-  let attributes = getAttributes2(format, options), { data, user } = (0, import_react95.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime74.jsxDEV)("div", { className: "border border-green-300", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime74.jsxDEV)("div", { className: "text-xs", children: "List Wrapper" }, void 0, !1, {
+  let attributes = getAttributes2(format, options), { data, user } = (0, import_react97.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime75.jsxDEV)("div", { className: "border border-green-300", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime75.jsxDEV)("div", { className: "text-xs", children: "List Wrapper" }, void 0, !1, {
       fileName: "app/modules/dms/wrappers/list.js",
       lineNumber: 28,
       columnNumber: 4
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime74.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime75.jsxDEV)(
       Component,
       {
         ...props,
@@ -11786,17 +13361,17 @@ function ListWrapper({ Component, format, options, ...props }) {
 }
 
 // app/modules/dms/wrappers/view.js
-var import_react96 = require("react"), import_react97 = require("@remix-run/react");
-var import_jsx_dev_runtime75 = require("react/jsx-dev-runtime");
+var import_react98 = require("react"), import_react99 = require("@remix-run/react");
+var import_jsx_dev_runtime76 = require("react/jsx-dev-runtime");
 function ViewWrapper({ Component, format, options, ...props }) {
-  let attributes = getAttributes2(format, options), { data, user } = (0, import_react97.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime75.jsxDEV)("div", { className: "border border-green-300", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime75.jsxDEV)("div", { children: "View Wrapper" }, void 0, !1, {
+  let attributes = getAttributes2(format, options), { data, user } = (0, import_react99.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime76.jsxDEV)("div", { className: "border border-green-300", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime76.jsxDEV)("div", { children: "View Wrapper" }, void 0, !1, {
       fileName: "app/modules/dms/wrappers/view.js",
       lineNumber: 12,
       columnNumber: 4
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime75.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime76.jsxDEV)(
       Component,
       {
         ...props,
@@ -11823,17 +13398,17 @@ function ViewWrapper({ Component, format, options, ...props }) {
 }
 
 // app/modules/dms/wrappers/error.js
-var import_react98 = require("react"), import_react99 = require("@remix-run/react");
-var import_jsx_dev_runtime76 = require("react/jsx-dev-runtime");
+var import_react100 = require("react"), import_react101 = require("@remix-run/react");
+var import_jsx_dev_runtime77 = require("react/jsx-dev-runtime");
 function ErrorWrapper({ Component, format, options, ...props }) {
   let attributes = getAttributes2(format, options);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime76.jsxDEV)("div", { className: "border border-green-300", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime76.jsxDEV)("div", { className: "text-xs", children: "Error Wrapper" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime77.jsxDEV)("div", { className: "border border-green-300", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime77.jsxDEV)("div", { className: "text-xs", children: "Error Wrapper" }, void 0, !1, {
       fileName: "app/modules/dms/wrappers/error.js",
       lineNumber: 27,
       columnNumber: 4
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime76.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime77.jsxDEV)(
       Component,
       {
         ...props,
@@ -11868,9 +13443,9 @@ var wrappers_default = {
 };
 
 // app/modules/dms/components/dev-info.js
-var import_react100 = require("react"), import_jsx_dev_runtime77 = require("react/jsx-dev-runtime");
+var import_react102 = require("react"), import_jsx_dev_runtime78 = require("react/jsx-dev-runtime");
 function DevInfo(props) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime77.jsxDEV)("div", { children: "404 - Config not found" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime78.jsxDEV)("div", { children: "404 - Config not found" }, void 0, !1, {
     fileName: "app/modules/dms/components/dev-info.js",
     lineNumber: 5,
     columnNumber: 3
@@ -11878,22 +13453,22 @@ function DevInfo(props) {
 }
 
 // app/modules/dms/components/landing.js
-var import_react102 = require("react");
+var import_react104 = require("react");
 
 // app/modules/dms/components/card.js
-var import_react101 = require("react");
-var import_lodash27 = __toESM(require("lodash.get")), import_jsx_dev_runtime78 = require("react/jsx-dev-runtime");
+var import_react103 = require("react");
+var import_lodash28 = __toESM(require("lodash.get")), import_jsx_dev_runtime79 = require("react/jsx-dev-runtime");
 function Card({ item, attributes }) {
   let theme = useTheme2();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime78.jsxDEV)("div", { className: (0, import_lodash27.default)(theme, "card.wrapper", ""), children: Object.keys(attributes).map((attrKey, i) => {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime79.jsxDEV)("div", { className: (0, import_lodash28.default)(theme, "card.wrapper", ""), children: Object.keys(attributes).map((attrKey, i) => {
     let ViewComp = attributes[attrKey].ViewComp;
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime78.jsxDEV)("div", { className: (0, import_lodash27.default)(theme, "card.row", ""), children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime78.jsxDEV)("div", { className: (0, import_lodash27.default)(theme, "card.rowLabel", ""), children: attrKey }, void 0, !1, {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime79.jsxDEV)("div", { className: (0, import_lodash28.default)(theme, "card.row", ""), children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime79.jsxDEV)("div", { className: (0, import_lodash28.default)(theme, "card.rowLabel", ""), children: attrKey }, void 0, !1, {
         fileName: "app/modules/dms/components/card.js",
         lineNumber: 14,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime78.jsxDEV)("div", { className: (0, import_lodash27.default)(theme, "card.rowContent", ""), children: /* @__PURE__ */ (0, import_jsx_dev_runtime78.jsxDEV)(ViewComp, { value: item[attrKey] }, `${attrKey}-${i}`, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime79.jsxDEV)("div", { className: (0, import_lodash28.default)(theme, "card.rowContent", ""), children: /* @__PURE__ */ (0, import_jsx_dev_runtime79.jsxDEV)(ViewComp, { value: item[attrKey] }, `${attrKey}-${i}`, !1, {
         fileName: "app/modules/dms/components/card.js",
         lineNumber: 16,
         columnNumber: 9
@@ -11915,13 +13490,13 @@ function Card({ item, attributes }) {
 }
 
 // app/modules/dms/components/landing.js
-var import_jsx_dev_runtime79 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime80 = require("react/jsx-dev-runtime");
 function Landing({ dataItems = [], attributes }) {
   let theme = useTheme2();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime79.jsxDEV)("div", { className: "border border-pink-300", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime80.jsxDEV)("div", { className: "border border-pink-300", children: [
     "Landing",
     dataItems.map(
-      (d2, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime79.jsxDEV)(
+      (d2, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime80.jsxDEV)(
         Card,
         {
           item: d2,
@@ -11945,25 +13520,25 @@ function Landing({ dataItems = [], attributes }) {
 }
 
 // app/modules/dms/components/edit.js
-var import_react103 = require("react");
-var import_lodash28 = __toESM(require("lodash.get")), import_jsx_dev_runtime80 = require("react/jsx-dev-runtime");
+var import_react105 = require("react");
+var import_lodash29 = __toESM(require("lodash.get")), import_jsx_dev_runtime81 = require("react/jsx-dev-runtime");
 function Card2({ item, updateAttribute, attributes, status }) {
   let theme = useTheme2();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime80.jsxDEV)("div", { className: (0, import_lodash28.default)(theme, "card.wrapper", ""), children: [
-    status ? /* @__PURE__ */ (0, import_jsx_dev_runtime80.jsxDEV)("div", { children: JSON.stringify(status) }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime81.jsxDEV)("div", { className: (0, import_lodash29.default)(theme, "card.wrapper", ""), children: [
+    status ? /* @__PURE__ */ (0, import_jsx_dev_runtime81.jsxDEV)("div", { children: JSON.stringify(status) }, void 0, !1, {
       fileName: "app/modules/dms/components/edit.js",
       lineNumber: 10,
       columnNumber: 14
     }, this) : "",
     Object.keys(attributes).map((attrKey, i) => {
       let EditComp = attributes[attrKey].EditComp;
-      return /* @__PURE__ */ (0, import_jsx_dev_runtime80.jsxDEV)("div", { className: (0, import_lodash28.default)(theme, "card.row", ""), children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime80.jsxDEV)("div", { className: (0, import_lodash28.default)(theme, "card.rowLabel", ""), children: attrKey }, void 0, !1, {
+      return /* @__PURE__ */ (0, import_jsx_dev_runtime81.jsxDEV)("div", { className: (0, import_lodash29.default)(theme, "card.row", ""), children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime81.jsxDEV)("div", { className: (0, import_lodash29.default)(theme, "card.rowLabel", ""), children: attrKey }, void 0, !1, {
           fileName: "app/modules/dms/components/edit.js",
           lineNumber: 17,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime80.jsxDEV)("div", { className: (0, import_lodash28.default)(theme, "card.rowContent", ""), children: /* @__PURE__ */ (0, import_jsx_dev_runtime80.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime81.jsxDEV)("div", { className: (0, import_lodash29.default)(theme, "card.rowContent", ""), children: /* @__PURE__ */ (0, import_jsx_dev_runtime81.jsxDEV)(
           EditComp,
           {
             value: item[attrKey],
@@ -11988,7 +13563,7 @@ function Card2({ item, updateAttribute, attributes, status }) {
         columnNumber: 8
       }, this);
     }),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime80.jsxDEV)("button", { type: "submit", children: " Save " }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime81.jsxDEV)("button", { type: "submit", children: " Save " }, void 0, !1, {
       fileName: "app/modules/dms/components/edit.js",
       lineNumber: 29,
       columnNumber: 5
@@ -12010,7 +13585,7 @@ var components_default = {
 };
 
 // app/modules/dms/dms-manager/utils.js
-var import_jsx_dev_runtime81 = require("react/jsx-dev-runtime"), DefaultComponent = components_default.devinfo, DefaultWrapper = wrappers_default.error;
+var import_jsx_dev_runtime82 = require("react/jsx-dev-runtime"), DefaultComponent = components_default.devinfo, DefaultWrapper = wrappers_default.error;
 function filterParams(data, params) {
   let filter = !1;
   return Object.keys(params).forEach((k) => {
@@ -12030,7 +13605,7 @@ function getActiveConfig(config = [], path = "/", depth = 0) {
 function getActiveView(config, path, format, depth = 0) {
   return configMatcher(config, path, depth).map((activeConfig) => {
     let comp = typeof activeConfig.type == "function" ? activeConfig.type : components_default[activeConfig.type] || DefaultComponent, Wrapper = wrappers_default[activeConfig.action] || DefaultWrapper, children = [];
-    return activeConfig.children && (children = getActiveView(activeConfig.children, path, format, depth + 1)), /* @__PURE__ */ (0, import_jsx_dev_runtime81.jsxDEV)(
+    return activeConfig.children && (children = getActiveView(activeConfig.children, path, format, depth + 1)), /* @__PURE__ */ (0, import_jsx_dev_runtime82.jsxDEV)(
       Wrapper,
       {
         Component: comp,
@@ -12093,14 +13668,14 @@ async function dmsDataEditor(config, data, path = "/") {
 }
 
 // app/modules/dms/dms-manager/index.js
-var import_react105 = __toESM(require("react"));
+var import_react107 = __toESM(require("react"));
 
 // app/modules/dms/dms-manager/messages.js
-var import_react104 = require("react"), import_jsx_dev_runtime82 = require("react/jsx-dev-runtime");
+var import_react106 = require("react"), import_jsx_dev_runtime83 = require("react/jsx-dev-runtime");
 function InvalidConfig({ config }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime82.jsxDEV)("div", { children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime83.jsxDEV)("div", { children: [
     " Invalid DMS Config :",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime82.jsxDEV)("pre", { style: { background: "#dedede" }, children: JSON.stringify(config, null, 3) }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime83.jsxDEV)("pre", { style: { background: "#dedede" }, children: JSON.stringify(config, null, 3) }, void 0, !1, {
       fileName: "app/modules/dms/dms-manager/messages.js",
       lineNumber: 6,
       columnNumber: 4
@@ -12112,14 +13687,14 @@ function InvalidConfig({ config }) {
   }, this);
 }
 function NoRouteMatch({ path }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime82.jsxDEV)("div", { children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime83.jsxDEV)("div", { children: [
     " These aren't the droids you are looking for",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime82.jsxDEV)("div", { className: "text-5xl", children: "404" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime83.jsxDEV)("div", { className: "text-5xl", children: "404" }, void 0, !1, {
       fileName: "app/modules/dms/dms-manager/messages.js",
       lineNumber: 16,
       columnNumber: 4
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime82.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime83.jsxDEV)("div", { children: [
       "/",
       path
     ] }, void 0, !0, {
@@ -12135,26 +13710,26 @@ function NoRouteMatch({ path }) {
 }
 
 // app/modules/dms/dms-manager/index.js
-var import_jsx_dev_runtime83 = require("react/jsx-dev-runtime"), DmsManager = ({
+var import_jsx_dev_runtime84 = require("react/jsx-dev-runtime"), DmsManager = ({
   config,
   path = "",
   theme = default_theme_default
 }) => {
   if (!config.children || !validFormat(config.format))
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime83.jsxDEV)(InvalidConfig, { config }, void 0, !1, {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime84.jsxDEV)(InvalidConfig, { config }, void 0, !1, {
       fileName: "app/modules/dms/dms-manager/index.js",
       lineNumber: 15,
       columnNumber: 10
     }, this);
-  let enhancedFormat = import_react105.default.useMemo(
+  let enhancedFormat = import_react107.default.useMemo(
     () => enhanceFormat(config.format),
     [config.format]
   ), RenderView = getActiveView(config.children, path, enhancedFormat);
-  return RenderView ? /* @__PURE__ */ (0, import_jsx_dev_runtime83.jsxDEV)(theme_default2.Provider, { value: theme, children: RenderView }, void 0, !1, {
+  return RenderView ? /* @__PURE__ */ (0, import_jsx_dev_runtime84.jsxDEV)(theme_default2.Provider, { value: theme, children: RenderView }, void 0, !1, {
     fileName: "app/modules/dms/dms-manager/index.js",
     lineNumber: 36,
     columnNumber: 3
-  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime83.jsxDEV)(NoRouteMatch, { path }, void 0, !1, {
+  }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime84.jsxDEV)(NoRouteMatch, { path }, void 0, !1, {
     fileName: "app/modules/dms/dms-manager/index.js",
     lineNumber: 30,
     columnNumber: 10
@@ -12162,14 +13737,14 @@ var import_jsx_dev_runtime83 = require("react/jsx-dev-runtime"), DmsManager = ({
 }, dms_manager_default = DmsManager;
 
 // app/modules/dms-custom/draft/index.js
-var import_react124 = require("react"), import_lodash29 = require("lodash.get");
+var import_react126 = require("react"), import_lodash30 = require("lodash.get");
 
 // app/modules/dms-custom/draft/editor/index.js
-var import_react122 = __toESM(require("react"));
+var import_react124 = __toESM(require("react"));
 
 // app/modules/dms-custom/draft/editor/utils/img-loader.js
-var import_react106 = __toESM(require("react")), import_jsx_dev_runtime84 = require("react/jsx-dev-runtime"), img_loader_default = (Component, options = {}) => {
-  class ImgLoaderWrapper extends import_react106.default.Component {
+var import_react108 = __toESM(require("react")), import_jsx_dev_runtime85 = require("react/jsx-dev-runtime"), img_loader_default = (Component, options = {}) => {
+  class ImgLoaderWrapper extends import_react108.default.Component {
     state = {
       loading: !1,
       message: ""
@@ -12224,7 +13799,7 @@ var import_react106 = __toESM(require("react")), import_jsx_dev_runtime84 = requ
     }
     render() {
       let { forwardRef, ...props } = this.props;
-      return /* @__PURE__ */ (0, import_jsx_dev_runtime84.jsxDEV)(
+      return /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(
         Component,
         {
           ...props,
@@ -12245,7 +13820,7 @@ var import_react106 = __toESM(require("react")), import_jsx_dev_runtime84 = requ
       );
     }
   }
-  return import_react106.default.forwardRef((props, ref) => /* @__PURE__ */ (0, import_jsx_dev_runtime84.jsxDEV)(ImgLoaderWrapper, { ...props, forwardRef: ref }, void 0, !1, {
+  return import_react108.default.forwardRef((props, ref) => /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(ImgLoaderWrapper, { ...props, forwardRef: ref }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/utils/img-loader.js",
     lineNumber: 113,
     columnNumber: 43
@@ -12253,9 +13828,9 @@ var import_react106 = __toESM(require("react")), import_jsx_dev_runtime84 = requ
 };
 
 // app/modules/dms-custom/draft/editor/utils/show-loading.js
-var import_react107 = __toESM(require("react")), import_jsx_dev_runtime85 = require("react/jsx-dev-runtime"), Loader = ({ color }) => /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)("svg", { width: "100", height: "100", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)("path", { fill: color, d: `M31.6,3.5C5.9,13.6-6.6,42.7,3.5,68.4c10.1,25.7,39.2,38.3,64.9,28.1l-3.1-7.9c-21.3,8.4-45.4-2-53.8-23.3
-    c-8.4-21.3,2-45.4,23.3-53.8L31.6,3.5z`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(
+var import_react109 = __toESM(require("react")), import_jsx_dev_runtime86 = require("react/jsx-dev-runtime"), Loader = ({ color }) => /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)("svg", { width: "100", height: "100", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)("path", { fill: color, d: `M31.6,3.5C5.9,13.6-6.6,42.7,3.5,68.4c10.1,25.7,39.2,38.3,64.9,28.1l-3.1-7.9c-21.3,8.4-45.4-2-53.8-23.3
+    c-8.4-21.3,2-45.4,23.3-53.8L31.6,3.5z`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(
     "animateTransform",
     {
       attributeName: "transform",
@@ -12279,8 +13854,8 @@ var import_react107 = __toESM(require("react")), import_jsx_dev_runtime85 = requ
     lineNumber: 5,
     columnNumber: 4
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)("path", { fill: color, d: `M42.3,39.6c5.7-4.3,13.9-3.1,18.1,2.7c4.3,5.7,3.1,13.9-2.7,18.1l4.1,5.5c8.8-6.5,10.6-19,4.1-27.7
-    c-6.5-8.8-19-10.6-27.7-4.1L42.3,39.6z`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(
+  /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)("path", { fill: color, d: `M42.3,39.6c5.7-4.3,13.9-3.1,18.1,2.7c4.3,5.7,3.1,13.9-2.7,18.1l4.1,5.5c8.8-6.5,10.6-19,4.1-27.7
+    c-6.5-8.8-19-10.6-27.7-4.1L42.3,39.6z`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(
     "animateTransform",
     {
       attributeName: "transform",
@@ -12304,8 +13879,8 @@ var import_react107 = __toESM(require("react")), import_jsx_dev_runtime85 = requ
     lineNumber: 16,
     columnNumber: 4
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)("path", { fill: color, d: `M82,35.7C74.1,18,53.4,10.1,35.7,18S10.1,46.6,18,64.3l7.6-3.4c-6-13.5,0-29.3,13.5-35.3s29.3,0,35.3,13.5
-    L82,35.7z`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(
+  /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)("path", { fill: color, d: `M82,35.7C74.1,18,53.4,10.1,35.7,18S10.1,46.6,18,64.3l7.6-3.4c-6-13.5,0-29.3,13.5-35.3s29.3,0,35.3,13.5
+    L82,35.7z`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(
     "animateTransform",
     {
       attributeName: "transform",
@@ -12335,19 +13910,19 @@ var import_react107 = __toESM(require("react")), import_jsx_dev_runtime85 = requ
   columnNumber: 3
 }, this), ScalableLoading2 = ({ scale = 1, color = "#005bcc" }) => {
   let size = 100 * scale;
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)("div", { style: {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)("div", { style: {
     position: "relative",
     width: `${size}px`,
     height: `${size}px`,
     display: "flex",
     alignItems: "center",
     justifyContent: "center"
-  }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)("div", { style: {
+  }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)("div", { style: {
     display: "flex",
     transform: `scale(${scale}, ${scale})`,
     width: "100px",
     height: "100px"
-  }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(Loader, { color }, void 0, !1, {
+  }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(Loader, { color }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/utils/show-loading.js",
     lineNumber: 55,
     columnNumber: 9
@@ -12362,10 +13937,10 @@ var import_react107 = __toESM(require("react")), import_jsx_dev_runtime85 = requ
   }, this);
 }, show_loading_default = (Component, options = {}) => {
   let { position = "fixed" } = options;
-  return import_react107.default.forwardRef(({ children, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(import_jsx_dev_runtime85.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(Component, { ...props, ref, children: [
+  return import_react109.default.forwardRef(({ children, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(import_jsx_dev_runtime86.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(Component, { ...props, ref, children: [
       children,
-      !props.loading || position !== "absolute" ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(LoadingComponent, { ...options }, void 0, !1, {
+      !props.loading || position !== "absolute" ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(LoadingComponent, { ...options }, void 0, !1, {
         fileName: "app/modules/dms-custom/draft/editor/utils/show-loading.js",
         lineNumber: 68,
         columnNumber: 11
@@ -12375,7 +13950,7 @@ var import_react107 = __toESM(require("react")), import_jsx_dev_runtime85 = requ
       lineNumber: 65,
       columnNumber: 7
     }, this),
-    !props.loading || position !== "fixed" ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(LoadingComponent, { ...options }, void 0, !1, {
+    !props.loading || position !== "fixed" ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(LoadingComponent, { ...options }, void 0, !1, {
       fileName: "app/modules/dms-custom/draft/editor/utils/show-loading.js",
       lineNumber: 72,
       columnNumber: 9
@@ -12385,12 +13960,12 @@ var import_react107 = __toESM(require("react")), import_jsx_dev_runtime85 = requ
     lineNumber: 64,
     columnNumber: 5
   }, this));
-}, LoadingComponent = import_react107.default.memo(
-  ({ color, position = "fixed", className = "", scale = 1 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)("div", { className: `
+}, LoadingComponent = import_react109.default.memo(
+  ({ color, position = "fixed", className = "", scale = 1 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)("div", { className: `
     ${position} left-0 top-0 right-0 bottom-0
     flex justify-center items-center z-50 bg-black opacity-50
     ${className}
-  `, children: /* @__PURE__ */ (0, import_jsx_dev_runtime85.jsxDEV)(ScalableLoading2, { scale, color }, void 0, !1, {
+  `, children: /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(ScalableLoading2, { scale, color }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/utils/show-loading.js",
     lineNumber: 84,
     columnNumber: 5
@@ -12408,10 +13983,10 @@ var import_draft_js9 = require("draft-js"), import_editor = __toESM(require("@dr
 var import_immutable = __toESM(require("immutable"));
 
 // app/modules/dms-custom/draft/editor/buttons/makeBlockDataButton.js
-var import_react110 = require("react"), import_draft_js = require("draft-js");
+var import_react112 = require("react"), import_draft_js = require("draft-js");
 
 // app/modules/dms-custom/draft/editor/buttons/button.js
-var import_react108 = require("react"), import_jsx_dev_runtime86 = require("react/jsx-dev-runtime"), EditorButton = ({ active, disabled, children, ...props }) => /* @__PURE__ */ (0, import_jsx_dev_runtime86.jsxDEV)(
+var import_react110 = require("react"), import_jsx_dev_runtime87 = require("react/jsx-dev-runtime"), EditorButton = ({ active, disabled, children, ...props }) => /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(
   "button",
   {
     ...props,
@@ -12432,16 +14007,16 @@ var import_react108 = require("react"), import_jsx_dev_runtime86 = require("reac
 ), button_default = EditorButton;
 
 // app/modules/dms-custom/draft/editor/buttons/icons.js
-var import_react109 = require("react"), import_jsx_dev_runtime87 = require("react/jsx-dev-runtime"), Text = ({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("div", { className: "px-1 font-serif font-semibold", style: { fontSize: "1.25em" }, children }, void 0, !1, {
+var import_react111 = require("react"), import_jsx_dev_runtime88 = require("react/jsx-dev-runtime"), Text = ({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("div", { className: "px-1 font-serif font-semibold", style: { fontSize: "1.25em" }, children }, void 0, !1, {
   fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
   lineNumber: 4,
   columnNumber: 3
-}, this), Icon2 = ({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("div", { className: "flex item-center justify-center px-1", children }, void 0, !1, {
+}, this), Icon2 = ({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("div", { className: "flex item-center justify-center px-1", children }, void 0, !1, {
   fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
   lineNumber: 9,
   columnNumber: 3
 }, this), Icons = {
-  blockquote: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-quote-right" }, void 0, !1, {
+  blockquote: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-quote-right" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 23,
     columnNumber: 11
@@ -12450,7 +14025,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 23,
     columnNumber: 5
   }, this),
-  "code-block": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-code" }, void 0, !1, {
+  "code-block": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-code" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 34,
     columnNumber: 11
@@ -12459,22 +14034,22 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 34,
     columnNumber: 5
   }, this),
-  "header-one": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Text, { children: "H1" }, void 0, !1, {
+  "header-one": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Text, { children: "H1" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 36,
     columnNumber: 17
   }, this),
-  "header-two": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Text, { children: "H2" }, void 0, !1, {
+  "header-two": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Text, { children: "H2" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 37,
     columnNumber: 17
   }, this),
-  "header-three": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Text, { children: "H3" }, void 0, !1, {
+  "header-three": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Text, { children: "H3" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 38,
     columnNumber: 19
   }, this),
-  "ordered-list-item": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-list-ol", style: { fontSize: "1.25em" } }, void 0, !1, {
+  "ordered-list-item": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-list-ol", style: { fontSize: "1.25em" } }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 48,
     columnNumber: 11
@@ -12483,7 +14058,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 48,
     columnNumber: 5
   }, this),
-  "unordered-list-item": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-list-ul", style: { fontSize: "1.25em" } }, void 0, !1, {
+  "unordered-list-item": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-list-ul", style: { fontSize: "1.25em" } }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 59,
     columnNumber: 11
@@ -12492,12 +14067,12 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 59,
     columnNumber: 5
   }, this),
-  BOLD: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Text, { children: "B" }, void 0, !1, {
+  BOLD: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Text, { children: "B" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 66,
     columnNumber: 5
   }, this),
-  CODE: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-code" }, void 0, !1, {
+  CODE: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-code" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 77,
     columnNumber: 11
@@ -12506,7 +14081,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 77,
     columnNumber: 5
   }, this),
-  ITALIC: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Text, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("i", { children: "I" }, void 0, !1, {
+  ITALIC: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Text, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("i", { children: "I" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 91,
     columnNumber: 11
@@ -12515,7 +14090,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 91,
     columnNumber: 5
   }, this),
-  STRIKETHROUGH: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Text, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("strike", { children: "\xA0S\xA0" }, void 0, !1, {
+  STRIKETHROUGH: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Text, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("strike", { children: "\xA0S\xA0" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 94,
     columnNumber: 11
@@ -12524,9 +14099,9 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 94,
     columnNumber: 5
   }, this),
-  SUBSCRIPT: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Text, { children: [
+  SUBSCRIPT: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Text, { children: [
     "x",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("sub", { children: "2" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("sub", { children: "2" }, void 0, !1, {
       fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
       lineNumber: 98,
       columnNumber: 8
@@ -12536,9 +14111,9 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 97,
     columnNumber: 5
   }, this),
-  SUPERSCRIPT: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Text, { children: [
+  SUPERSCRIPT: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Text, { children: [
     "x",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("sup", { children: "2" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("sup", { children: "2" }, void 0, !1, {
       fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
       lineNumber: 103,
       columnNumber: 8
@@ -12548,7 +14123,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 102,
     columnNumber: 5
   }, this),
-  UNDERLINE: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Text, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("u", { children: "U" }, void 0, !1, {
+  UNDERLINE: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Text, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("u", { children: "U" }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 107,
     columnNumber: 11
@@ -12557,7 +14132,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 107,
     columnNumber: 5
   }, this),
-  "text-left": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-align-left", style: { fontSize: "1.25em" } }, void 0, !1, {
+  "text-left": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-align-left", style: { fontSize: "1.25em" } }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 118,
     columnNumber: 11
@@ -12566,7 +14141,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 118,
     columnNumber: 5
   }, this),
-  "text-center": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-align-center", style: { fontSize: "1.25em" } }, void 0, !1, {
+  "text-center": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-align-center", style: { fontSize: "1.25em" } }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 129,
     columnNumber: 11
@@ -12575,7 +14150,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 129,
     columnNumber: 5
   }, this),
-  "text-right": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-align-right", style: { fontSize: "1.25em" } }, void 0, !1, {
+  "text-right": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-align-right", style: { fontSize: "1.25em" } }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 140,
     columnNumber: 11
@@ -12584,7 +14159,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 140,
     columnNumber: 5
   }, this),
-  "text-justify": /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-align-justify", style: { fontSize: "1.25em" } }, void 0, !1, {
+  "text-justify": /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-align-justify", style: { fontSize: "1.25em" } }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 143,
     columnNumber: 11
@@ -12593,7 +14168,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 143,
     columnNumber: 5
   }, this),
-  indent: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-indent", style: { fontSize: "1.25em" } }, void 0, !1, {
+  indent: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-indent", style: { fontSize: "1.25em" } }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 147,
     columnNumber: 11
@@ -12602,7 +14177,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
     lineNumber: 147,
     columnNumber: 5
   }, this),
-  outdent: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime87.jsxDEV)("span", { className: "fas fa-outdent", style: { fontSize: "1.25em" } }, void 0, !1, {
+  outdent: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(Icon2, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)("span", { className: "fas fa-outdent", style: { fontSize: "1.25em" } }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/icons.js",
     lineNumber: 150,
     columnNumber: 11
@@ -12614,7 +14189,7 @@ var import_react109 = require("react"), import_jsx_dev_runtime87 = require("reac
 }, icons_default = Icons;
 
 // app/modules/dms-custom/draft/editor/buttons/makeBlockDataButton.js
-var import_jsx_dev_runtime88 = require("react/jsx-dev-runtime"), makeBlockDataButton = (dataType, buttonType, store) => () => {
+var import_jsx_dev_runtime89 = require("react/jsx-dev-runtime"), makeBlockDataButton = (dataType, buttonType, store) => () => {
   let {
     getEditorState,
     setEditorState
@@ -12632,7 +14207,7 @@ var import_jsx_dev_runtime88 = require("react/jsx-dev-runtime"), makeBlockDataBu
       )
     );
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime88.jsxDEV)(button_default, { active: isActive(), onClick: click, children: icons_default[buttonType] }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime89.jsxDEV)(button_default, { active: isActive(), onClick: click, children: icons_default[buttonType] }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/makeBlockDataButton.js",
     lineNumber: 47,
     columnNumber: 7
@@ -12640,18 +14215,18 @@ var import_jsx_dev_runtime88 = require("react/jsx-dev-runtime"), makeBlockDataBu
 }, makeBlockDataButton_default = makeBlockDataButton;
 
 // app/modules/dms-custom/draft/editor/buttons/makeDataRangeButton.js
-var import_react111 = __toESM(require("react")), import_draft_js2 = require("draft-js");
-var import_jsx_dev_runtime89 = require("react/jsx-dev-runtime"), makeDataRangeButton = (dataType, buttonType, store, shift, max, min = 0) => () => {
+var import_react113 = __toESM(require("react")), import_draft_js2 = require("draft-js");
+var import_jsx_dev_runtime90 = require("react/jsx-dev-runtime"), makeDataRangeButton = (dataType, buttonType, store, shift, max, min = 0) => () => {
   let {
     getEditorState,
     setEditorState
-  } = store, editorState = getEditorState(), getStartData = import_react111.default.useCallback(
+  } = store, editorState = getEditorState(), getStartData = import_react113.default.useCallback(
     (contentState) => contentState.getBlockForKey(editorState.getSelection().getStartKey()).getData(),
     [editorState]
-  ), isDisabled = import_react111.default.useCallback(() => {
+  ), isDisabled = import_react113.default.useCallback(() => {
     let data = getStartData(editorState.getCurrentContent()), value = data.get(dataType) || 0;
     return value + shift < min || value + shift > max;
-  }, [getStartData, editorState]), click = import_react111.default.useCallback((e) => {
+  }, [getStartData, editorState]), click = import_react113.default.useCallback((e) => {
     e.preventDefault();
     let contentState = editorState.getCurrentContent(), selectionState = editorState.getSelection(), blockData = getStartData(contentState), value = blockData.get(dataType) || min;
     value = Math.max(min, Math.min(max, value + shift));
@@ -12667,7 +14242,7 @@ var import_jsx_dev_runtime89 = require("react/jsx-dev-runtime"), makeDataRangeBu
       )
     );
   }, [getStartData, editorState, setEditorState]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime89.jsxDEV)(button_default, { disabled: isDisabled(), onClick: click, children: icons_default[buttonType] }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime90.jsxDEV)(button_default, { disabled: isDisabled(), onClick: click, children: icons_default[buttonType] }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/makeDataRangeButton.js",
     lineNumber: 52,
     columnNumber: 7
@@ -12675,8 +14250,8 @@ var import_jsx_dev_runtime89 = require("react/jsx-dev-runtime"), makeDataRangeBu
 }, makeDataRangeButton_default = makeDataRangeButton;
 
 // app/modules/dms-custom/draft/editor/buttons/makeBlockStyleButton.js
-var import_react112 = require("react"), import_draft_js3 = require("draft-js");
-var import_jsx_dev_runtime90 = require("react/jsx-dev-runtime"), makeBlockStyleButton = (buttonType, store) => () => {
+var import_react114 = require("react"), import_draft_js3 = require("draft-js");
+var import_jsx_dev_runtime91 = require("react/jsx-dev-runtime"), makeBlockStyleButton = (buttonType, store) => () => {
   let {
     getEditorState,
     setEditorState
@@ -12685,7 +14260,7 @@ var import_jsx_dev_runtime90 = require("react/jsx-dev-runtime"), makeBlockStyleB
       import_draft_js3.RichUtils.toggleBlockType(editorState, buttonType)
     );
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime90.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime91.jsxDEV)(
     button_default,
     {
       active: (() => editorState.getCurrentContent().getBlockForKey(editorState.getSelection().getStartKey()).getType() === buttonType)(),
@@ -12704,8 +14279,8 @@ var import_jsx_dev_runtime90 = require("react/jsx-dev-runtime"), makeBlockStyleB
 }, makeBlockStyleButton_default = makeBlockStyleButton;
 
 // app/modules/dms-custom/draft/editor/buttons/makeInlineStyleButton.js
-var import_react113 = require("react"), import_draft_js4 = require("draft-js");
-var import_jsx_dev_runtime91 = require("react/jsx-dev-runtime"), makeInlineStyleButton = (buttonType, store) => () => {
+var import_react115 = require("react"), import_draft_js4 = require("draft-js");
+var import_jsx_dev_runtime92 = require("react/jsx-dev-runtime"), makeInlineStyleButton = (buttonType, store) => () => {
   let {
     getEditorState,
     setEditorState
@@ -12714,7 +14289,7 @@ var import_jsx_dev_runtime91 = require("react/jsx-dev-runtime"), makeInlineStyle
       import_draft_js4.RichUtils.toggleInlineStyle(editorState, buttonType)
     );
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime91.jsxDEV)(button_default, { active: (() => editorState.getCurrentInlineStyle().has(buttonType))(), onClick: click, children: icons_default[buttonType] }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime92.jsxDEV)(button_default, { active: (() => editorState.getCurrentInlineStyle().has(buttonType))(), onClick: click, children: icons_default[buttonType] }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/editor/buttons/makeInlineStyleButton.js",
     lineNumber: 27,
     columnNumber: 7
@@ -12761,7 +14336,7 @@ var ButtonsPlugin = () => {
 }, buttons_default = ButtonsPlugin;
 
 // app/modules/dms-custom/draft/editor/toolbar/index.js
-var import_react114 = require("react"), import_jsx_dev_runtime92 = require("react/jsx-dev-runtime"), Separator = ({ ...props }) => /* @__PURE__ */ (0, import_jsx_dev_runtime92.jsxDEV)("div", { className: "border-r border-l mx-2 border-current", style: { borderColor: "currentColor" } }, void 0, !1, {
+var import_react116 = require("react"), import_jsx_dev_runtime93 = require("react/jsx-dev-runtime"), Separator = ({ ...props }) => /* @__PURE__ */ (0, import_jsx_dev_runtime93.jsxDEV)("div", { className: "border-r border-l mx-2 border-current", style: { borderColor: "currentColor" } }, void 0, !1, {
   fileName: "app/modules/dms-custom/draft/editor/toolbar/index.js",
   lineNumber: 5,
   columnNumber: 3
@@ -12774,7 +14349,7 @@ var import_react114 = require("react"), import_jsx_dev_runtime92 = require("reac
     initialize: ({ getEditorState, setEditorState, getProps }) => {
       store.getEditorState = getEditorState, store.setEditorState = setEditorState;
     },
-    Toolbar: ({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime92.jsxDEV)("div", { className: `absolute ${position}-0 left-0 w-full p-2 z-10 h-14`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime92.jsxDEV)("div", { className: `flex flex-${direction} shadow-md h-10 p-1 rounded w-full`, children }, void 0, !1, {
+    Toolbar: ({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime93.jsxDEV)("div", { className: `absolute ${position}-0 left-0 w-full p-2 z-10 h-14`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime93.jsxDEV)("div", { className: `flex flex-${direction} shadow-md h-10 p-1 rounded w-full`, children }, void 0, !1, {
       fileName: "app/modules/dms-custom/draft/editor/toolbar/index.js",
       lineNumber: 18,
       columnNumber: 9
@@ -12788,11 +14363,11 @@ var import_react114 = require("react"), import_jsx_dev_runtime92 = require("reac
 }, toolbar_default = ToolbarPlugin;
 
 // app/modules/dms-custom/draft/editor/image/index.js
-var import_react115 = __toESM(require("react")), import_draft_js5 = require("draft-js"), import_jsx_dev_runtime93 = require("react/jsx-dev-runtime"), ImagePlugin = (options = {}) => {
+var import_react117 = __toESM(require("react")), import_draft_js5 = require("draft-js"), import_jsx_dev_runtime94 = require("react/jsx-dev-runtime"), ImagePlugin = (options = {}) => {
   let {
     wrappers = []
-  } = options, ImageBlock = import_react115.default.forwardRef(
-    ({ blockProps, compProps }, ref) => /* @__PURE__ */ (0, import_jsx_dev_runtime93.jsxDEV)("img", { src: blockProps.src, ...compProps, ref, alt: "" }, blockProps.key, !1, {
+  } = options, ImageBlock = import_react117.default.forwardRef(
+    ({ blockProps, compProps }, ref) => /* @__PURE__ */ (0, import_jsx_dev_runtime94.jsxDEV)("img", { src: blockProps.src, ...compProps, ref, alt: "" }, blockProps.key, !1, {
       fileName: "app/modules/dms-custom/draft/editor/image/index.js",
       lineNumber: 11,
       columnNumber: 5
@@ -12842,11 +14417,11 @@ var import_react115 = __toESM(require("react")), import_draft_js5 = require("dra
 }, image_default = ImagePlugin;
 
 // app/modules/dms-custom/draft/editor/linkify-it/index.js
-var import_react116 = require("react"), import_linkify_it = __toESM(require("linkify-it")), import_tlds = __toESM(require("tlds")), import_jsx_dev_runtime94 = require("react/jsx-dev-runtime"), linkify = (0, import_linkify_it.default)().tlds(import_tlds.default).add("ftp", null).set({ fuzzyIP: !0 }), Link15 = ({ store, options, decoratedText, children, ...props }) => {
+var import_react118 = require("react"), import_linkify_it = __toESM(require("linkify-it")), import_tlds = __toESM(require("tlds")), import_jsx_dev_runtime95 = require("react/jsx-dev-runtime"), linkify = (0, import_linkify_it.default)().tlds(import_tlds.default).add("ftp", null).set({ fuzzyIP: !0 }), Link17 = ({ store, options, decoratedText, children, ...props }) => {
   let links2 = linkify.match(decoratedText), href = links2 && links2.pop().url, {
     target = "_blank"
   } = options;
-  return store.getReadOnly() ? /* @__PURE__ */ (0, import_jsx_dev_runtime94.jsxDEV)(
+  return store.getReadOnly() ? /* @__PURE__ */ (0, import_jsx_dev_runtime95.jsxDEV)(
     "a",
     {
       className: "text-blue-500 underline cursor-pointer",
@@ -12862,19 +14437,19 @@ var import_react116 = require("react"), import_linkify_it = __toESM(require("lin
       columnNumber: 5
     },
     this
-  ) : /* @__PURE__ */ (0, import_jsx_dev_runtime94.jsxDEV)("div", { className: "inline-block relative hoverable", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime94.jsxDEV)("div", { className: "text-blue-500 underline cursor-pointer", children }, void 0, !1, {
+  ) : /* @__PURE__ */ (0, import_jsx_dev_runtime95.jsxDEV)("div", { className: "inline-block relative hoverable", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime95.jsxDEV)("div", { className: "text-blue-500 underline cursor-pointer", children }, void 0, !1, {
       fileName: "app/modules/dms-custom/draft/editor/linkify-it/index.js",
       lineNumber: 26,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime94.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime95.jsxDEV)(
       "div",
       {
         className: "read-only-link-tooltip show-on-hover show-on-bottom pb-1 px-2 bg-gray-200 absolute z-50 rounded",
         onClick: (e) => e.stopPropagation(),
         contentEditable: !1,
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime94.jsxDEV)(
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime95.jsxDEV)(
           "a",
           {
             className: "text-blue-500 underline cursor-pointer",
@@ -12918,7 +14493,7 @@ var import_react116 = require("react"), import_linkify_it = __toESM(require("lin
     decorators: [
       {
         strategy,
-        component: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime94.jsxDEV)(Link15, { ...props, store, options }, void 0, !1, {
+        component: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime95.jsxDEV)(Link17, { ...props, store, options }, void 0, !1, {
           fileName: "app/modules/dms-custom/draft/editor/linkify-it/index.js",
           lineNumber: 53,
           columnNumber: 29
@@ -12929,7 +14504,7 @@ var import_react116 = require("react"), import_linkify_it = __toESM(require("lin
 }, linkify_it_default = linkifyitPlugin;
 
 // app/modules/dms-custom/draft/editor/super-sub-script/index.js
-var import_react117 = require("react"), import_jsx_dev_runtime95 = require("react/jsx-dev-runtime"), makeStrategy = (script) => (contentBlock, callback, contentState) => {
+var import_react119 = require("react"), import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), makeStrategy = (script) => (contentBlock, callback, contentState) => {
   let characterList = contentBlock.getCharacterList(), start = null;
   characterList.forEach((c, i) => {
     let hasStyle = c.hasStyle(script);
@@ -12939,7 +14514,7 @@ var import_react117 = require("react"), import_jsx_dev_runtime95 = require("reac
   decorators: [
     {
       strategy: makeStrategy("SUPERSCRIPT"),
-      component: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime95.jsxDEV)("sup", { children: props.children }, void 0, !1, {
+      component: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("sup", { children: props.children }, void 0, !1, {
         fileName: "app/modules/dms-custom/draft/editor/super-sub-script/index.js",
         lineNumber: 27,
         columnNumber: 27
@@ -12947,7 +14522,7 @@ var import_react117 = require("react"), import_jsx_dev_runtime95 = require("reac
     },
     {
       strategy: makeStrategy("SUBSCRIPT"),
-      component: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime95.jsxDEV)("sub", { children: props.children }, void 0, !1, {
+      component: (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("sub", { children: props.children }, void 0, !1, {
         fileName: "app/modules/dms-custom/draft/editor/super-sub-script/index.js",
         lineNumber: 30,
         columnNumber: 27
@@ -12960,10 +14535,10 @@ var import_react117 = require("react"), import_jsx_dev_runtime95 = require("reac
 var import_draft_js6 = require("draft-js");
 
 // app/modules/dms-custom/draft/editor/positionable/wrapper.js
-var import_react119 = __toESM(require("react")), import_throttle3 = __toESM(require("lodash/throttle"));
+var import_react121 = __toESM(require("react")), import_throttle3 = __toESM(require("lodash/throttle"));
 
 // app/modules/dms-custom/draft/editor/utils/index.js
-var import_react118 = __toESM(require("react")), combineCompProps = (...props) => props.reduce((a, c) => {
+var import_react120 = __toESM(require("react")), combineCompProps = (...props) => props.reduce((a, c) => {
   for (let key in c)
     if (!(key in a))
       a[key] = c[key];
@@ -12988,15 +14563,15 @@ var import_react118 = __toESM(require("react")), combineCompProps = (...props) =
           break;
       }
   return a;
-}, {}), useSetRefs2 = (...refs) => import_react118.default.useCallback((node) => {
+}, {}), useSetRefs2 = (...refs) => import_react120.default.useCallback((node) => {
   [...refs].forEach((ref) => {
     !ref || (typeof ref == "function" ? ref(node) : ref.current = node);
   });
 }, [refs]);
 
 // app/modules/dms-custom/draft/editor/positionable/wrapper.js
-var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["block", "inline-block float-left mr-2", "block mx-auto", "inline-block float-right ml-2"], BUTTONS = [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)(
+var import_jsx_dev_runtime97 = require("react/jsx-dev-runtime"), POSITIONS = ["block", "inline-block float-left mr-2", "block mx-auto", "inline-block float-right ml-2"], BUTTONS = [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)(
     "svg",
     {
       viewBox: "0 0 24 24",
@@ -13004,12 +14579,12 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
       width: "24",
       xmlns: "http://www.w3.org/2000/svg",
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("path", { d: "M3,21 L21,21 L21,19 L3,19 L3,21 Z M3,3 L3,5 L21,5 L21,3 L3,3 Z M3,7 L3,17 L17,17 L17,7 L3,7 Z" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("path", { d: "M3,21 L21,21 L21,19 L3,19 L3,21 Z M3,3 L3,5 L21,5 L21,3 L3,3 Z M3,7 L3,17 L17,17 L17,7 L3,7 Z" }, void 0, !1, {
           fileName: "app/modules/dms-custom/draft/editor/positionable/wrapper.js",
           lineNumber: 13,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("path", { d: "M0 0h24v24H0z", fill: "none" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("path", { d: "M0 0h24v24H0z", fill: "none" }, void 0, !1, {
           fileName: "app/modules/dms-custom/draft/editor/positionable/wrapper.js",
           lineNumber: 14,
           columnNumber: 5
@@ -13025,7 +14600,7 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
     },
     this
   ),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)(
+  /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)(
     "svg",
     {
       viewBox: "0 0 24 24",
@@ -13033,12 +14608,12 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
       width: "24",
       xmlns: "http://www.w3.org/2000/svg",
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("path", { d: "M21,15 L15,15 L15,17 L21,17 L21,15 Z M21,7 L15,7 L15,9 L21,9 L21,7 Z M15,13 L21,13 L21,11 L15,11 L15,13 Z M3,21 L21,21 L21,19 L3,19 L3,21 Z M3,3 L3,5 L21,5 L21,3 L3,3 Z M3,7 L3,17 L13,17 L13,7 L3,7 Z" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("path", { d: "M21,15 L15,15 L15,17 L21,17 L21,15 Z M21,7 L15,7 L15,9 L21,9 L21,7 Z M15,13 L21,13 L21,11 L15,11 L15,13 Z M3,21 L21,21 L21,19 L3,19 L3,21 Z M3,3 L3,5 L21,5 L21,3 L3,3 Z M3,7 L3,17 L13,17 L13,7 L3,7 Z" }, void 0, !1, {
           fileName: "app/modules/dms-custom/draft/editor/positionable/wrapper.js",
           lineNumber: 19,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("path", { d: "M0 0h24v24H0z", fill: "none" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("path", { d: "M0 0h24v24H0z", fill: "none" }, void 0, !1, {
           fileName: "app/modules/dms-custom/draft/editor/positionable/wrapper.js",
           lineNumber: 20,
           columnNumber: 5
@@ -13054,7 +14629,7 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
     },
     this
   ),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)(
+  /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)(
     "svg",
     {
       viewBox: "0 0 24 24",
@@ -13062,12 +14637,12 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
       width: "24",
       xmlns: "http://www.w3.org/2000/svg",
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("path", { d: "M3,21 L21,21 L21,19 L3,19 L3,21 Z M3,3 L3,5 L21,5 L21,3 L3,3 Z M5,7 L5,17 L19,17 L19,7 L5,7 Z" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("path", { d: "M3,21 L21,21 L21,19 L3,19 L3,21 Z M3,3 L3,5 L21,5 L21,3 L3,3 Z M5,7 L5,17 L19,17 L19,7 L5,7 Z" }, void 0, !1, {
           fileName: "app/modules/dms-custom/draft/editor/positionable/wrapper.js",
           lineNumber: 25,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("path", { d: "M0 0h24v24H0z", fill: "none" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("path", { d: "M0 0h24v24H0z", fill: "none" }, void 0, !1, {
           fileName: "app/modules/dms-custom/draft/editor/positionable/wrapper.js",
           lineNumber: 26,
           columnNumber: 5
@@ -13083,7 +14658,7 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
     },
     this
   ),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)(
+  /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)(
     "svg",
     {
       viewBox: "0 0 24 24",
@@ -13091,12 +14666,12 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
       width: "24",
       xmlns: "http://www.w3.org/2000/svg",
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("path", { d: "M9,15 L3,15 L3,17 L9,17 L9,15 Z M9,7 L3,7 L3,9 L9,9 L9,7 Z M3,13 L9,13 L9,11 L3,11 L3,13 Z M3,21 L21,21 L21,19 L3,19 L3,21 Z M3,3 L3,5 L21,5 L21,3 L3,3 Z M11,7 L11,17 L21,17 L21,7 L11,7 Z" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("path", { d: "M9,15 L3,15 L3,17 L9,17 L9,15 Z M9,7 L3,7 L3,9 L9,9 L9,7 Z M3,13 L9,13 L9,11 L3,11 L3,13 Z M3,21 L21,21 L21,19 L3,19 L3,21 Z M3,3 L3,5 L21,5 L21,3 L3,3 Z M11,7 L11,17 L21,17 L21,7 L11,7 Z" }, void 0, !1, {
           fileName: "app/modules/dms-custom/draft/editor/positionable/wrapper.js",
           lineNumber: 31,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)("path", { d: "M0 0h24v24H0z", fill: "none" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("path", { d: "M0 0h24v24H0z", fill: "none" }, void 0, !1, {
           fileName: "app/modules/dms-custom/draft/editor/positionable/wrapper.js",
           lineNumber: 32,
           columnNumber: 5
@@ -13112,7 +14687,7 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
     },
     this
   )
-], positionableWrapper = (store) => (Component) => import_react119.default.forwardRef(({ compProps = {}, ...props }, ref) => {
+], positionableWrapper = (store) => (Component) => import_react121.default.forwardRef(({ compProps = {}, ...props }, ref) => {
   let {
     block,
     contentState,
@@ -13122,7 +14697,7 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
     position
   } = blockProps, handleClick = (e, p) => {
     e.preventDefault(), p !== position && (adjustPosition(block, contentState, p), setDisplay("none"));
-  }, figRef = import_react119.default.useRef(), compRef = import_react119.default.useRef(), [display, setDisplay] = import_react119.default.useState("none"), [pos, setPos] = import_react119.default.useState([0, 0]), _onMouseMove = import_react119.default.useCallback((e) => {
+  }, figRef = import_react121.default.useRef(), compRef = import_react121.default.useRef(), [display, setDisplay] = import_react121.default.useState("none"), [pos, setPos] = import_react121.default.useState([0, 0]), _onMouseMove = import_react121.default.useCallback((e) => {
     if (setDisplay("flex"), compRef.current) {
       let figRect = figRef.current.getBoundingClientRect(), compRect = compRef.current.getBoundingClientRect();
       setPos([
@@ -13130,11 +14705,11 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
         compRect.width
       ]);
     }
-  }, [figRef, compRef]), onMouseMove = import_react119.default.useMemo(() => (0, import_throttle3.default)(_onMouseMove, 25), [_onMouseMove]), newCompProps = combineCompProps(
+  }, [figRef, compRef]), onMouseMove = import_react121.default.useMemo(() => (0, import_throttle3.default)(_onMouseMove, 25), [_onMouseMove]), newCompProps = combineCompProps(
     compProps,
     { className: POSITIONS[position] }
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)(
     "figure",
     {
       ref: figRef,
@@ -13144,7 +14719,7 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
         setDisplay("none"), onMouseMove.cancel();
       },
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)(
           "div",
           {
             className: "absolute top-0 p-1 z-10 justify-center",
@@ -13154,7 +14729,7 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
               width: `${pos[1]}px`
             },
             children: BUTTONS.map(
-              (b, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)(
+              (b, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)(
                 "button",
                 {
                   className: `
@@ -13185,7 +14760,7 @@ var import_jsx_dev_runtime96 = require("react/jsx-dev-runtime"), POSITIONS = ["b
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime96.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)(
           Component,
           {
             ref: useSetRefs2(ref, compRef),
@@ -13250,7 +14825,7 @@ var PositionablePlugin = () => {
 }, positionable_default = PositionablePlugin;
 
 // app/modules/dms-custom/draft/editor/stuff/index.js
-var import_react120 = require("react"), import_draft_js7 = require("draft-js"), import_immutable2 = __toESM(require("immutable")), import_jsx_dev_runtime97 = require("react/jsx-dev-runtime"), customStyleMap = {
+var import_react122 = require("react"), import_draft_js7 = require("draft-js"), import_immutable2 = __toESM(require("immutable")), import_jsx_dev_runtime98 = require("react/jsx-dev-runtime"), customStyleMap = {
   STRIKETHROUGH: {
     textDecoration: "line-through"
   }
@@ -13288,7 +14863,7 @@ var import_react120 = require("react"), import_draft_js7 = require("draft-js"), 
 }, myBlockRenderMap = import_immutable2.default.Map({
   blockquote: {
     element: "blockquote",
-    wrapper: /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("div", { className: "rounded bg-gray-100 p-2 my-2" }, void 0, !1, {
+    wrapper: /* @__PURE__ */ (0, import_jsx_dev_runtime98.jsxDEV)("div", { className: "rounded bg-gray-100 p-2 my-2" }, void 0, !1, {
       fileName: "app/modules/dms-custom/draft/editor/stuff/index.js",
       lineNumber: 53,
       columnNumber: 14
@@ -13296,7 +14871,7 @@ var import_react120 = require("react"), import_draft_js7 = require("draft-js"), 
   },
   "code-block": {
     element: "pre",
-    wrapper: /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("pre", { className: "border font-mono py-2 px-3 rounded bg-gray-50 my-2" }, void 0, !1, {
+    wrapper: /* @__PURE__ */ (0, import_jsx_dev_runtime98.jsxDEV)("pre", { className: "border font-mono py-2 px-3 rounded bg-gray-50 my-2" }, void 0, !1, {
       fileName: "app/modules/dms-custom/draft/editor/stuff/index.js",
       lineNumber: 57,
       columnNumber: 14
@@ -13304,7 +14879,7 @@ var import_react120 = require("react"), import_draft_js7 = require("draft-js"), 
   },
   atomic: {
     element: "figure",
-    wrapper: /* @__PURE__ */ (0, import_jsx_dev_runtime97.jsxDEV)("figure", { className: "relative z-10" }, void 0, !1, {
+    wrapper: /* @__PURE__ */ (0, import_jsx_dev_runtime98.jsxDEV)("figure", { className: "relative z-10" }, void 0, !1, {
       fileName: "app/modules/dms-custom/draft/editor/stuff/index.js",
       lineNumber: 61,
       columnNumber: 14
@@ -13347,8 +14922,8 @@ var import_react120 = require("react"), import_draft_js7 = require("draft-js"), 
 var import_draft_js8 = require("draft-js");
 
 // app/modules/dms-custom/draft/editor/resizable/wrapper.js
-var import_react121 = __toESM(require("react")), import_throttle4 = __toESM(require("lodash/throttle"));
-var import_jsx_dev_runtime98 = require("react/jsx-dev-runtime"), resizableWrapper = (store) => (Component) => import_react121.default.forwardRef(({ compProps = {}, ...props }, ref) => {
+var import_react123 = __toESM(require("react")), import_throttle4 = __toESM(require("lodash/throttle"));
+var import_jsx_dev_runtime99 = require("react/jsx-dev-runtime"), resizableWrapper = (store) => (Component) => import_react123.default.forwardRef(({ compProps = {}, ...props }, ref) => {
   let {
     block,
     contentState,
@@ -13356,23 +14931,23 @@ var import_jsx_dev_runtime98 = require("react/jsx-dev-runtime"), resizableWrappe
   } = props, {
     adjustWidth,
     width = null
-  } = blockProps, compRef = import_react121.default.useRef(), [hovering, setHovering] = import_react121.default.useState(!1), [canResize, setCanResize] = import_react121.default.useState(0), [resizing, setResizing] = import_react121.default.useState(0), [screenX, setScreenX] = import_react121.default.useState(0), _onResize = import_react121.default.useCallback((e) => {
+  } = blockProps, compRef = import_react123.default.useRef(), [hovering, setHovering] = import_react123.default.useState(!1), [canResize, setCanResize] = import_react123.default.useState(0), [resizing, setResizing] = import_react123.default.useState(0), [screenX, setScreenX] = import_react123.default.useState(0), _onResize = import_react123.default.useCallback((e) => {
     if (e.preventDefault(), compRef.current && resizing) {
       let compRect = compRef.current.getBoundingClientRect(), diff = screenX - e.screenX, width2 = compRect.width - diff * resizing;
       setScreenX(e.screenX), adjustWidth(block, contentState, width2);
     }
-  }, [compRef, resizing, screenX, adjustWidth, block, contentState]), onResize = import_react121.default.useMemo(() => (0, import_throttle4.default)(_onResize, 25), [_onResize]), onMouseUp = import_react121.default.useCallback((e) => {
+  }, [compRef, resizing, screenX, adjustWidth, block, contentState]), onResize = import_react123.default.useMemo(() => (0, import_throttle4.default)(_onResize, 25), [_onResize]), onMouseUp = import_react123.default.useCallback((e) => {
     setResizing(0);
   }, []);
-  import_react121.default.useEffect(() => (document.addEventListener("mousemove", onResize), document.addEventListener("mouseup", onMouseUp), () => {
+  import_react123.default.useEffect(() => (document.addEventListener("mousemove", onResize), document.addEventListener("mouseup", onMouseUp), () => {
     document.removeEventListener("mousemove", onResize), document.removeEventListener("mouseup", onMouseUp);
   }), [onResize, onMouseUp]);
-  let onMouseMove = import_react121.default.useCallback((e) => {
+  let onMouseMove = import_react123.default.useCallback((e) => {
     if (setHovering(!0), compRef.current) {
       let compRect = compRef.current.getBoundingClientRect();
       e.clientX >= compRect.x && e.clientX <= compRect.x + 20 ? setCanResize(-1) : e.clientX >= compRect.x + compRect.width - 20 && e.clientX <= compRect.x + compRect.width ? setCanResize(1) : setCanResize(0);
     }
-  }, [compRef]), onMouseDown = import_react121.default.useCallback((e) => {
+  }, [compRef]), onMouseDown = import_react123.default.useCallback((e) => {
     canResize && (e.preventDefault(), setResizing(canResize), setScreenX(e.screenX));
   }, [canResize]), newCompProps = combineCompProps(
     compProps,
@@ -13385,13 +14960,13 @@ var import_jsx_dev_runtime98 = require("react/jsx-dev-runtime"), resizableWrappe
       onMouseDown
     }
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime98.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(
     "figure",
     {
       className: "relative",
       onMouseMove: store.getReadOnly() ? null : onMouseMove,
       onMouseOut: (e) => setHovering(!1),
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime98.jsxDEV)(
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(
         Component,
         {
           ref: useSetRefs2(ref, compRef),
@@ -13455,7 +15030,7 @@ var ResizablePlugin = () => {
 }, resizable_default = ResizablePlugin;
 
 // app/modules/dms-custom/draft/editor/index.js
-var import_jsx_dev_runtime99 = require("react/jsx-dev-runtime"), buttonPlugin = buttons_default(), {
+var import_jsx_dev_runtime100 = require("react/jsx-dev-runtime"), buttonPlugin = buttons_default(), {
   BlockQuoteButton,
   CodeBlockButton,
   HeaderOneButton,
@@ -13493,7 +15068,7 @@ var import_jsx_dev_runtime99 = require("react/jsx-dev-runtime"), buttonPlugin = 
 ], decorator = new import_draft_js9.CompositeDecorator(
   linkItPlugin.decorators
 ), createEmpty = () => import_draft_js9.EditorState.createEmpty(decorator);
-var MyEditor = class extends import_react122.default.Component {
+var MyEditor = class extends import_react124.default.Component {
   constructor(props, ...args) {
     super(props, ...args), this.state = {
       hasFocus: !1
@@ -13528,13 +15103,13 @@ var MyEditor = class extends import_react122.default.Component {
     this.setState((state) => ({ hasFocus: !1 })), typeof this.props.onBlur == "function" && this.props.onBlur(e);
   }
   render() {
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(
       EditorWrapper,
       {
         id: this.props.id,
         hasFocus: this.state.hasFocus,
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)("div", { className: "px-2 pb-2 flow-root", children: /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)("div", { className: "px-2 pb-2 flow-root", children: /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(
             import_editor.default,
             {
               editorKey: "foobar",
@@ -13562,123 +15137,123 @@ var MyEditor = class extends import_react122.default.Component {
             lineNumber: 180,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(Toolbar, { children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(BoldButton, {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(Toolbar, { children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(BoldButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 196,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(ItalicButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(ItalicButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 197,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(StrikeThroughButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(StrikeThroughButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 198,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(UnderlineButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(UnderlineButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 199,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(SubScriptButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(SubScriptButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 200,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(SuperScriptButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(SuperScriptButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 201,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(CodeButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(CodeButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 202,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(Separator2, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(Separator2, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 204,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(HeaderOneButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(HeaderOneButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 206,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(HeaderTwoButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(HeaderTwoButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 207,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(HeaderThreeButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(HeaderThreeButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 208,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(Separator2, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(Separator2, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 210,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(BlockQuoteButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(BlockQuoteButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 212,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(CodeBlockButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(CodeBlockButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 213,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(OrderedListButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(OrderedListButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 214,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(UnorderedListButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(UnorderedListButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 215,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(Separator2, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(Separator2, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 217,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(LeftAlignButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(LeftAlignButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 219,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(CenterAlignButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(CenterAlignButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 220,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(JustifyAlignButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(JustifyAlignButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 221,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(RightAlignButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(RightAlignButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 222,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(Separator2, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(Separator2, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 224,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(TextOutdentButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(TextOutdentButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 226,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)(TextIndentButton, {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(TextIndentButton, {}, void 0, !1, {
               fileName: "app/modules/dms-custom/draft/editor/index.js",
               lineNumber: 227,
               columnNumber: 11
@@ -13711,7 +15286,7 @@ __publicField(MyEditor, "defaultProps", {
 var LoadingOptions = {
   position: "absolute",
   className: "rounded"
-}, editor_default = img_loader_default(show_loading_default(MyEditor, LoadingOptions)), EditorWrapper = ({ children, hasFocus, id: id2, ...props }) => /* @__PURE__ */ (0, import_jsx_dev_runtime99.jsxDEV)("div", { className: `pt-16 relative rounded draft-js-editor
+}, editor_default = img_loader_default(show_loading_default(MyEditor, LoadingOptions)), EditorWrapper = ({ children, hasFocus, id: id2, ...props }) => /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)("div", { className: `pt-16 relative rounded draft-js-editor
         w-full
       `, ...props, children }, void 0, !1, {
   fileName: "app/modules/dms-custom/draft/editor/index.js",
@@ -13720,8 +15295,8 @@ var LoadingOptions = {
 }, this);
 
 // app/modules/dms-custom/draft/editor/editor.read-only.js
-var import_react123 = require("react"), import_draft_js10 = require("draft-js"), import_editor2 = __toESM(require("@draft-js-plugins/editor"));
-var import_jsx_dev_runtime100 = require("react/jsx-dev-runtime"), positionablePlugin2 = positionable_default(), resizablePlugin2 = resizable_default(), imagePlugin2 = image_default({
+var import_react125 = require("react"), import_draft_js10 = require("draft-js"), import_editor2 = __toESM(require("@draft-js-plugins/editor"));
+var import_jsx_dev_runtime101 = require("react/jsx-dev-runtime"), positionablePlugin2 = positionable_default(), resizablePlugin2 = resizable_default(), imagePlugin2 = image_default({
   wrappers: [
     positionablePlugin2.wrapper,
     resizablePlugin2.wrapper
@@ -13736,7 +15311,7 @@ var import_jsx_dev_runtime100 = require("react/jsx-dev-runtime"), positionablePl
   stuff_default()
 ], decorator2 = new import_draft_js10.CompositeDecorator(
   linkItPlugin2.decorators
-), ReadOnlyEditor = ({ spellCheck = !0, isRaw = !0, value }) => value ? /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)("div", { className: "draft-js-editor read-only-editor flow-root", children: /* @__PURE__ */ (0, import_jsx_dev_runtime100.jsxDEV)(
+), ReadOnlyEditor = ({ spellCheck = !0, isRaw = !0, value }) => value ? /* @__PURE__ */ (0, import_jsx_dev_runtime101.jsxDEV)("div", { className: "draft-js-editor read-only-editor flow-root", children: /* @__PURE__ */ (0, import_jsx_dev_runtime101.jsxDEV)(
   import_editor2.default,
   {
     editorKey: "foobar",
@@ -13762,7 +15337,7 @@ var import_jsx_dev_runtime100 = require("react/jsx-dev-runtime"), positionablePl
 }, this) : null, editor_read_only_default = ReadOnlyEditor;
 
 // app/modules/dms-custom/draft/index.js
-var import_draft_js11 = require("draft-js"), import_jsx_dev_runtime101 = require("react/jsx-dev-runtime");
+var import_draft_js11 = require("draft-js"), import_jsx_dev_runtime102 = require("react/jsx-dev-runtime");
 function isJson(str) {
   try {
     JSON.parse(str);
@@ -13773,7 +15348,7 @@ function isJson(str) {
 }
 var Edit6 = ({ value, onChange }) => {
   let data = value ? isJson(value) ? JSON.parse(value) : value : createEmpty();
-  return value && (data = import_draft_js11.EditorState.createWithContent((0, import_draft_js11.convertFromRaw)(data))), /* @__PURE__ */ (0, import_jsx_dev_runtime101.jsxDEV)("div", { className: "w-full relative", children: /* @__PURE__ */ (0, import_jsx_dev_runtime101.jsxDEV)(
+  return value && (data = import_draft_js11.EditorState.createWithContent((0, import_draft_js11.convertFromRaw)(data))), /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)("div", { className: "w-full relative", children: /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)(
     editor_default,
     {
       editorKey: "foobar",
@@ -13803,7 +15378,7 @@ Edit6.settings = {
 };
 var View4 = ({ value }) => {
   let data = value ? isJson(value) ? JSON.parse(value) : value : createEmpty();
-  return value && (data = import_draft_js11.EditorState.createWithContent((0, import_draft_js11.convertFromRaw)(data))), /* @__PURE__ */ (0, import_jsx_dev_runtime101.jsxDEV)("div", { className: "relative w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime101.jsxDEV)(editor_read_only_default, { value: data }, void 0, !1, {
+  return value && (data = import_draft_js11.EditorState.createWithContent((0, import_draft_js11.convertFromRaw)(data))), /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)("div", { className: "relative w-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)(editor_read_only_default, { value: data }, void 0, !1, {
     fileName: "app/modules/dms-custom/draft/index.js",
     lineNumber: 56,
     columnNumber: 13
@@ -13818,9 +15393,9 @@ var View4 = ({ value }) => {
 };
 
 // app/routes/__dms/blog/$.jsx
-var import_jsx_dev_runtime102 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime103 = require("react/jsx-dev-runtime");
 registerDataType("richtext", draft_default);
-async function loader8({ request, params }) {
+async function loader9({ request, params }) {
   return {
     data: await dmsDataLoader(blog_config_default, params["*"]),
     user: await checkAuth(request)
@@ -13830,9 +15405,9 @@ async function action5({ request, params }) {
   let form = await request.formData();
   return dmsDataEditor(blog_config_default, JSON.parse(form.get("data")), params["*"]);
 }
-function DMS2() {
-  let params = (0, import_react126.useParams)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)(
+function DMS3() {
+  let params = (0, import_react128.useParams)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)(
     dms_manager_default,
     {
       path: params["*"] || "",
@@ -13848,24 +15423,24 @@ function DMS2() {
     this
   );
 }
-function ErrorBoundary3({ error }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)("h1", { children: "DMS Error ErrorBoundary" }, void 0, !1, {
+function ErrorBoundary4({ error }) {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("h1", { children: "DMS Error ErrorBoundary" }, void 0, !1, {
       fileName: "app/routes/__dms/blog/$.jsx",
       lineNumber: 47,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)("p", { children: error.message }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("p", { children: error.message }, void 0, !1, {
       fileName: "app/routes/__dms/blog/$.jsx",
       lineNumber: 48,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)("p", { children: "The stack trace is:" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("p", { children: "The stack trace is:" }, void 0, !1, {
       fileName: "app/routes/__dms/blog/$.jsx",
       lineNumber: 49,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime102.jsxDEV)("pre", { children: error.stack }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("pre", { children: error.stack }, void 0, !1, {
       fileName: "app/routes/__dms/blog/$.jsx",
       lineNumber: 50,
       columnNumber: 7
@@ -13880,15 +15455,15 @@ function ErrorBoundary3({ error }) {
 // app/routes/__dms/site/$.jsx
 var __exports2 = {};
 __export(__exports2, {
-  ErrorBoundary: () => ErrorBoundary4,
+  ErrorBoundary: () => ErrorBoundary5,
   action: () => action6,
-  default: () => DMS3,
-  loader: () => loader9
+  default: () => DMS4,
+  loader: () => loader10
 });
-var import_react127 = require("react"), import_react128 = require("@remix-run/react");
-var import_jsx_dev_runtime103 = require("react/jsx-dev-runtime");
+var import_react129 = require("react"), import_react130 = require("@remix-run/react");
+var import_jsx_dev_runtime104 = require("react/jsx-dev-runtime");
 registerDataType("richtext", draft_default);
-async function loader9({ request, params }) {
+async function loader10({ request, params }) {
   return console.log("loader", params["*"]), {
     data: await dmsDataLoader(siteConfig, params["*"]),
     user: await checkAuth(request)
@@ -13898,9 +15473,9 @@ async function action6({ request, params }) {
   let form = await request.formData();
   return dmsDataEditor(siteConfig, JSON.parse(form.get("data")), params["*"]);
 }
-function DMS3() {
-  let params = (0, import_react128.useParams)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)(
+function DMS4() {
+  let params = (0, import_react130.useParams)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)(
     dms_manager_default,
     {
       path: params["*"] || "",
@@ -13916,24 +15491,24 @@ function DMS3() {
     this
   );
 }
-function ErrorBoundary4({ error }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("h1", { children: "DMS Error ErrorBoundary" }, void 0, !1, {
+function ErrorBoundary5({ error }) {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)("h1", { children: "DMS Error ErrorBoundary" }, void 0, !1, {
       fileName: "app/routes/__dms/site/$.jsx",
       lineNumber: 50,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("p", { children: error.message }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)("p", { children: error.message }, void 0, !1, {
       fileName: "app/routes/__dms/site/$.jsx",
       lineNumber: 51,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("p", { children: "The stack trace is:" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)("p", { children: "The stack trace is:" }, void 0, !1, {
       fileName: "app/routes/__dms/site/$.jsx",
       lineNumber: 52,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime103.jsxDEV)("pre", { children: error.stack }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)("pre", { children: error.stack }, void 0, !1, {
       fileName: "app/routes/__dms/site/$.jsx",
       lineNumber: 53,
       columnNumber: 7
@@ -13950,15 +15525,15 @@ var jokes_exports = {};
 __export(jokes_exports, {
   default: () => JokesRoute
 });
-var import_react129 = require("@remix-run/react"), import_jsx_dev_runtime104 = require("react/jsx-dev-runtime");
+var import_react131 = require("@remix-run/react"), import_jsx_dev_runtime105 = require("react/jsx-dev-runtime");
 function JokesRoute() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)("h1", { children: "J\u{1F92A}KES" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime105.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime105.jsxDEV)("h1", { children: "J\u{1F92A}KES" }, void 0, !1, {
       fileName: "app/routes/jokes.jsx",
       lineNumber: 6,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)("main", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime104.jsxDEV)(import_react129.Outlet, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime105.jsxDEV)("main", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime105.jsxDEV)(import_react131.Outlet, {}, void 0, !1, {
       fileName: "app/routes/jokes.jsx",
       lineNumber: 8,
       columnNumber: 9
@@ -13975,7 +15550,7 @@ function JokesRoute() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "89f54b95", entry: { module: "/build/entry.client-X6NY7RBW.js", imports: ["/build/_shared/chunk-555WWVTX.js", "/build/_shared/chunk-NZDF7D52.js", "/build/_shared/chunk-JE7OEZ56.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-SICWW6SI.js", imports: ["/build/_shared/chunk-UHHEBJYF.js", "/build/_shared/chunk-3PHOZV4S.js", "/build/_shared/chunk-7VCOYCOV.js", "/build/_shared/chunk-E4ZT35EY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__auth": { id: "routes/__auth", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__auth-RRPVQYYS.js", imports: ["/build/_shared/chunk-OQ2FZUN7.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__auth/login": { id: "routes/__auth/login", parentId: "routes/__auth", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/__auth/login-ZDLJTCF4.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__auth/logout": { id: "routes/__auth/logout", parentId: "routes/__auth", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/__auth/logout-LADMCKIU.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__auth/signup": { id: "routes/__auth/signup", parentId: "routes/__auth", path: "signup", index: void 0, caseSensitive: void 0, module: "/build/routes/__auth/signup-H6D6P76F.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dama": { id: "routes/__dama", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__dama-7GDFDOAF.js", imports: ["/build/_shared/chunk-UDNTTKRX.js", "/build/_shared/chunk-OQ2FZUN7.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dama/index.(cat)": { id: "routes/__dama/index.(cat)", parentId: "routes/__dama", path: "cat?", index: void 0, caseSensitive: void 0, module: "/build/routes/__dama/index.(cat)-P2HDNSUH.js", imports: ["/build/_shared/chunk-XILLTKVN.js", "/build/_shared/chunk-Z6AKQXAA.js", "/build/_shared/chunk-E4ZT35EY.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/__dama/source/$sourceId.($page)": { id: "routes/__dama/source/$sourceId.($page)", parentId: "routes/__dama", path: "source/:sourceId/:page?", index: void 0, caseSensitive: void 0, module: "/build/routes/__dama/source/$sourceId.($page)-KFBLDWUD.js", imports: ["/build/_shared/chunk-GYUMACKK.js", "/build/_shared/chunk-XILLTKVN.js", "/build/_shared/chunk-UHHEBJYF.js", "/build/_shared/chunk-3PHOZV4S.js", "/build/_shared/chunk-Z6AKQXAA.js", "/build/_shared/chunk-7VCOYCOV.js", "/build/_shared/chunk-E4ZT35EY.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dama/source/create": { id: "routes/__dama/source/create", parentId: "routes/__dama", path: "source/create", index: void 0, caseSensitive: void 0, module: "/build/routes/__dama/source/create-5YTMR4K6.js", imports: ["/build/_shared/chunk-GYUMACKK.js", "/build/_shared/chunk-XILLTKVN.js", "/build/_shared/chunk-UHHEBJYF.js", "/build/_shared/chunk-3PHOZV4S.js", "/build/_shared/chunk-Z6AKQXAA.js", "/build/_shared/chunk-7VCOYCOV.js", "/build/_shared/chunk-E4ZT35EY.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dms": { id: "routes/__dms", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__dms-PMXGVS76.js", imports: ["/build/_shared/chunk-UDNTTKRX.js", "/build/_shared/chunk-OQ2FZUN7.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dms/blog/$": { id: "routes/__dms/blog/$", parentId: "routes/__dms", path: "blog/*", index: void 0, caseSensitive: void 0, module: "/build/routes/__dms/blog/$-XID6Z4GE.js", imports: ["/build/_shared/chunk-WALGFOD4.js", "/build/_shared/chunk-JLXLJUXN.js", "/build/_shared/chunk-BS6M6LC6.js", "/build/_shared/chunk-3PHOZV4S.js", "/build/_shared/chunk-7VCOYCOV.js", "/build/_shared/chunk-E4ZT35EY.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/__dms/blog/blog.config": { id: "routes/__dms/blog/blog.config", parentId: "routes/__dms", path: "blog/blog/config", index: void 0, caseSensitive: void 0, module: "/build/routes/__dms/blog/blog.config-XWBJLMY4.js", imports: ["/build/_shared/chunk-WALGFOD4.js", "/build/_shared/chunk-BS6M6LC6.js", "/build/_shared/chunk-7VCOYCOV.js", "/build/_shared/chunk-E4ZT35EY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dms/site/$": { id: "routes/__dms/site/$", parentId: "routes/__dms", path: "site/*", index: void 0, caseSensitive: void 0, module: "/build/routes/__dms/site/$-6VYZCRM5.js", imports: ["/build/_shared/chunk-JLXLJUXN.js", "/build/_shared/chunk-BS6M6LC6.js", "/build/_shared/chunk-3PHOZV4S.js", "/build/_shared/chunk-7VCOYCOV.js", "/build/_shared/chunk-E4ZT35EY.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/__dms/site/site.config": { id: "routes/__dms/site/site.config", parentId: "routes/__dms", path: "site/site/config", index: void 0, caseSensitive: void 0, module: "/build/routes/__dms/site/site.config-OG7I4IWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/index": { id: "routes/congestion/index", parentId: "root", path: "congestion", index: !0, caseSensitive: void 0, module: "/build/routes/congestion/index-4SMF2C5F.js", imports: ["/build/_shared/chunk-Z6AKQXAA.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/jokes": { id: "routes/jokes", parentId: "root", path: "jokes", index: void 0, caseSensitive: void 0, module: "/build/routes/jokes-TWKY32QH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-89F54B95.js" };
+var assets_manifest_default = { version: "9916c8c7", entry: { module: "/build/entry.client-X6NY7RBW.js", imports: ["/build/_shared/chunk-555WWVTX.js", "/build/_shared/chunk-NZDF7D52.js", "/build/_shared/chunk-JE7OEZ56.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-6KAKKCHQ.js", imports: ["/build/_shared/chunk-VU2G5TQS.js", "/build/_shared/chunk-VLPLTVAA.js", "/build/_shared/chunk-ESYJF4GC.js", "/build/_shared/chunk-E4ZT35EY.js", "/build/_shared/chunk-EOGINFFT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__auth": { id: "routes/__auth", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__auth-RRPVQYYS.js", imports: ["/build/_shared/chunk-OQ2FZUN7.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__auth/login": { id: "routes/__auth/login", parentId: "routes/__auth", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/__auth/login-ZDLJTCF4.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__auth/logout": { id: "routes/__auth/logout", parentId: "routes/__auth", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/__auth/logout-LADMCKIU.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__auth/signup": { id: "routes/__auth/signup", parentId: "routes/__auth", path: "signup", index: void 0, caseSensitive: void 0, module: "/build/routes/__auth/signup-H6D6P76F.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dama": { id: "routes/__dama", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__dama-UASO2O6K.js", imports: ["/build/_shared/chunk-GXCRNG4G.js", "/build/_shared/chunk-OQ2FZUN7.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dama/index.(cat)": { id: "routes/__dama/index.(cat)", parentId: "routes/__dama", path: "cat?", index: void 0, caseSensitive: void 0, module: "/build/routes/__dama/index.(cat)-P2HDNSUH.js", imports: ["/build/_shared/chunk-XILLTKVN.js", "/build/_shared/chunk-Z6AKQXAA.js", "/build/_shared/chunk-E4ZT35EY.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/__dama/source/$sourceId.($page)": { id: "routes/__dama/source/$sourceId.($page)", parentId: "routes/__dama", path: "source/:sourceId/:page?", index: void 0, caseSensitive: void 0, module: "/build/routes/__dama/source/$sourceId.($page)-W4GC324V.js", imports: ["/build/_shared/chunk-CWKZWVUF.js", "/build/_shared/chunk-XILLTKVN.js", "/build/_shared/chunk-KR24NREI.js", "/build/_shared/chunk-M7C5JOMS.js", "/build/_shared/chunk-Z6AKQXAA.js", "/build/_shared/chunk-VU2G5TQS.js", "/build/_shared/chunk-VLPLTVAA.js", "/build/_shared/chunk-ESYJF4GC.js", "/build/_shared/chunk-E4ZT35EY.js", "/build/_shared/chunk-EOGINFFT.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dama/source/create": { id: "routes/__dama/source/create", parentId: "routes/__dama", path: "source/create", index: void 0, caseSensitive: void 0, module: "/build/routes/__dama/source/create-UUAM2JG7.js", imports: ["/build/_shared/chunk-CWKZWVUF.js", "/build/_shared/chunk-XILLTKVN.js", "/build/_shared/chunk-KR24NREI.js", "/build/_shared/chunk-M7C5JOMS.js", "/build/_shared/chunk-Z6AKQXAA.js", "/build/_shared/chunk-VU2G5TQS.js", "/build/_shared/chunk-VLPLTVAA.js", "/build/_shared/chunk-ESYJF4GC.js", "/build/_shared/chunk-E4ZT35EY.js", "/build/_shared/chunk-EOGINFFT.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dms": { id: "routes/__dms", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__dms-RHK6MXMO.js", imports: ["/build/_shared/chunk-GXCRNG4G.js", "/build/_shared/chunk-OQ2FZUN7.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dms/blog/$": { id: "routes/__dms/blog/$", parentId: "routes/__dms", path: "blog/*", index: void 0, caseSensitive: void 0, module: "/build/routes/__dms/blog/$-6AU7CRWS.js", imports: ["/build/_shared/chunk-AEINKGUG.js", "/build/_shared/chunk-Z7BZNCD5.js", "/build/_shared/chunk-BS6M6LC6.js", "/build/_shared/chunk-VLPLTVAA.js", "/build/_shared/chunk-ESYJF4GC.js", "/build/_shared/chunk-E4ZT35EY.js", "/build/_shared/chunk-EOGINFFT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/__dms/blog/blog.config": { id: "routes/__dms/blog/blog.config", parentId: "routes/__dms", path: "blog/blog/config", index: void 0, caseSensitive: void 0, module: "/build/routes/__dms/blog/blog.config-EJMKMPBN.js", imports: ["/build/_shared/chunk-Z7BZNCD5.js", "/build/_shared/chunk-BS6M6LC6.js", "/build/_shared/chunk-ESYJF4GC.js", "/build/_shared/chunk-E4ZT35EY.js", "/build/_shared/chunk-EOGINFFT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__dms/site/$": { id: "routes/__dms/site/$", parentId: "routes/__dms", path: "site/*", index: void 0, caseSensitive: void 0, module: "/build/routes/__dms/site/$-4FJ6SYZT.js", imports: ["/build/_shared/chunk-AEINKGUG.js", "/build/_shared/chunk-BS6M6LC6.js", "/build/_shared/chunk-VLPLTVAA.js", "/build/_shared/chunk-ESYJF4GC.js", "/build/_shared/chunk-E4ZT35EY.js", "/build/_shared/chunk-EOGINFFT.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/__dms/site/site.config": { id: "routes/__dms/site/site.config", parentId: "routes/__dms", path: "site/site/config", index: void 0, caseSensitive: void 0, module: "/build/routes/__dms/site/site.config-OG7I4IWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/3-type-threshold-2": { id: "routes/congestion/3-type-threshold-2", parentId: "root", path: "congestion/3-type-threshold-2", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/3-type-threshold-2-3PLYXNRT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/3-type-threshold-3": { id: "routes/congestion/3-type-threshold-3", parentId: "root", path: "congestion/3-type-threshold-3", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/3-type-threshold-3-XUO2KGEJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/3-type-threshold": { id: "routes/congestion/3-type-threshold", parentId: "root", path: "congestion/3-type-threshold", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/3-type-threshold-SXB7DCOV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/grid-before-color-scale.($road)": { id: "routes/congestion/grid-before-color-scale.($road)", parentId: "root", path: "congestion/grid-before-color-scale/:road?", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/grid-before-color-scale.($road)-QSEIPATK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/grid.($road)": { id: "routes/congestion/grid.($road)", parentId: "root", path: "congestion/grid/:road?", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/grid.($road)-HM54PBIA.js", imports: ["/build/_shared/chunk-5H4DWNAI.js", "/build/_shared/chunk-M7C5JOMS.js", "/build/_shared/chunk-Z6AKQXAA.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/congestion/grid.($road)-before-2-thres": { id: "routes/congestion/grid.($road)-before-2-thres", parentId: "root", path: "congestion/grid/(:road)-before-2-thres", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/grid.($road)-before-2-thres-5AYFQKAZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/index_2": { id: "routes/congestion/index_2", parentId: "root", path: "congestion/index_2", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/index_2-UG3RYS7C.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/index_3": { id: "routes/congestion/index_3", parentId: "root", path: "congestion/index_3", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/index_3-4GPAFJXS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/index_4": { id: "routes/congestion/index_4", parentId: "root", path: "congestion/index_4", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/index_4-VRUKF7RR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/line": { id: "routes/congestion/line", parentId: "root", path: "congestion/line", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/line-3SVXCI5X.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/line-stacked-2": { id: "routes/congestion/line-stacked-2", parentId: "root", path: "congestion/line-stacked-2", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/line-stacked-2-SY7C3QJ2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/line-stacked-3": { id: "routes/congestion/line-stacked-3", parentId: "root", path: "congestion/line-stacked-3", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/line-stacked-3-6LQ33ADZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/line-stacked": { id: "routes/congestion/line-stacked", parentId: "root", path: "congestion/line-stacked", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/line-stacked-MRQGIF5J.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/temp-copy-paste": { id: "routes/congestion/temp-copy-paste", parentId: "root", path: "congestion/temp-copy-paste", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/temp-copy-paste-OLY4JQFJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/update-2": { id: "routes/congestion/update-2", parentId: "root", path: "congestion/update-2", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/update-2-KQBPVZWH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/update-2-threshold-denoiser.($road)": { id: "routes/congestion/update-2-threshold-denoiser.($road)", parentId: "root", path: "congestion/update-2-threshold-denoiser/:road?", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/update-2-threshold-denoiser.($road)-JUIK6IO4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/update-before-denoising": { id: "routes/congestion/update-before-denoising", parentId: "root", path: "congestion/update-before-denoising", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/update-before-denoising-OE6TXTOG.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/update-thres": { id: "routes/congestion/update-thres", parentId: "root", path: "congestion/update-thres", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/update-thres-PMJQ5MDU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/congestion/update.($road)": { id: "routes/congestion/update.($road)", parentId: "root", path: "congestion/update/:road?", index: void 0, caseSensitive: void 0, module: "/build/routes/congestion/update.($road)-GYD75VPN.js", imports: ["/build/_shared/chunk-KR24NREI.js", "/build/_shared/chunk-5H4DWNAI.js", "/build/_shared/chunk-M7C5JOMS.js", "/build/_shared/chunk-Z6AKQXAA.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/jokes": { id: "routes/jokes", parentId: "root", path: "jokes", index: void 0, caseSensitive: void 0, module: "/build/routes/jokes-TWKY32QH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-9916C8C7.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_meta: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
@@ -13987,13 +15562,157 @@ var assetsBuildDirectory = "public/build", future = { v2_meta: !1 }, publicPath 
     caseSensitive: void 0,
     module: root_exports
   },
-  "routes/congestion/index": {
-    id: "routes/congestion/index",
+  "routes/congestion/update-2-threshold-denoiser.($road)": {
+    id: "routes/congestion/update-2-threshold-denoiser.($road)",
     parentId: "root",
-    path: "congestion",
-    index: !0,
+    path: "congestion/update-2-threshold-denoiser/:road?",
+    index: void 0,
     caseSensitive: void 0,
-    module: congestion_exports
+    module: route1
+  },
+  "routes/congestion/grid-before-color-scale.($road)": {
+    id: "routes/congestion/grid-before-color-scale.($road)",
+    parentId: "root",
+    path: "congestion/grid-before-color-scale/:road?",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route2
+  },
+  "routes/congestion/grid.($road)-before-2-thres": {
+    id: "routes/congestion/grid.($road)-before-2-thres",
+    parentId: "root",
+    path: "congestion/grid/(:road)-before-2-thres",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route3
+  },
+  "routes/congestion/update-before-denoising": {
+    id: "routes/congestion/update-before-denoising",
+    parentId: "root",
+    path: "congestion/update-before-denoising",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route4
+  },
+  "routes/congestion/3-type-threshold-2": {
+    id: "routes/congestion/3-type-threshold-2",
+    parentId: "root",
+    path: "congestion/3-type-threshold-2",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route5
+  },
+  "routes/congestion/3-type-threshold-3": {
+    id: "routes/congestion/3-type-threshold-3",
+    parentId: "root",
+    path: "congestion/3-type-threshold-3",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route6
+  },
+  "routes/congestion/3-type-threshold": {
+    id: "routes/congestion/3-type-threshold",
+    parentId: "root",
+    path: "congestion/3-type-threshold",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route7
+  },
+  "routes/congestion/temp-copy-paste": {
+    id: "routes/congestion/temp-copy-paste",
+    parentId: "root",
+    path: "congestion/temp-copy-paste",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route8
+  },
+  "routes/congestion/line-stacked-2": {
+    id: "routes/congestion/line-stacked-2",
+    parentId: "root",
+    path: "congestion/line-stacked-2",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route9
+  },
+  "routes/congestion/line-stacked-3": {
+    id: "routes/congestion/line-stacked-3",
+    parentId: "root",
+    path: "congestion/line-stacked-3",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route10
+  },
+  "routes/congestion/update.($road)": {
+    id: "routes/congestion/update.($road)",
+    parentId: "root",
+    path: "congestion/update/:road?",
+    index: void 0,
+    caseSensitive: void 0,
+    module: update_road_exports
+  },
+  "routes/congestion/grid.($road)": {
+    id: "routes/congestion/grid.($road)",
+    parentId: "root",
+    path: "congestion/grid/:road?",
+    index: void 0,
+    caseSensitive: void 0,
+    module: grid_road_exports
+  },
+  "routes/congestion/line-stacked": {
+    id: "routes/congestion/line-stacked",
+    parentId: "root",
+    path: "congestion/line-stacked",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route13
+  },
+  "routes/congestion/update-thres": {
+    id: "routes/congestion/update-thres",
+    parentId: "root",
+    path: "congestion/update-thres",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route14
+  },
+  "routes/congestion/update-2": {
+    id: "routes/congestion/update-2",
+    parentId: "root",
+    path: "congestion/update-2",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route15
+  },
+  "routes/congestion/index_2": {
+    id: "routes/congestion/index_2",
+    parentId: "root",
+    path: "congestion/index_2",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route16
+  },
+  "routes/congestion/index_3": {
+    id: "routes/congestion/index_3",
+    parentId: "root",
+    path: "congestion/index_3",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route17
+  },
+  "routes/congestion/index_4": {
+    id: "routes/congestion/index_4",
+    parentId: "root",
+    path: "congestion/index_4",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route18
+  },
+  "routes/congestion/line": {
+    id: "routes/congestion/line",
+    parentId: "root",
+    path: "congestion/line",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route19
   },
   "routes/__auth": {
     id: "routes/__auth",

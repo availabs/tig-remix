@@ -34,6 +34,10 @@ export default function App() {
     <html lang="en">
       <head>
         <Meta />
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+<script type="text/javascript" src="colorbrewer_interpolate.js"></script>
         <Links />
       </head>
       <body className='bg-gray-100'>
